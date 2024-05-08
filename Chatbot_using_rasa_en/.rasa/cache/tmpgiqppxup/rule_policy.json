@@ -1,0 +1,40 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_mandatory_events\"}}]": "utter_ask_mandatory_events",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_mandatory_events\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_mandatory_events\"}, \"user\": {\"intent\": \"ask_mandatory_events\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_academic_regulations_advanced_courses\"}}]": "utter_ask_academic_regulations_advanced_courses",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_academic_regulations_advanced_courses\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_academic_regulations_advanced_courses\"}, \"user\": {\"intent\": \"ask_academic_regulations_advanced_courses\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_academic_regulations_grade\"}}]": "utter_ask_academic_regulations_grade",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_academic_regulations_grade\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_academic_regulations_grade\"}, \"user\": {\"intent\": \"ask_academic_regulations_grade\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_administrative_procedures_id_card\"}}]": "utter_ask_administrative_procedures_id_card",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_administrative_procedures_id_card\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_administrative_procedures_id_card\"}, \"user\": {\"intent\": \"ask_administrative_procedures_id_card\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_health_insurance_regulations\"}}]": "utter_ask_health_insurance_regulations",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_health_insurance_regulations\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_health_insurance_regulations\"}, \"user\": {\"intent\": \"ask_health_insurance_regulations\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_administrative_procedures_enroll_course\"}}]": "utter_ask_administrative_procedures_enroll_course",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_administrative_procedures_enroll_course\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_administrative_procedures_enroll_course\"}, \"user\": {\"intent\": \"ask_administrative_procedures_enroll_course\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_administrative_procedures_apply_for_financial_aid\"}}]": "utter_ask_administrative_procedures_apply_for_financial_aid",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_administrative_procedures_apply_for_financial_aid\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_administrative_procedures_apply_for_financial_aid\"}, \"user\": {\"intent\": \"ask_administrative_procedures_apply_for_financial_aid\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_education_program_information_technology_major_goal\"}}]": "utter_ask_education_program_information_technology_major_goal",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_education_program_information_technology_major_goal\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_education_program_information_technology_major_goal\"}, \"user\": {\"intent\": \"ask_education_program_information_technology_major_goal\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_exam_conditions\"}}]": "utter_ask_exam_conditions",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_exam_conditions\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_exam_conditions\"}, \"user\": {\"intent\": \"ask_exam_conditions\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_administrative_procedures_change_major\"}}]": "utter_ask_administrative_procedures_change_major",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_administrative_procedures_change_major\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_administrative_procedures_change_major\"}, \"user\": {\"intent\": \"ask_administrative_procedures_change_major\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_education_program_information_technology_major_overall\"}}]": "utter_ask_education_program_information_technology_major_overall",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_education_program_information_technology_major_overall\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_education_program_information_technology_major_overall\"}, \"user\": {\"intent\": \"ask_education_program_information_technology_major_overall\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_tuition_fee_regulations\"}}]": "utter_ask_tuition_fee_regulations",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_tuition_fee_regulations\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_tuition_fee_regulations\"}, \"user\": {\"intent\": \"ask_tuition_fee_regulations\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_education_program_information_technology_job_posstion\"}}]": "utter_ask_education_program_information_technology_job_posstion",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"ask_education_program_information_technology_job_posstion\"}}, {\"prev_action\": {\"action_name\": \"utter_ask_education_program_information_technology_job_posstion\"}, \"user\": {\"intent\": \"ask_education_program_information_technology_job_posstion\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "predicting default action with intent session_start",
+      "predicting default action with intent back",
+      "predicting default action with intent restart"
+    ]
+  }
+}

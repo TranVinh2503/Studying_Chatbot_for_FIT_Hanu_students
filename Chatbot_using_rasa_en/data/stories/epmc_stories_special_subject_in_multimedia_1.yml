@@ -1,0 +1,67 @@
+version: "3.1"
+
+stories:
+  - story: ask education program multimedia communications - special subject in multimedia 1 - course code
+    steps:
+      - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_1_course_code
+      - action: utter_ask_education_program_multimedia_communications_special_subject_in_multimedia_1_course_code
+  
+  - story: ask education program multimedia communications - special subject in multimedia 1 - is prerequisite courses
+    steps:
+      - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_1_is_prerequisite_courses
+      - action: utter_ask_education_program_multimedia_communications_special_subject_in_multimedia_1_is_prerequisite_courses
+
+  - story: ask education program multimedia communications - special subject in multimedia 1 - name of unit in charge of teaching
+    steps:
+      - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_1_name_of_unit_in_charge_of_teaching
+      - action: utter_ask_education_program_multimedia_communications_special_subject_in_multimedia_1_name_of_unit_in_charge_of_teaching
+
+  - story: ask education program multimedia communications - special subject in multimedia 1 - the number of credits
+    steps:
+      - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_1_number_of_cresits
+      - action: utter_ask_education_program_multimedia_communications_special_subject_in_multimedia_1_number_of_cresits
+  
+  - story: ask education program multimedia communications - special subject in multimedia 1 - the number of credit hours
+    steps: 
+     - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_1_number_of_credit_hours
+     - action: utter_ask_education_program_multimedia_communications_special_subject_in_multimedia_1_number_of_credit_hours
+  
+  - story: ask education program multimedia communications - special subject in multimedia 1 - course type
+    steps:
+      - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_1_course_type
+      - action: utter_ask_education_program_multimedia_communications_special_subject_in_multimedia_1_course_type
+
+  - story: ask education program multimedia communications - special subject in multimedia 1 - course instructor information
+    steps:
+      - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_1_course_instructor_info
+      - action: utter_ask_education_program_multimedia_communications_special_subject_in_multimedia_1_course_instructor_info
+  
+  - story: ask education program multimedia communications - special subject in multimedia 1 - objective of course
+    steps:
+      - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_1_objective_of_course
+      - action: utter_ask_education_program_multimedia_communications_special_subject_in_multimedia_1_objective_of_course
+
+  - story: ask education program multimedia communications - special subject in multimedia 1 - objective of course - course structure
+    steps: 
+      - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_1_course_structure
+      - action: utter_ask_education_program_multimedia_communications_special_subject_in_multimedia_1_course_structure
+
+  - story: ask education program multimedia communications - special subject in multimedia 1 - teaching and learning methods and activities
+    steps:
+      - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_1_teaching_and_learning_methods_and_activities
+      - action: utter_ask_education_program_multimedia_communications_special_subject_in_multimedia_1_teaching_and_learning_methods_and_activities
+  
+  - story: ask education program multimedia communications - special subject in multimedia 1 - subject assessment methods
+    steps:
+      - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_1_subject_assessment_methods
+      - action: utter_ask_education_program_multimedia_communications_special_subject_in_multimedia_1_subject_assessment_methods
+  
+  - story: ask education program multimedia communications - special subject in multimedia 1 - duties of the learner
+    steps:
+      - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_1_duties_of_the_learner
+      - action: utter_ask_education_program_multimedia_communications_special_subject_in_multimedia_1_duties_of_the_learner
+
+  - story: ask education program multimedia communications - special subject in multimedia 1 - additional reading materials
+    steps:
+      - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_1_additional_reading_materials
+      - action: utter_ask_education_program_multimedia_communications_special_subject_in_multimedia_1_additional_reading_materials

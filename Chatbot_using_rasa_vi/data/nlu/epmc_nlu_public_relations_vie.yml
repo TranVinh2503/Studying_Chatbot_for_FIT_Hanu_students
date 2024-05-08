@@ -1,0 +1,94 @@
+version: "3.1"
+
+nlu:
+
+  - intent: ask_education_program_multimedia_communications_public_relations_course_code_vie
+    examples: |
+       - Mã khóa học Quan hệ công chúng là gì?
+       - Mã khóa học cụ thể của ngành Quan hệ công chúng là gì?
+       - Bạn có thể cung cấp mã nhận dạng khóa học Quan hệ công chúng được không?
+       - Mã chữ số nào đại diện cho khóa học Quan hệ công chúng?
+      
+  - intent: ask_education_program_multimedia_communications_public_relations_is_prerequisite_courses_vie
+    examples: |
+       - Quan hệ công chúng có phải là môn học tiên quyết không?
+       - Quan hệ công chúng có phải là điều kiện tiên quyết cho các khóa học khác không?
+       - Dịch vụ Quan hệ công chúng có phải là tiền đề cần thiết cho các khóa học tiếp theo không?
+       - Việc hoàn thành Quan hệ công chúng có trước khi đăng ký các khóa học khác không?
+  
+  - intent: ask_education_program_multimedia_communications_public_relations_name_of_unit_in_charge_of_teaching_vie
+    examples: |
+       - Tên đơn vị phụ trách giảng dạy môn Quan hệ công chúng là gì?
+       - Bộ phận nào giám sát việc giảng dạy môn Quan hệ công chúng?
+       - Đơn vị, bộ phận nào chịu trách nhiệm giảng dạy môn Quan hệ công chúng?
+       - Ai quản lý trách nhiệm giảng dạy môn Quan hệ công chúng?
+
+  - intent: ask_education_program_multimedia_communications_public_relations_number_of_cresits_vie
+    examples: |
+       - Số tín chỉ của môn Quan hệ công chúng là bao nhiêu?
+       - Khóa học Quan hệ công chúng được tính bao nhiêu tín chỉ?
+       - Số tín chỉ cho khóa học Quan hệ công chúng là bao nhiêu?
+       - Bạn có thể cung cấp thông tin về số giờ tín chỉ được phân bổ cho ngành Quan hệ công chúng không?
+      
+  - intent: ask_education_program_multimedia_communications_public_relations_number_of_credit_hours_vie
+    examples: |
+       - Số giờ tín chỉ của môn Quan hệ công chúng là bao nhiêu?
+       - Môn Quan hệ công chúng đòi hỏi bao nhiêu giờ tín chỉ?
+       - Tổng số giờ tín chỉ được phân bổ cho môn Quan hệ công chúng là bao nhiêu?
+       - Bạn có thể cung cấp số giờ tín chỉ liên quan đến môn Quan hệ công chúng không?
+      
+  - intent: ask_education_program_multimedia_communications_public_relations_course_type_vie
+    examples: |
+       - Thuật ngữ quan hệ công chúng là gì?
+       - Loại thuật ngữ nào đặc trưng cho Quan hệ công chúng?
+       - Bạn có thể nêu rõ cách phân loại thuật ngữ Quan hệ công chúng được không?
+       - Thuật ngữ Quan hệ công chúng thuộc loại hoặc phân loại nào?
+      
+  - intent: ask_education_program_multimedia_communications_public_relations_course_instructor_info_vie
+    examples: |
+       - Bạn có thể cho biết cụ thể về các giáo viên giảng dạy Quan hệ công chúng được không?
+       - Ai là nhà giáo dục hoặc người hướng dẫn quan hệ công chúng đặc biệt?
+       - Thông tin chi tiết về các giảng viên tham gia giảng dạy môn Quan hệ công chúng.
+       - Bạn có thể chia sẻ thông tin về các giảng viên phụ trách Quan hệ công chúng được không?
+      
+  - intent: ask_education_program_multimedia_communications_public_relations_objective_of_course_vie
+    examples: |
+       - Mục tiêu của khóa học Quan hệ công chúng là gì?
+       - Mục đích hoặc mục đích của Tâm lý quan hệ công chúng là gì?
+       - Bạn có thể giải thích mục tiêu khóa học Quan hệ công chúng được không?
+       - Kết quả hoặc mục đích dự định của Quan hệ công chúng là gì?
+      
+  - intent: ask_education_program_multimedia_communications_public_relations_course_structure_vie
+    examples: |
+       - Cấu trúc khóa học Quan hệ công chúng bao gồm những gì?
+       - Những yếu tố nào tạo thành một phần của cấu trúc khóa học Quan hệ công chúng?
+       - Bạn có thể tóm tắt những nội dung trong cấu trúc môn học Quan hệ công chúng được không?
+       - Điều gì tạo nên khuôn khổ hoặc các thành phần của cấu trúc khóa học Quan hệ công chúng?
+      
+  - intent: ask_education_program_multimedia_communications_public_relations_teaching_and_learning_methods_and_activities_vie
+    examples: |
+       - Phương pháp dạy và học cũng như hoạt động của ngành Quan hệ công chúng bao gồm những gì?
+       - Những phương pháp và hoạt động nào được áp dụng trong việc dạy và học môn Quan hệ công chúng?
+       - Bạn có thể mô tả các kỹ thuật giảng dạy và hoạt động học tập được sử dụng trong Quan hệ công chúng?
+       - Những chiến lược giảng dạy và hoạt động học tập nào được lồng ghép vào môn Quan hệ công chúng?
+      
+  - intent: ask_education_program_multimedia_communications_public_relations_subject_assessment_methods_vie
+    examples: |
+       - Phương pháp đánh giá chủ thể của Quan hệ công chúng là gì?
+       - Môn Quan hệ công chúng được đánh giá như thế nào?
+       - Phương pháp đánh giá nào được áp dụng cho môn Quan hệ công chúng?
+       - Bạn có thể mô tả phương pháp đánh giá được áp dụng cho môn Quan hệ công chúng không?
+      
+  - intent: ask_education_program_multimedia_communications_public_relations_duties_of_the_learner_vie
+    examples: |
+       - Nhiệm vụ của người học ngành Quan hệ công chúng là gì?
+       - Nghĩa vụ, trách nhiệm của sinh viên học ngành Quan hệ công chúng là gì?
+       - Bạn có thể nêu những nhiệm vụ, nhiệm vụ mong đợi của người học môn Quan hệ công chúng được không?
+       - Sinh viên có những trách nhiệm gì khi học ngành Quan hệ công chúng?
+      
+  - intent: ask_education_program_multimedia_communications_public_relations_additional_reading_materials_vie
+    examples: |
+       - Tài liệu đọc thêm cho môn Quan hệ công chúng là gì?
+       - Bạn có thể cung cấp các tài liệu đọc gợi ý khác cho ngành Quan hệ công chúng không?
+       - Những nguồn tài liệu bổ sung hoặc tài liệu đọc bổ sung nào được đề xuất cho Quan hệ công chúng?
+       - Có tài liệu đọc thêm nào được đề xuất cho phần Quan hệ công chúng đặc biệt không?

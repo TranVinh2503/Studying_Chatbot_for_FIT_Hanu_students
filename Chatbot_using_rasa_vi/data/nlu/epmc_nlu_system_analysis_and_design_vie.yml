@@ -1,0 +1,146 @@
+version: "3.1"
+
+nlu:
+
+  - intent: ask_education_program_multimedia_communications_system_analysis_and_design_course_code_vie
+    examples: |
+       - Mã khóa học Phân tích và thiết kế hệ thống là gì?
+       - Mã khóa học cụ thể của môn Phân tích và thiết kế hệ thống là gì?
+       - Bạn có thể cung cấp mã nhận dạng khóa học Phân tích và thiết kế hệ thống được không?
+       - Mã chữ số nào đại diện cho khóa học Phân tích và thiết kế hệ thống?
+       - Bạn có thể chia sẻ mã khóa học hoặc mã khóa học Phân tích và thiết kế hệ thống được không?
+       - Mã định danh duy nhất về mặt mã cho khóa học Phân tích và thiết kế hệ thống là gì?
+       - Bạn có thể cho biết mã khóa học dành cho Phân tích và thiết kế hệ thống được không?
+       - Mã nào được dùng để tham khảo khóa học Phân tích và thiết kế hệ thống trong chương trình giảng dạy?
+
+  - intent: ask_education_program_multimedia_communications_system_analysis_and_design_is_prerequisite_courses_vie
+    examples: |
+       - Môn học tiên quyết có phải là môn Phân tích và thiết kế hệ thống không?
+       - Phân tích và thiết kế hệ thống có phải là điều kiện tiên quyết cho các khóa học khác không?
+       - Phân tích và thiết kế hệ thống có phải là tiền đề cần thiết cho các khóa học tiếp theo không?
+       - Việc hoàn thành phân tích và thiết kế hệ thống có trước khi đăng ký các khóa học khác không?
+       - Có yêu cầu sinh viên phải học Phân tích và thiết kế hệ thống trước các khóa học khác không?
+       - Phân tích và thiết kế hệ thống có phải là khóa học sơ bộ cần thiết cho các nghiên cứu tiếp theo không?
+       - Việc hoàn thành Phân tích và thiết kế hệ thống có trước khi đăng ký các khóa học khác không?
+       - Phân tích và thiết kế hệ thống có phải là điều kiện tiên quyết để tiến tới các khóa học bổ sung không?
+  
+  - intent: ask_education_program_multimedia_communications_system_analysis_and_design_name_of_unit_in_charge_of_teaching_vie
+    examples: |
+       - Đơn vị phụ trách giảng dạy Phân tích và thiết kế hệ thống tên gì?
+       - Bộ phận nào giám sát việc hướng dẫn Phân tích và thiết kế hệ thống?
+       - Đơn vị, bộ môn chịu trách nhiệm giảng dạy Phân tích và thiết kế hệ thống là gì?
+       - Ai quản lý trách nhiệm giảng dạy môn Phân tích và thiết kế hệ thống?
+       - Tên phòng hoặc đơn vị phụ trách hướng dẫn Phân tích, thiết kế hệ thống là gì?
+       - Đơn vị cụ thể nào đảm nhận nhiệm vụ giảng dạy môn Phân tích và thiết kế hệ thống?
+       - Bạn có thể cho biết tên bộ môn chịu trách nhiệm giảng dạy Phân tích và thiết kế hệ thống được không?
+       - Ai chịu trách nhiệm hướng dẫn phân tích và thiết kế hệ thống trong cơ sở?
+
+  - intent: ask_education_program_multimedia_communications_system_analysis_and_design_number_of_cresits_vie
+    examples: |
+       - Số tín chỉ cho phần Phân tích và thiết kế hệ thống là bao nhiêu?
+       - Khóa học Phân tích và thiết kế hệ thống có bao nhiêu tín chỉ?
+       - Số tín chỉ của khóa học Phân tích và thiết kế hệ thống là bao nhiêu?
+       - Bạn có thể cung cấp thông tin về số giờ tín chỉ được phân bổ cho Phân tích và thiết kế hệ thống không?
+       - Tổng giá trị tín chỉ của môn Phân tích và thiết kế hệ thống là bao nhiêu?
+       - Khóa học Phân tích và thiết kế hệ thống có bao nhiêu đơn vị tín chỉ?
+       - Khối lượng tín chỉ của khóa học Phân tích và thiết kế hệ thống là bao nhiêu?
+       - Bạn có thể chỉ định số tín chỉ được quy cho việc hoàn thành Phân tích và thiết kế hệ thống không?
+  
+  - intent: ask_education_program_multimedia_communications_system_analysis_and_design_number_of_credit_hours_vie
+    examples: |
+       - Số giờ tín chỉ của môn Phân tích và thiết kế hệ thống là bao nhiêu?
+       - Môn học Phân tích và thiết kế hệ thống đòi hỏi bao nhiêu giờ tín chỉ?
+       - Tổng số giờ tín chỉ được phân bổ cho môn học Phân tích và thiết kế hệ thống là bao nhiêu?
+       - Bạn có thể cung cấp số giờ tín chỉ liên quan đến chủ đề Phân tích và thiết kế hệ thống không?
+       - Yêu cầu số giờ tín chỉ cho môn Phân tích và thiết kế hệ thống là bao nhiêu?
+       - Bao nhiêu giờ tín chỉ được quy cho môn học Phân tích và thiết kế hệ thống?
+       - Số giờ tín chỉ được chỉ định cho môn Phân tích và thiết kế hệ thống là bao nhiêu?
+       - Bạn có thể nêu rõ số giờ tín chỉ cần thiết cho môn Phân tích và thiết kế hệ thống không?
+
+  - intent: ask_education_program_multimedia_communications_system_analysis_and_design_course_type_vie
+    examples: |
+       - Thuật ngữ phân tích và thiết kế hệ thống là gì?
+       - Loại thuật ngữ nào đặc trưng cho việc phân tích và thiết kế hệ thống?
+       - Bạn có thể chỉ rõ cách phân loại thuật ngữ Phân tích và thiết kế hệ thống được không?
+       - Thuật ngữ phân tích và thiết kế hệ thống thuộc loại hoặc phân loại nào?
+       - Loại thuật ngữ cụ thể được quy cho phân tích và thiết kế hệ thống là gì?
+       - Bạn phân loại thời lượng của thuật ngữ Phân tích và thiết kế hệ thống như thế nào?
+       - Phân loại hay phân loại thuật ngữ liên quan đến phân tích và thiết kế hệ thống là gì?
+       - Bạn có thể giải thích rõ hơn về thuật ngữ phân loại dành riêng cho phân tích và thiết kế hệ thống không?
+
+  - intent: ask_education_program_multimedia_communications_system_analysis_and_design_course_instructor_info_vie
+    examples: |
+       - Bạn có thể cung cấp thông tin cụ thể về giáo viên hướng dẫn Phân tích và thiết kế hệ thống được không?
+       - Ai là giảng viên hoặc giảng viên hướng dẫn khóa học Phân tích và thiết kế hệ thống?
+       - Thông tin chi tiết về các giảng viên tham gia giảng dạy Phân tích và thiết kế hệ thống.
+       - Bạn có thể chia sẻ thông tin về việc giảng viên xử lý phân tích và thiết kế hệ thống được không?
+       - Bạn có thể cung cấp thông tin chi tiết về các cá nhân đang giảng dạy Phân tích và thiết kế hệ thống không?
+       - Thông tin chi tiết về các nhà giáo dục phân tích và thiết kế hệ thống
+       - Thông tin liên quan đến giảng viên chịu trách nhiệm giảng dạy Phân tích và thiết kế hệ thống
+       - Thông tin về người hướng dẫn phân tích và thiết kế hệ thống
+
+  - intent: ask_education_program_multimedia_communications_system_analysis_and_design_objective_of_course_vie
+    examples: |
+       - Mục tiêu của khóa học Phân tích và thiết kế hệ thống là gì?
+       - Mục tiêu của khóa học Phân tích và thiết kế hệ thống là gì?
+       - Bạn có thể giải thích mục tiêu của môn Phân tích và thiết kế hệ thống được không?
+       - Kết quả hoặc mục đích dự kiến của khóa học Phân tích và thiết kế hệ thống là gì?
+       - Bạn có thể mô tả mục tiêu chính của khóa học Phân tích và thiết kế hệ thống không?
+       - Mục đích hoặc nhiệm vụ cốt lõi của khóa học Phân tích và thiết kế hệ thống là gì?
+       - Mục tiêu học tập của khóa học Phân tích và thiết kế hệ thống là gì?
+       - Bạn có thể phác thảo mục tiêu hoặc ý định của khóa học Phân tích và thiết kế hệ thống không?
+
+  - intent: ask_education_program_multimedia_communications_system_analysis_and_design_course_structure_vie
+    examples: |
+       - Cấu trúc môn học Phân tích và thiết kế hệ thống bao gồm những gì?
+       - Những yếu tố nào tạo thành một phần của cấu trúc khóa học về Phân tích và thiết kế hệ thống?
+       - Thầy có thể tóm tắt các nội dung trong cấu trúc môn học Phân tích và thiết kế hệ thống được không?
+       - Điều gì tạo nên khuôn khổ hoặc các thành phần của cấu trúc khóa học Phân tích và thiết kế hệ thống?
+       - Bạn có thể trình bày chi tiết cấu trúc khóa học Phân tích và thiết kế hệ thống gồm những gì không?
+       - Những yếu tố hoặc phần nào được kết hợp trong cấu trúc khóa học Phân tích và thiết kế hệ thống?
+       - Bạn có thể mô tả các thành phần trong cấu trúc môn học Phân tích và thiết kế hệ thống được không?
+       - Bố cục hoặc nội dung cấu trúc môn học Phân tích và thiết kế hệ thống có cấu tạo như thế nào?
+  
+  - intent: ask_education_program_multimedia_communications_system_analysis_and_design_teaching_and_learning_methods_and_activities_vie
+    examples: |
+       - Phương pháp dạy và học cũng như các hoạt động phân tích, thiết kế hệ thống bao gồm những gì?
+       - Những phương pháp và hoạt động nào liên quan đến việc dạy và học trong Phân tích và thiết kế hệ thống?
+       - Bạn có thể mô tả các kỹ thuật giảng dạy và hoạt động học tập được sử dụng trong phân tích và thiết kế hệ thống không?
+       - Những chiến lược giảng dạy và hoạt động học tập nào được đưa vào phân tích và thiết kế hệ thống?
+       - Bạn có thể nêu các phương pháp, hoạt động dạy và học trong Phân tích và thiết kế hệ thống được không?
+       - Những phương pháp giảng dạy và hoạt động học tập nào là một phần của phân tích và thiết kế hệ thống?
+       - Bạn có thể giải thích về phương pháp giảng dạy và hoạt động học tập trong phân tích và thiết kế hệ thống được không?
+       - Môn học Phân tích và thiết kế hệ thống có những phương pháp giảng dạy và hoạt động học tập nào?
+
+  - intent: ask_education_program_multimedia_communications_system_analysis_and_design_subject_assessment_methods_vie
+    examples: |
+       - Phương pháp đánh giá đối tượng phân tích, thiết kế hệ thống là gì?
+       - Môn học Phân tích và thiết kế hệ thống được đánh giá như thế nào?
+       - Phương pháp đánh giá nào được sử dụng cho môn học Phân tích và thiết kế hệ thống?
+       - Bạn có thể mô tả cách tiếp cận đánh giá được áp dụng cho môn Phân tích và thiết kế hệ thống được không?
+       - Phương pháp nào được sử dụng để đánh giá kết quả học tập của sinh viên trong môn Phân tích và thiết kế hệ thống?
+       - Học sinh được đánh giá như thế nào trong môn Phân tích và thiết kế hệ thống?
+       - Bạn có thể nêu phương pháp đánh giá môn Phân tích và thiết kế hệ thống được không?
+       - Quy trình đánh giá sinh viên môn Phân tích và thiết kế hệ thống như thế nào?
+
+  - intent: ask_education_program_multimedia_communications_system_analysis_and_design_duties_of_the_learner_vie
+    examples: |
+       - Nhiệm vụ của người học phân tích và thiết kế hệ thống là gì?
+       - Nghĩa vụ, trách nhiệm của sinh viên đang học Phân tích và thiết kế hệ thống là gì?
+       - Bạn có thể nêu những nhiệm vụ, nhiệm vụ mong đợi của người học trong môn Phân tích và thiết kế hệ thống được không?
+       - Sinh viên có những trách nhiệm gì khi học Phân tích và thiết kế hệ thống?
+       - Bạn có thể mô tả vai trò, nhiệm vụ mà người học phải đảm nhận trong quá trình Phân tích và thiết kế hệ thống không?
+       - Nhiệm vụ hoặc vai trò dự kiến của sinh viên theo học ngành Phân tích và thiết kế hệ thống là gì?
+       - Bạn có thể giải thích nghĩa vụ, nhiệm vụ mà người học phải thực hiện khi phân tích và thiết kế hệ thống không?
+       - Những trách nhiệm cụ thể nào được mong đợi từ học viên Phân tích và thiết kế hệ thống?
+  
+  - intent: ask_education_program_multimedia_communications_system_analysis_and_design_additional_reading_materials_vie
+    examples: |
+       - Tài liệu đọc thêm cho môn Phân tích và thiết kế hệ thống là gì?
+       - Bạn có thể cung cấp các tài liệu đọc khác được đề xuất để phân tích và thiết kế hệ thống không?
+       - Những nguồn tài liệu bổ sung hoặc tài liệu đọc bổ sung nào được đề xuất cho việc phân tích và thiết kế hệ thống?
+       - Có tài liệu đọc thêm nào được đề xuất cho môn Phân tích và thiết kế hệ thống không?
+       - Bạn có thể liệt kê thêm những cuốn sách hoặc tài liệu đọc bổ sung về Phân tích và thiết kế hệ thống được không?
+       - Nguồn tài liệu đọc nào khác bổ sung cho chủ đề Phân tích và thiết kế hệ thống?
+       - Có văn bản hoặc tài liệu bổ sung nào đi kèm với việc phân tích và thiết kế hệ thống không?
+       - Bạn có thể gợi ý thêm tài liệu đọc bổ sung cho khóa học Phân tích và thiết kế hệ thống được không?

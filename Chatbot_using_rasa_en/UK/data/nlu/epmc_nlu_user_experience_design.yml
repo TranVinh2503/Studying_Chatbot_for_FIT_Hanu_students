@@ -1,0 +1,93 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_user_experience_design_course_code
+    examples: |
+      - What is the course code of User Experience Design?
+      - What is the specific course code assigned to User Experience Design?
+      - Could you provide the course identification code for User Experience Design?
+      - What alphanumeric code represents the User Experience Design course?
+      
+  - intent: ask_education_program_multimedia_communications_user_experience_design_is_prerequisite_courses
+    examples: |
+      - Is the User Experience Design prerequisite courses?
+      - Does User Experience Design serve as a prerequisite for other courses?
+      - Is User Experience Design Services a required precursor for subsequent courses?
+      - Does completing User Experience Design precede other course enrollments?
+  
+  - intent: ask_education_program_multimedia_communications_user_experience_design_name_of_unit_in_charge_of_teaching
+    examples: |
+      - What is name of unit in charge of teaching of User Experience Design? 
+      - Which department oversees the instruction of User Experience Design?
+      - What is the unit or department responsible for teaching User Experience Design?
+      - Who manages the teaching responsibilities for User Experience Design?
+
+  - intent: ask_education_program_multimedia_communications_user_experience_design_number_of_cresits
+    examples: |
+      - What is the number of credits for the User Experience Design?
+      - How many credits are assigned to the User Experience Design course?
+      - What is the credit count for the User Experience Design course?
+      - Could you provide information about the credit hours allocated to User Experience Design?
+      
+  - intent: ask_education_program_multimedia_communications_user_experience_design_number_of_credit_hours 
+    examples: |
+      - What is the number of credit hours for the User Experience Design subject?
+      - How many credit hours does the User Experience Design subject entail?
+      - What is the total count of credit hours allocated to the User Experience Design subject?
+      - Could you provide the number of credit hours associated with the User Experience Design subject?
+      
+  - intent: ask_education_program_multimedia_communications_user_experience_design_course_type
+    examples: |
+      - What is the type term of the User Experience Design?
+      - What category of term characterizes the User Experience Design?
+      - Could you specify the classification of the term for User Experience Design?
+      - What type or classification does the term for User Experience Design fall under?
+      
+  - intent: ask_education_program_multimedia_communications_user_experience_design_course_instructor_info
+    examples: |
+      - Can you provide specifics about the teachers instructing User Experience Design?
+      - Who are the educators or instructors leading the Special User Experience Design?
+      - Details about the faculty members involved in teaching User Experience Design.
+      - Could you share information about the instructors handling User Experience Design?
+      
+  - intent: ask_education_program_multimedia_communications_user_experience_design_objective_of_course
+    examples: |
+      - What is the Objective of the course of User Experience Design?
+      - What are the goals or aims of the User Experience Design course?
+      - Could you explain the course objectives for User Experience Design?
+      - What is the intended outcome or purpose of the User Experience Design course?
+      
+  - intent: ask_education_program_multimedia_communications_user_experience_design_course_structure
+    examples: |
+      - What does the course structure of the User Experience Design include?
+      - What elements form part of the course structure in User Experience Design?
+      - Could you outline the contents encompassed in the course structure of User Experience Design?
+      - What constitutes the framework or components of the User Experience Design course structure?
+      
+  - intent: ask_education_program_multimedia_communications_user_experience_design_teaching_and_learning_methods_and_activities
+    examples: |
+      - What does the teaching and learning methods and activities of the User Experience Design include?
+      - What methods and activities are involved in teaching and learning within User Experience Design?
+      - Could you describe the instructional techniques and learning activities utilized in User Experience Design?
+      - What teaching strategies and learning activities are incorporated into User Experience Design?
+      
+  - intent: ask_education_program_multimedia_communications_user_experience_design_subject_assessment_methods
+    examples: |
+      - What is the method of evaluating the subject of the User Experience Design?
+      - How is the User Experience Design subject evaluated?
+      - What assessment method is employed for the User Experience Design subject?
+      - Could you describe the evaluation approach utilized for the User Experience Design subject?
+      
+  - intent: ask_education_program_multimedia_communications_user_experience_design_duties_of_the_learner
+    examples: |
+      - What is the duties of the learner of the User Experience Design?
+      - What are the obligations or responsibilities of the student studying User Experience Design?
+      - Could you outline the tasks or duties expected from learners in the User Experience Design course?
+      - What responsibilities do students have while studying User Experience Design?
+      
+  - intent: ask_education_program_multimedia_communications_user_experience_design_additional_reading_materials
+    examples: |
+      - What are the additional reading materials for the User Experience Design subject?
+      - Could you provide other recommended reading materials for User Experience Design?
+      - What additional resources or supplementary reading materials are suggested for User Experience Design?
+      - Are there any extra reading materials recommended for the Special User Experience Design?

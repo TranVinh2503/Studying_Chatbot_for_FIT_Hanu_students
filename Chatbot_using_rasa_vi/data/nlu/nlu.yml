@@ -1,0 +1,127 @@
+version: "3.1"
+nlu:
+  - intent: ask_mandatory_events
+    examples: |
+      - Những sự kiện nào tôi phải tham dự?
+      - Những sự kiện bắt buộc cho sinh viên mới là gì?
+      - Bạn có thể liệt kê các sự kiện cần thiết cho tôi không?
+      - Có những sự kiện bắt buộc nào cho sinh viên không?
+      - Vui lòng cung cấp danh sách các sự kiện bắt buộc cho tôi.
+  - intent: ask_administrative_procedures_enroll_course
+    examples: >
+      - Thủ tục đăng ký học phần là gì?
+
+      - Bạn có thể hướng dẫn tôi qua các bước để đăng ký lớp học không?
+
+      - Tôi muốn biết về các bước hành chính liên quan đến việc đăng ký học phần.
+
+      - Có một biểu mẫu cụ thể mà tôi cần điền để đăng ký học phần không?
+
+      - Có những tiên điều kiện nào tôi nên biết khi đăng ký lớp học không?
+  - intent: ask_administrative_procedures_change_major
+    examples: >
+      - Làm thế nào để thay đổi ngành học của mình, và những giấy tờ nào là cần thiết?
+
+      - Bạn có thể giải thích quy trình hành chính để chuyển ngành không?
+
+      - Tôi nên tuân theo những bước nào nếu tôi muốn thay đổi ngành học đã khai báo của mình?
+
+      - Có những ảnh hưởng nào đối với tín chỉ hiện tại của tôi nếu tôi quyết định thay đổi ngành học không?
+
+      - Bạn có thể cung cấp ví dụ về những lí do phổ biến mà sinh viên thay đổi ngành học không?
+  - intent: ask_administrative_procedures_apply_for_financial_aid
+    examples: >
+      - Quy trình hành chính để nộp đơn xin trợ cấp tài chính là gì?
+
+      - Bạn có thể cung cấp thông tin về cách nộp giấy tờ để nhận trợ giúp tài chính không?
+
+      - Tôi quan tâm đến các bước liên quan đến việc nộp đơn xin trợ cấp tài chính của trường đại học.
+
+      - Có những hạn chót cụ thể mà tôi cần biết khi nộp đơn xin trợ cấp tài chính không?
+
+      - Có những lựa chọn trợ cấp tài chính nào dành cho sinh viên, và tôi phải đáp ứng điều kiện nào để nhận được chúng không?     
+  - intent: ask_administrative_procedures_id_card
+    examples: >
+      - Quy trình để nhận thẻ sinh viên là gì, và những tài liệu nào là cần thiết?
+
+      - Bạn có thể hướng dẫn tôi qua các bước hành chính để có được thẻ nhận dạng sinh viên không?
+
+      - Những giấy tờ nào được yêu cầu để cấp thẻ sinh viên?
+
+      - Tôi có thể nhận thẻ sinh viên số hoặc chỉ có thể nhận thẻ vật lý không?
+
+      - Có những phí liên quan nào khi nhận hoặc thay thế thẻ sinh viên không?
+  - intent: ask_health_insurance_regulations
+    examples: >
+      - Yêu cầu bảo hiểm sức khỏe cho sinh viên tại trường là gì?
+
+      - Bạn có thể giải thích quy trình để tham gia vào kế hoạch bảo hiểm sức khỏe của trường không?
+
+      - Có những nhà cung cấp bảo hiểm sức khỏe cụ thể mà chúng ta phải sử dụng khi tham gia vào trường không?
+
+      - Làm thế nào để nộp đơn yêu cầu bảo hiểm sức khỏe cho các chi phí y tế phát sinh trong quá trình học tại đây?
+
+      - Có hạn chót nào cho sinh viên để cung cấp bằng chứng về việc có bảo hiểm sức khỏe không? 
+  - intent: ask_academic_regulations_advanced_courses
+    examples: >
+      - Bạn có thể giải thích các tiên điều kiện để đăng ký các khóa học tiên tiến trong phòng của tôi không?
+
+      - Những tiêu chí học thuật tôi cần đạt được trước khi đăng ký các lớp học cấp cao là gì?
+
+      - Có những khóa học cụ thể mà tôi phải hoàn thành trước khi tiếp cận các khóa học tiên tiến không?
+
+      - Có sự khác biệt về các tiên điều kiện cho sinh viên có các ngành học khác nhau trong cùng một phòng không?
+
+      - Làm thế nào để tìm thông tin về các tiên điều kiện cho các khóa học cụ thể trong mục lục khóa học?      
+  - intent: ask_academic_regulations_grade
+    examples: >
+      - Chính sách chấm điểm cho sinh viên đại học là gì, và cách tính toán là như thế nào?
+
+      - Bạn có thể giải thích thang điểm được sử dụng cho các khóa học đại học tại trường không?
+
+      - Có những tiêu chí cụ thể để xác định điểm, như các kỳ thi, bài tập, hoặc sự tham gia không?
+
+      - GPA được tính toán như thế nào, và trọng số nào được đưa ra cho các loại bài tập khác nhau?
+
+      - Có bất kỳ ngoại lệ hoặc biến thể nào trong chính sách chấm điểm cho một số khóa học hoặc chương trình không?
+  - intent: ask_exam_conditions
+    examples: >
+      - Những tiên điều kiện nào để tham dự kỳ thi cuối kỳ trong khóa học của tôi?
+
+      - Bạn có thể giải thích các yêu cầu về sự có mặt tối thiểu cho các lớp học của tôi không?
+
+      - Sinh viên được phép vắng mặt bao nhiêu lần trước khi họ phải đối mặt với hậu quả học thuật là gì?
+  - intent: ask_tuition_fee_regulations
+    examples: >
+      - Quy định về học phí tại trường là gì?
+
+      - Khi nào là hạn chót để thanh toán học phí cho học kỳ hiện tại?
+
+      - Làm thế nào để tôi có thể thanh toán học phí của mình?
+
+      - Tôi nên làm gì nếu tôi không đủ khả năng thanh toán toàn bộ số tiền học phí đúng hạn?
+  - intent: ask_education_program_information_technology_major_overall
+    examples: |
+      - Mã ngành của ngành Công nghệ Thông tin là gì?
+      - Mã khóa học cụ thể được gán cho Công nghệ Thông tin là gì?
+      - Ngôn ngữ được dạy trong ngành Công nghệ Thông tin là gì? 
+      - Hình thức đào tạo của ngành Công nghệ Thông tin là gì?
+  - intent: ask_education_program_information_technology_major_goal
+    examples: >
+      - Các kết quả dự kiến sau khi hoàn thành chương trình là gì?
+
+      - Kỹ năng nào mà cơ sở giáo dục sẽ truyền đạt trong suốt khóa học?
+
+      - Làm thế nào để áp dụng các kỹ năng học được trong ngành của tôi vào các hoạt động tương lai?
+
+      - Có thể dự đoán kết quả hoặc sản phẩm cụ thể nào từ việc theo đuổi ngành học này không?
+  - intent: ask_education_program_information_technology_job_posstion
+    examples: |
+      - Sau khi hoàn thành khóa học, tôi có thể nộp đơn cho những vị trí nào?
+      - Vị trí nào được đào tạo trong khóa học?
+      - Tôi sẽ có thể làm những vị trí nào nếu tôi học ngành này?
+      - Công việc nào phù hợp với kiến thức trong ngành này?
+  - intent: greet
+    examples: |
+      - "Xin chào"
+      - "Xin chào"

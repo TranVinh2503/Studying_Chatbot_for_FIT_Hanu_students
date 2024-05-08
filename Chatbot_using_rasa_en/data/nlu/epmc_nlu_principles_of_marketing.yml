@@ -1,0 +1,93 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_principles_of_marketing_course_code
+    examples: |
+      - What is the course code of Principles of Marketing?
+      - What is the specific course code assigned to Principles of Marketing?
+      - Could you provide the course identification code for Principles of Marketing?
+      - What alphanumeric code represents the Principles of Marketing?
+      
+  - intent: ask_education_program_multimedia_communications_principles_of_marketing_is_prerequisite_courses
+    examples: |
+      - Is the Principles of Marketing prerequisite courses?
+      - Does Principles of Marketing serve as a prerequisite for other courses?
+      - Is Principles of Marketing Services a required precursor for subsequent courses?
+      - Does completing Principles of Marketing precede other course enrollments?
+  
+  - intent: ask_education_program_multimedia_communications_principles_of_marketing_name_of_unit_in_charge_of_teaching
+    examples: |
+      - What is name of unit in charge of teaching of Principles of Marketing? 
+      - Which department oversees the instruction of Principles of Marketing?
+      - What is the unit or department responsible for teaching Principles of Marketing?
+      - Who manages the teaching responsibilities for Principles of Marketing?
+
+  - intent: ask_education_program_multimedia_communications_principles_of_marketing_number_of_cresits
+    examples: |
+      - What is the number of credits for the Principles of Marketing?
+      - How many credits are assigned to the Principles of Marketing course?
+      - What is the credit count for the Principles of Marketing course?
+      - Could you provide information about the credit hours allocated to Principles of Marketing?
+      
+  - intent: ask_education_program_multimedia_communications_principles_of_marketing_number_of_credit_hours 
+    examples: |
+      - What is the number of credit hours for the Principles of Marketing subject?
+      - How many credit hours does the Principles of Marketing subject entail?
+      - What is the total count of credit hours allocated to the Principles of Marketing subject?
+      - Could you provide the number of credit hours associated with the Principles of Marketing subject?
+      
+  - intent: ask_education_program_multimedia_communications_principles_of_marketing_course_type
+    examples: |
+      - What is the type term of the Principles of Marketing?
+      - What category of term characterizes the Principles of Marketing?
+      - Could you specify the classification of the term for Principles of Marketing?
+      - What type or classification does the term for Principles of Marketing fall under?
+      
+  - intent: ask_education_program_multimedia_communications_principles_of_marketing_course_instructor_info
+    examples: |
+      - Can you provide specifics about the teachers instructing Principles of Marketing?
+      - Who are the educators or instructors leading the Special Principles of Marketing?
+      - Details about the faculty members involved in teaching Principles of Marketing.
+      - Could you share information about the instructors handling Principles of Marketing?
+      
+  - intent: ask_education_program_multimedia_communications_principles_of_marketing_objective_of_course
+    examples: |
+      - What is the Objective of the course of Principles of Marketing?
+      - What are the goals or aims of the Psychology of Principles of Marketing?
+      - Could you explain the course objectives for Principles of Marketing?
+      - What is the intended outcome or purpose of the Principles of Marketing?
+      
+  - intent: ask_education_program_multimedia_communications_principles_of_marketing_course_structure
+    examples: |
+      - What does the course structure of the Principles of Marketing include?
+      - What elements form part of the course structure in Principles of Marketing?
+      - Could you outline the contents encompassed in the course structure of Principles of Marketing?
+      - What constitutes the framework or components of the Principles of Marketing course structure?
+      
+  - intent: ask_education_program_multimedia_communications_principles_of_marketing_teaching_and_learning_methods_and_activities
+    examples: |
+      - What does the teaching and learning methods and activities of the Principles of Marketing include?
+      - What methods and activities are involved in teaching and learning within Principles of Marketing?
+      - Could you describe the instructional techniques and learning activities utilized in Principles of Marketing?
+      - What teaching strategies and learning activities are incorporated into Principles of Marketing?
+      
+  - intent: ask_education_program_multimedia_communications_principles_of_marketing_subject_assessment_methods
+    examples: |
+      - What is the method of evaluating the subject of the Principles of Marketing?
+      - How is the Principles of Marketing subject evaluated?
+      - What assessment method is employed for the Principles of Marketing subject?
+      - Could you describe the evaluation approach utilized for the Principles of Marketing subject?
+      
+  - intent: ask_education_program_multimedia_communications_principles_of_marketing_duties_of_the_learner
+    examples: |
+      - What is the duties of the learner of the Principles of Marketing?
+      - What are the obligations or responsibilities of the student studying Principles of Marketing?
+      - Could you outline the tasks or duties expected from learners in the Principles of Marketing course?
+      - What responsibilities do students have while studying Principles of Marketing?
+      
+  - intent: ask_education_program_multimedia_communications_principles_of_marketing_additional_reading_materials
+    examples: |
+      - What are the additional reading materials for the Principles of Marketing subject?
+      - Could you provide other recommended reading materials for Principles of Marketing?
+      - What additional resources or supplementary reading materials are suggested for Principles of Marketing?
+      - Are there any extra reading materials recommended for the Special Principles of Marketing?

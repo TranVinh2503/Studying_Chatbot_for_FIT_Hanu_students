@@ -1,0 +1,67 @@
+version: "3.1"
+
+stories:
+  - story: Respond to course code of consumer behaviour
+    steps:
+      - intent: ask_education_program_multimedia_communications_consumer_behaviour_course_code_vie
+      - action: utter_ask_education_program_multimedia_communications_consumer_behaviour_course_code_vie
+  
+  - story: Respond to consumer behaviour is prerequisite courses
+    steps:
+      - intent: ask_education_program_multimedia_communications_consumer_behaviour_is_prerequisite_courses_vie
+      - action: utter_ask_education_program_multimedia_communications_consumer_behaviour_is_prerequisite_courses_vie
+
+  - story: Respond to name of unit in charge of teaching of consumer behaviour
+    steps:
+      - intent: ask_education_program_multimedia_communications_consumer_behaviour_name_of_unit_in_charge_of_teaching_vie
+      - action: utter_ask_education_program_multimedia_communications_consumer_behaviour_name_of_unit_in_charge_of_teaching_vie
+
+  - story: Respond to the number of credits of consumer behaviour
+    steps:
+      - intent: ask_education_program_multimedia_communications_consumer_behaviour_number_of_cresits_vie
+      - action: utter_ask_education_program_multimedia_communications_consumer_behaviour_number_of_cresits_vie
+  
+  - story: Respond to the number of credit hours of consumer behaviour
+    steps: 
+     - intent: ask_education_program_multimedia_communications_consumer_behaviour_number_of_credit_hours_vie
+     - action: utter_ask_education_program_multimedia_communications_consumer_behaviour_number_of_credit_hours_vie
+  
+  - story: Respond to course type of consumer behaviour
+    steps:
+      - intent: ask_education_program_multimedia_communications_consumer_behaviour_course_type_vie
+      - action: utter_ask_education_program_multimedia_communications_consumer_behaviour_course_type_vie
+
+  - story: Respond to course instructor information of consumer behaviour
+    steps:
+      - intent: ask_education_program_multimedia_communications_consumer_behaviour_course_instructor_info_vie
+      - action: utter_ask_education_program_multimedia_communications_consumer_behaviour_course_instructor_info_vie
+  
+  - story: Respond to objective of course of consumer behaviour
+    steps:
+      - intent: ask_education_program_multimedia_communications_consumer_behaviour_objective_of_course_vie
+      - action: utter_ask_education_program_multimedia_communications_consumer_behaviour_objective_of_course_vie
+
+  - story: Respond to objective of course's course structure consumer behaviour
+    steps: 
+      - intent: ask_education_program_multimedia_communications_consumer_behaviour_course_structure_vie
+      - action: utter_ask_education_program_multimedia_communications_consumer_behaviour_course_structure_vie
+
+  - story: Respond to teaching and learning methods and activities of consumer behaviour
+    steps:
+      - intent: ask_education_program_multimedia_communications_consumer_behaviour_teaching_and_learning_methods_and_activities_vie
+      - action: utter_ask_education_program_multimedia_communications_consumer_behaviour_teaching_and_learning_methods_and_activities_vie
+  
+  - story: Respond to subject assessment methods of consumer behaviour
+    steps:
+      - intent: ask_education_program_multimedia_communications_consumer_behaviour_subject_assessment_methods_vie
+      - action: utter_ask_education_program_multimedia_communications_consumer_behaviour_subject_assessment_methods_vie
+  
+  - story: Respond to duties of the learner of consumer behaviour
+    steps:
+      - intent: ask_education_program_multimedia_communications_consumer_behaviour_duties_of_the_learner_vie
+      - action: utter_ask_education_program_multimedia_communications_consumer_behaviour_duties_of_the_learner_vie
+
+  - story: Respond to additional reading materials of consumer behaviour
+    steps:
+      - intent: ask_education_program_multimedia_communications_consumer_behaviour_additional_reading_materials_vie
+      - action: utter_ask_education_program_multimedia_communications_consumer_behaviour_additional_reading_materials_vie

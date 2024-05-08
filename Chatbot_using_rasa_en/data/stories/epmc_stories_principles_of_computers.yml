@@ -1,0 +1,67 @@
+version: "3.1"
+
+stories:
+  - story: ask education program multimedia communications - principles of computers - course code
+    steps:
+      - intent: ask_education_program_multimedia_communications_principles_of_computers_course_code
+      - action: utter_ask_education_program_multimedia_communications_principles_of_computers_course_code
+  
+  - story: ask education program multimedia communications - principles of computers - is prerequisite courses
+    steps:
+      - intent: ask_education_program_multimedia_communications_principles_of_computers_is_prerequisite_courses
+      - action: utter_ask_education_program_multimedia_communications_principles_of_computers_is_prerequisite_courses
+
+  - story: ask education program multimedia communications - principles of computers - name of unit in charge of teaching
+    steps:
+      - intent: ask_education_program_multimedia_communications_principles_of_computers_name_of_unit_in_charge_of_teaching
+      - action: utter_ask_education_program_multimedia_communications_principles_of_computers_name_of_unit_in_charge_of_teaching
+
+  - story: ask education program multimedia communications - principles of computers - the number of credits
+    steps:
+      - intent: ask_education_program_multimedia_communications_principles_of_computers_number_of_cresits
+      - action: utter_ask_education_program_multimedia_communications_principles_of_computers_number_of_cresits
+  
+  - story: ask education program multimedia communications - principles of computers - the number of credit hours
+    steps: 
+     - intent: ask_education_program_multimedia_communications_principles_of_computers_number_of_credit_hours
+     - action: utter_ask_education_program_multimedia_communications_principles_of_computers_number_of_credit_hours
+  
+  - story: ask education program multimedia communications - principles of computers - course type
+    steps:
+      - intent: ask_education_program_multimedia_communications_principles_of_computers_course_type
+      - action: utter_ask_education_program_multimedia_communications_principles_of_computers_course_type
+
+  - story: ask education program multimedia communications - principles of computers - course instructor information
+    steps:
+      - intent: ask_education_program_multimedia_communications_principles_of_computers_course_instructor_info
+      - action: utter_ask_education_program_multimedia_communications_principles_of_computers_course_instructor_info
+  
+  - story: ask education program multimedia communications - principles of computers - objective of course
+    steps:
+      - intent: ask_education_program_multimedia_communications_principles_of_computers_objective_of_course
+      - action: utter_ask_education_program_multimedia_communications_principles_of_computers_objective_of_course
+
+  - story: ask education program multimedia communications - principles of computers - objective of course - course structure
+    steps: 
+      - intent: ask_education_program_multimedia_communications_principles_of_computers_course_structure
+      - action: utter_ask_education_program_multimedia_communications_principles_of_computers_course_structure
+
+  - story: ask education program multimedia communications - principles of computers - teaching and learning methods and activities
+    steps:
+      - intent: ask_education_program_multimedia_communications_principles_of_computers_teaching_and_learning_methods_and_activities
+      - action: utter_ask_education_program_multimedia_communications_principles_of_computers_teaching_and_learning_methods_and_activities
+  
+  - story: ask education program multimedia communications - principles of computers - subject assessment methods
+    steps:
+      - intent: ask_education_program_multimedia_communications_principles_of_computers_subject_assessment_methods
+      - action: utter_ask_education_program_multimedia_communications_principles_of_computers_subject_assessment_methods
+  
+  - story: ask education program multimedia communications - principles of computers - duties of the learner
+    steps:
+      - intent: ask_education_program_multimedia_communications_principles_of_computers_duties_of_the_learner
+      - action: utter_ask_education_program_multimedia_communications_principles_of_computers_duties_of_the_learner
+
+  - story: ask education program multimedia communications - principles of computers - additional reading materials
+    steps:
+      - intent: ask_education_program_multimedia_communications_principles_of_computers_additional_reading_materials
+      - action: utter_ask_education_program_multimedia_communications_principles_of_computers_additional_reading_materials

@@ -1,0 +1,146 @@
+version: "3.1"
+
+nlu:
+
+  - intent: ask_education_program_multimedia_communications_system_analysis_and_design_course_code
+    examples: |
+      - What is the course code of System analysis and design?
+      - What is the specific course code assigned to System analysis and design?
+      - Could you provide the course identification code for System analysis and design?
+      - What alphanumeric code represents the System analysis and design course?
+      - Could you share the course number or code for System analysis and design?
+      - What is the unique identifier, in terms of code, for the System analysis and design course?
+      - Could you specify the course code designated for System analysis and design?
+      - What code is used to refer to the System analysis and design course within the curriculum?
+
+  - intent: ask_education_program_multimedia_communications_system_analysis_and_design_is_prerequisite_courses
+    examples: |
+      - Is the System analysis and design prerequisite courses?
+      - Does System analysis and design serve as a prerequisite for other courses?
+      - Is System analysis and design a required precursor for subsequent courses?
+      - Does completing System analysis and design precede other course enrollments?
+      - Is there a requirement for students to take System analysis and design before other courses?
+      - Is System analysis and design a necessary preliminary course for further studies?
+      - Does the completion of System analysis and design precede the enrollment in other courses?
+      - Is System analysis and design a prerequisite for advancing to additional coursework?
+  
+  - intent: ask_education_program_multimedia_communications_system_analysis_and_design_name_of_unit_in_charge_of_teaching
+    examples: |
+      - What is name of unit in charge of teaching of System analysis and design? 
+      - Which department oversees the instruction of System analysis and design?
+      - What is the unit or department responsible for teaching System analysis and design?
+      - Who manages the teaching responsibilities for System analysis and design?
+      - What is the name of the department or unit in charge of instructing System analysis and design?
+      - Which specific unit handles the teaching duties for System analysis and design?
+      - Could you provide the departmental name responsible for teaching System analysis and design?
+      - Who is responsible for the instruction of System analysis and design within the institution?
+
+  - intent: ask_education_program_multimedia_communications_system_analysis_and_design_number_of_cresits
+    examples: |
+      - What is the number of credits for the System analysis and design?
+      - How many credits are assigned to the System analysis and design course?
+      - What is the credit count for the System analysis and design course?
+      - Could you provide information about the credit hours allocated to System analysis and design?
+      - What is the total credit value for the System analysis and design course?
+      - How many credit units does the System analysis and design course carry?
+      - What is the credit load attributed to the System analysis and design course?
+      - Could you specify the number of credits attributed to completing System analysis and design?
+  
+  - intent: ask_education_program_multimedia_communications_system_analysis_and_design_number_of_credit_hours 
+    examples: |
+      - What is the number of credit hours for the System analysis and design subject?
+      - How many credit hours does the System analysis and design subject entail?
+      - What is the total count of credit hours allocated to the System analysis and design subject?
+      - Could you provide the number of credit hours associated with the System analysis and design subject?
+      - What is the credit hour requirement for the System analysis and design subject?
+      - How many credit hours are attributed to the System analysis and design subject?
+      - What is the designated credit hour count for the System analysis and design subject?
+      - Could you specify the credit hours required for the System analysis and design subject?
+
+  - intent: ask_education_program_multimedia_communications_system_analysis_and_design_course_type
+    examples: |
+      - What is the type term of the System analysis and design?
+      - What category of term characterizes the System analysis and design?
+      - Could you specify the classification of the term for System analysis and design?
+      - What type or classification does the term for System analysis and design fall under?
+      - What is the specific term type attributed to System analysis and design?
+      - How would you classify the term duration for System analysis and design?
+      - What is the classification or categorization of the term relating to System analysis and design?
+      - Could you elaborate on the term classification specific to System analysis and design?
+
+  - intent: ask_education_program_multimedia_communications_system_analysis_and_design_course_instructor_info
+    examples: |
+      - Can you provide specifics about the teachers instructing System analysis and design?
+      - Who are the educators or instructors leading the System analysis and design course?
+      - Details about the faculty members involved in teaching System analysis and design.
+      - Could you share information about the instructors handling System analysis and design?
+      - Can you provide insight into the individuals teaching System analysis and design?
+      - Details regarding the educators for System analysis and design
+      - Information concerning the instructors responsible for teaching System analysis and design
+      - Information about instructors of the System analysis and design
+
+  - intent: ask_education_program_multimedia_communications_system_analysis_and_design_objective_of_course
+    examples: |
+      - What is the Objective of the course of System analysis and design?
+      - What are the goals or aims of the System analysis and design course?
+      - Could you explain the course objectives for System analysis and design?
+      - What is the intended outcome or purpose of the System analysis and design course?
+      - Could you describe the primary aims or objectives of the System analysis and design course?
+      - What is the core purpose or mission of the System analysis and design course?
+      - What are the learning objectives associated with the System analysis and design course?
+      - Could you outline the goals or intentions behind the System analysis and design course?
+
+  - intent: ask_education_program_multimedia_communications_system_analysis_and_design_course_structure
+    examples: |
+      - What does the course structure of the System analysis and design include?
+      - What elements form part of the course structure in System analysis and design?
+      - Could you outline the contents encompassed in the course structure of System analysis and design?
+      - What constitutes the framework or components of the System analysis and design course structure?
+      - Could you detail what's included in the course structure of System analysis and design?
+      - What elements or sections are incorporated within the course structure of System analysis and design?
+      - Could you describe the components comprising the course structure of System analysis and design?
+      - What makes up the layout or content of the course structure in System analysis and design?
+  
+  - intent: ask_education_program_multimedia_communications_system_analysis_and_design_teaching_and_learning_methods_and_activities
+    examples: |
+      - What does the teaching and learning methods and activities of the System analysis and design include?
+      - What methods and activities are involved in teaching and learning within System analysis and design?
+      - Could you describe the instructional techniques and learning activities utilized in System analysis and design?
+      - What teaching strategies and learning activities are incorporated into System analysis and design?
+      - Could you outline the methods and activities used for teaching and learning in System analysis and design?
+      - What instructional approaches and learning activities form part of System analysis and design?
+      - Could you explain the teaching methodologies and learning activities involved in System analysis and design?
+      - What teaching methods and learning activities are part of the System analysis and design course?
+
+  - intent: ask_education_program_multimedia_communications_system_analysis_and_design_subject_assessment_methods
+    examples: |
+      - What is the method of evaluating the subject of the System analysis and design?
+      - How is the System analysis and design subject evaluated?
+      - What assessment method is employed for the System analysis and design subject?
+      - Could you describe the evaluation approach utilized for the System analysis and design subject?
+      - What method is used to assess student performance in the System analysis and design subject?
+      - How are students evaluated in the System analysis and design subject?
+      - Could you outline the method of assessing the System analysis and design subject?
+      - What is the procedure for evaluating students in the System analysis and design subject?
+
+  - intent: ask_education_program_multimedia_communications_system_analysis_and_design_duties_of_the_learner
+    examples: |
+      - What is the duties of the learner of the System analysis and design?
+      - What are the obligations or responsibilities of the student studying System analysis and design?
+      - Could you outline the tasks or duties expected from learners in the System analysis and design course?
+      - What responsibilities do students have while studying System analysis and design?
+      - Could you describe the roles or tasks that learners are required to undertake in System analysis and design?
+      - What are the expected duties or roles of students enrolled in System analysis and design?
+      - Could you explain the obligations or tasks that learners are supposed to fulfill in System analysis and design?
+      - What specific responsibilities are expected from students learning System analysis and design?
+  
+  - intent: ask_education_program_multimedia_communications_system_analysis_and_design_additional_reading_materials
+    examples: |
+      - What are the additional reading materials for the System analysis and design subject?
+      - Could you provide other recommended reading materials for System analysis and design?
+      - What additional resources or supplementary reading materials are suggested for System analysis and design?
+      - Are there any extra reading materials recommended for the System analysis and design subject?
+      - Could you list any supplementary books or reading materials for System analysis and design?
+      - What other reading resources complement the System analysis and design subject?
+      - Are there any supplementary texts or materials that accompany System analysis and design?
+      - Could you suggest additional reading materials that supplement the System analysis and design course?

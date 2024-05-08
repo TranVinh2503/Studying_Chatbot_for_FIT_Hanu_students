@@ -1,0 +1,94 @@
+version: "3.1"
+
+nlu:
+
+  - intent: ask_education_program_multimedia_communications_consumer_behaviour_course_code
+    examples: |
+      - What is the course code of Consumer Behaviour?
+      - What is the specific course code assigned to Consumer Behaviour?
+      - Could you provide the course identification code for Consumer Behaviour?
+      - What alphanumeric code represents the Consumer Behaviour?
+      
+  - intent: ask_education_program_multimedia_communications_consumer_behaviour_is_prerequisite_courses
+    examples: |
+      - Is the Consumer Behaviour prerequisite courses?
+      - Does Consumer Behaviour serve as a prerequisite for other courses?
+      - Is Consumer Behaviour Services a required precursor for subsequent courses?
+      - Does completing Consumer Behaviour precede other course enrollments?
+  
+  - intent: ask_education_program_multimedia_communications_consumer_behaviour_name_of_unit_in_charge_of_teaching
+    examples: |
+      - What is name of unit in charge of teaching of Consumer Behaviour? 
+      - Which department oversees the instruction of Consumer Behaviour?
+      - What is the unit or department responsible for teaching Consumer Behaviour?
+      - Who manages the teaching responsibilities for Consumer Behaviour?
+
+  - intent: ask_education_program_multimedia_communications_consumer_behaviour_number_of_cresits
+    examples: |
+      - What is the number of credits for the Consumer Behaviour?
+      - How many credits are assigned to the Consumer Behaviour course?
+      - What is the credit count for the Consumer Behaviour course?
+      - Could you provide information about the credit hours allocated to Consumer Behaviour?
+      
+  - intent: ask_education_program_multimedia_communications_consumer_behaviour_number_of_credit_hours 
+    examples: |
+      - What is the number of credit hours for the Consumer Behaviour subject?
+      - How many credit hours does the Consumer Behaviour subject entail?
+      - What is the total count of credit hours allocated to the Consumer Behaviour subject?
+      - Could you provide the number of credit hours associated with the Consumer Behaviour subject?
+      
+  - intent: ask_education_program_multimedia_communications_consumer_behaviour_course_type
+    examples: |
+      - What is the type term of the Consumer Behaviour?
+      - What category of term characterizes the Consumer Behaviour?
+      - Could you specify the classification of the term for Consumer Behaviour?
+      - What type or classification does the term for Consumer Behaviour fall under?
+      
+  - intent: ask_education_program_multimedia_communications_consumer_behaviour_course_instructor_info
+    examples: |
+      - Can you provide specifics about the teachers instructing Consumer Behaviour?
+      - Who are the educators or instructors leading the Special Consumer Behaviour?
+      - Details about the faculty members involved in teaching Consumer Behaviour.
+      - Could you share information about the instructors handling Consumer Behaviour?
+      
+  - intent: ask_education_program_multimedia_communications_consumer_behaviour_objective_of_course
+    examples: |
+      - What is the Objective of the course of Consumer Behaviour?
+      - What are the goals or aims of the Psychology of Consumer Behaviour?
+      - Could you explain the course objectives for Consumer Behaviour?
+      - What is the intended outcome or purpose of the Consumer Behaviour?
+      
+  - intent: ask_education_program_multimedia_communications_consumer_behaviour_course_structure
+    examples: |
+      - What does the course structure of the Consumer Behaviour include?
+      - What elements form part of the course structure in Consumer Behaviour?
+      - Could you outline the contents encompassed in the course structure of Consumer Behaviour?
+      - What constitutes the framework or components of the Consumer Behaviour course structure?
+      
+  - intent: ask_education_program_multimedia_communications_consumer_behaviour_teaching_and_learning_methods_and_activities
+    examples: |
+      - What does the teaching and learning methods and activities of the Consumer Behaviour include?
+      - What methods and activities are involved in teaching and learning within Consumer Behaviour?
+      - Could you describe the instructional techniques and learning activities utilized in Consumer Behaviour?
+      - What teaching strategies and learning activities are incorporated into Consumer Behaviour?
+      
+  - intent: ask_education_program_multimedia_communications_consumer_behaviour_subject_assessment_methods
+    examples: |
+      - What is the method of evaluating the subject of the Consumer Behaviour?
+      - How is the Consumer Behaviour subject evaluated?
+      - What assessment method is employed for the Consumer Behaviour subject?
+      - Could you describe the evaluation approach utilized for the Consumer Behaviour subject?
+      
+  - intent: ask_education_program_multimedia_communications_consumer_behaviour_duties_of_the_learner
+    examples: |
+      - What is the duties of the learner of the Consumer Behaviour?
+      - What are the obligations or responsibilities of the student studying Consumer Behaviour?
+      - Could you outline the tasks or duties expected from learners in the Consumer Behaviour course?
+      - What responsibilities do students have while studying Consumer Behaviour?
+      
+  - intent: ask_education_program_multimedia_communications_consumer_behaviour_additional_reading_materials
+    examples: |
+      - What are the additional reading materials for the Consumer Behaviour subject?
+      - Could you provide other recommended reading materials forConsumer Behaviour?
+      - What additional resources or supplementary reading materials are suggested for Consumer Behaviour?
+      - Are there any extra reading materials recommended for the Special Consumer Behaviour?

@@ -1,0 +1,93 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_brand_creation_and_management_course_code_vie
+    examples: |
+      - Mã khóa học Sáng tạo và Quản lý Thương hiệu là gì?
+      - Mã khóa học cụ thể của ngành Sáng tạo và Quản lý Thương hiệu là gì?
+      - Bạn có thể cung cấp mã nhận dạng khóa học Sáng tạo và Quản lý Thương hiệu được không?
+      - Mã chữ số nào đại diện cho khóa học Quản lý và Sáng tạo Thương hiệu?
+      
+  - intent: ask_education_program_multimedia_communications_brand_creation_and_management_is_prerequisite_courses_vie
+    examples: |
+      - Có phải là khóa học tiên quyết về Sáng tạo và Quản lý Thương hiệu?
+      - Xây dựng và Quản lý Thương hiệu có phải là điều kiện tiên quyết cho các khóa học khác không?
+      - Dịch vụ Quản lý và Sáng tạo Thương hiệu có phải là bước khởi đầu cần thiết cho các khóa học tiếp theo không?
+      - Việc hoàn thành Sáng tạo và Quản lý Thương hiệu có trước khi đăng ký các khóa học khác không?
+  
+  - intent: ask_education_program_multimedia_communications_brand_creation_and_management_name_of_unit_in_charge_of_teaching_vie
+    examples: |
+      - Đơn vị phụ trách giảng dạy môn Sáng tạo và Quản lý Thương hiệu tên gì?
+      - Bộ phận nào giám sát việc hướng dẫn Sáng tạo và Quản lý Thương hiệu?
+      - Đơn vị, bộ phận nào chịu trách nhiệm giảng dạy về Sáng tạo và Quản lý Thương hiệu?
+      - Ai quản lý trách nhiệm giảng dạy về Sáng tạo và Quản lý Thương hiệu?
+
+  - intent: ask_education_program_multimedia_communications_brand_creation_and_management_number_of_cresits_vie
+    examples: |
+      - Số tín chỉ cho phần Sáng tạo và Quản lý Thương hiệu là bao nhiêu?
+      - Khóa học Quản lý và Sáng tạo Thương hiệu có bao nhiêu tín chỉ?
+      - Số tín chỉ của khóa học Quản lý và Sáng tạo Thương hiệu là bao nhiêu?
+      - Bạn có thể cung cấp thông tin về số giờ tín chỉ được phân bổ cho việc Sáng tạo và Quản lý Thương hiệu không?
+      
+  - intent: ask_education_program_multimedia_communications_brand_creation_and_management_number_of_credit_hours_vie
+    examples: |
+      - Số giờ tín chỉ của môn Quản lý và Sáng tạo Thương hiệu là bao nhiêu?
+      - Môn học Quản lý và Sáng tạo Thương hiệu đòi hỏi bao nhiêu giờ tín chỉ?
+      - Tổng số giờ tín chỉ được phân bổ cho môn Quản lý và Sáng tạo Thương hiệu là bao nhiêu?
+      - Bạn có thể cho biết số giờ tín chỉ liên quan đến môn Quản lý và Sáng tạo Thương hiệu được không?
+      
+  - intent: ask_education_program_multimedia_communications_brand_creation_and_management_course_type_vie
+    examples: |
+      - Thuật ngữ tạo dựng và quản lý thương hiệu là gì?
+      - Loại thuật ngữ nào đặc trưng cho việc Sáng tạo và Quản lý Thương hiệu?
+      - Ông có thể chỉ rõ cách phân loại thuật ngữ Quản lý và Sáng tạo Thương hiệu được không?
+      - Thuật ngữ Quản lý và Sáng tạo Thương hiệu thuộc loại hoặc phân loại nào?
+      
+  - intent: ask_education_program_multimedia_communications_brand_creation_and_management_course_instructor_info_vie
+    examples: |
+      - Bạn có thể cho biết cụ thể về các thầy cô hướng dẫn Sáng tạo và Quản lý Thương hiệu được không?
+      - Ai là những nhà giáo dục hoặc giảng viên dẫn dắt môn Quản lý và Sáng tạo Thương hiệu Đặc biệt?
+      - Thông tin chi tiết về các giảng viên tham gia giảng dạy về Sáng tạo và Quản lý Thương hiệu.
+      - Ông có thể chia sẻ thông tin về các giảng viên phụ trách Sáng tạo và Quản lý Thương hiệu được không?
+      
+  - intent: ask_education_program_multimedia_communications_brand_creation_and_management_objective_of_course_vie
+    examples: |
+      - Mục tiêu của khóa học Sáng tạo và Quản lý Thương hiệu là gì?
+      - Mục đích hay mục đích của Tâm lý học Sáng tạo và Quản lý Thương hiệu là gì?
+      - Bạn có thể giải thích mục tiêu khóa học về Sáng tạo và Quản lý Thương hiệu được không?
+      - Kết quả hoặc mục đích dự kiến của việc Tạo và Quản lý Thương hiệu là gì?
+      
+  - intent: ask_education_program_multimedia_communications_brand_creation_and_management_course_structure_vie
+    examples: |
+      - Cấu trúc khóa học Sáng tạo và Quản lý Thương hiệu bao gồm những gì?
+      - Những yếu tố nào tạo thành một phần của cấu trúc khóa học về Quản lý và Sáng tạo Thương hiệu?
+      - Thầy có thể tóm tắt các nội dung trong cấu trúc môn học Xây dựng và Quản lý thương hiệu được không?
+      - Điều gì tạo nên khuôn khổ hoặc các thành phần của cấu trúc khóa học Quản lý và Sáng tạo Thương hiệu?
+      
+  - intent: ask_education_program_multimedia_communications_brand_creation_and_management_teaching_and_learning_methods_and_activities_vie
+    examples: |
+      - Phương pháp và hoạt động dạy và học của bộ phận Sáng tạo và Quản lý Thương hiệu bao gồm những gì?
+      - Những phương pháp và hoạt động nào liên quan đến việc dạy và học trong lĩnh vực Sáng tạo và Quản lý Thương hiệu?
+      - Bạn có thể mô tả các kỹ thuật giảng dạy và hoạt động học tập được sử dụng trong Quản lý và Sáng tạo Thương hiệu không?
+      - Những chiến lược giảng dạy và hoạt động học tập nào được kết hợp trong Sáng tạo và Quản lý Thương hiệu?
+      
+  - intent: ask_education_program_multimedia_communications_brand_creation_and_management_subject_assessment_methods_vie
+    examples: |
+      - Phương pháp đánh giá chủ đề Sáng tạo và Quản lý Thương hiệu là gì?
+      - Môn Sáng tạo và Quản lý Thương hiệu được đánh giá như thế nào?
+      - Phương pháp đánh giá nào được sử dụng cho môn học Sáng tạo và Quản lý Thương hiệu?
+      - Bạn có thể mô tả phương pháp đánh giá được áp dụng cho môn học Xây dựng và Quản lý thương hiệu được không?
+      
+  - intent: ask_education_program_multimedia_communications_brand_creation_and_management_duties_of_the_learner_vie
+    examples: |
+      - Nhiệm vụ của người học ngành Sáng tạo và Quản lý Thương hiệu là gì?
+      - Nghĩa vụ, trách nhiệm của sinh viên học ngành Sáng tạo và Quản lý Thương hiệu là gì?
+      - Thầy có thể nêu những nhiệm vụ, nhiệm vụ mong đợi của học viên trong khóa học Quản lý và Sáng tạo Thương hiệu được không?
+      - Sinh viên có trách nhiệm gì khi theo học ngành Sáng tạo và Quản lý Thương hiệu?
+      
+  - intent: ask_education_program_multimedia_communications_brand_creation_and_management_additional_reading_materials_vie
+    examples: |
+      - Tài liệu đọc thêm cho môn Quản lý và Sáng tạo Thương hiệu là gì?
+      - Bạn có thể cung cấp các tài liệu đọc gợi ý khác về Sáng tạo và Quản lý Thương hiệu không?
+      - Những nguồn tài liệu hoặc tài liệu đọc bổ sung nào được đề xuất cho việc Sáng tạo và Quản lý Thương hiệu?
+      - Có tài liệu đọc bổ sung nào được khuyến nghị cho phần Quản lý và Sáng tạo Thương hiệu Đặc biệt không?

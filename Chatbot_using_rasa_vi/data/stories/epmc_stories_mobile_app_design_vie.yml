@@ -1,0 +1,67 @@
+version: "3.1"
+
+stories:
+  - story: Respond to course code of mobile app design
+    steps:
+      - intent: ask_education_program_multimedia_communications_mobile_app_design_course_code_vie
+      - action: utter_ask_education_program_multimedia_communications_mobile_app_design_course_code_vie
+  
+  - story: Respond to mobile app design is prerequisite courses
+    steps:
+      - intent: ask_education_program_multimedia_communications_mobile_app_design_is_prerequisite_courses_vie
+      - action: utter_ask_education_program_multimedia_communications_mobile_app_design_is_prerequisite_courses_vie
+
+  - story: Respond to name of unit in charge of teaching of mobile app design
+    steps:
+      - intent: ask_education_program_multimedia_communications_mobile_app_design_name_of_unit_in_charge_of_teaching_vie
+      - action: utter_ask_education_program_multimedia_communications_mobile_app_design_name_of_unit_in_charge_of_teaching_vie
+
+  - story: Respond to the number of credits of mobile app design
+    steps:
+      - intent: ask_education_program_multimedia_communications_mobile_app_design_number_of_cresits_vie
+      - action: utter_ask_education_program_multimedia_communications_mobile_app_design_number_of_cresits_vie
+  
+  - story: Respond to the number of credit hours of mobile app design
+    steps: 
+     - intent: ask_education_program_multimedia_communications_mobile_app_design_number_of_credit_hours_vie
+     - action: utter_ask_education_program_multimedia_communications_mobile_app_design_number_of_credit_hours_vie
+  
+  - story: Respond to course type of mobile app design
+    steps:
+      - intent: ask_education_program_multimedia_communications_mobile_app_design_course_type_vie
+      - action: utter_ask_education_program_multimedia_communications_mobile_app_design_course_type_vie
+
+  - story: Respond to course instructor information of mobile app design
+    steps:
+      - intent: ask_education_program_multimedia_communications_mobile_app_design_course_instructor_info_vie
+      - action: utter_ask_education_program_multimedia_communications_mobile_app_design_course_instructor_info_vie
+  
+  - story: Respond to objective of course of mobile app design
+    steps:
+      - intent: ask_education_program_multimedia_communications_mobile_app_design_objective_of_course_vie
+      - action: utter_ask_education_program_multimedia_communications_mobile_app_design_objective_of_course_vie
+
+  - story: Respond to objective of course's course structure of mobile app design
+    steps: 
+      - intent: ask_education_program_multimedia_communications_mobile_app_design_course_structure_vie
+      - action: utter_ask_education_program_multimedia_communications_mobile_app_design_course_structure_vie
+
+  - story: Respond to teaching and learning methods and activities of mobile app design
+    steps:
+      - intent: ask_education_program_multimedia_communications_mobile_app_design_teaching_and_learning_methods_and_activities_vie
+      - action: utter_ask_education_program_multimedia_communications_mobile_app_design_teaching_and_learning_methods_and_activities_vie
+  
+  - story: Respond to subject assessment methods of mobile app design
+    steps:
+      - intent: ask_education_program_multimedia_communications_mobile_app_design_subject_assessment_methods_vie
+      - action: utter_ask_education_program_multimedia_communications_mobile_app_design_subject_assessment_methods_vie
+  
+  - story: Respond to duties of the learner of mobile app design
+    steps:
+      - intent: ask_education_program_multimedia_communications_mobile_app_design_duties_of_the_learner_vie
+      - action: utter_ask_education_program_multimedia_communications_mobile_app_design_duties_of_the_learner_vie
+
+  - story: Respond to additional reading materials of mobile app design
+    steps:
+      - intent: ask_education_program_multimedia_communications_mobile_app_design_additional_reading_materials_vie
+      - action: utter_ask_education_program_multimedia_communications_mobile_app_design_additional_reading_materials_vie

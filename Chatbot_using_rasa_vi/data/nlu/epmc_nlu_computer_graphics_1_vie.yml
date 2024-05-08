@@ -1,0 +1,145 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_computer_graphics_1_course_code_vie
+    examples: |
+      - Mã môn Đồ họa máy tính 1 là gì?
+      - Mã khóa học cụ thể của môn Đồ họa máy tính 1 là gì?
+      - Bạn có thể cung cấp mã nhận dạng khóa học Đồ họa máy tính 1 được không?
+      - Mã chữ và số nào tượng trưng cho môn Đồ họa máy tính 1?
+      - Bạn có thể chia sẻ mã khóa học hoặc mã môn Đồ họa máy tính 1 được không?
+      - Mã định danh duy nhất về mặt mã cho khóa học Đồ họa máy tính 1 là gì?
+      - Bạn có thể cho biết mã môn học dành cho môn Đồ họa máy tính 1 được không?
+      - Mã nào được dùng để tham khảo môn Đồ họa máy tính 1 trong chương trình?
+
+  - intent: ask_education_program_multimedia_communications_computer_graphics_1_is_prerequisite_courses_vie
+    examples: |
+      - Đồ họa máy tính có phải là môn học tiên quyết không?
+      - Đồ họa máy tính 1 có phải là điều kiện tiên quyết cho các môn học khác không?
+      - Đồ họa máy tính 1 có phải là môn bắt buộc cho các khóa học tiếp theo không?
+      - Việc hoàn thành môn Đồ họa máy tính 1 có trước khi đăng ký các khóa học khác không?
+      - Có yêu cầu học viên phải học môn Đồ họa máy tính 1 trước các môn khác không?
+      - Đồ họa máy tính 1 có phải là môn học sơ bộ cần thiết để học tiếp không?
+      - Việc học xong môn Đồ họa máy tính 1 có được đăng ký học các môn khác không?
+      - Đồ họa máy tính 1 có phải là điều kiện tiên quyết để học thêm các môn học bổ sung không?
+  
+  - intent: ask_education_program_multimedia_communications_computer_graphics_1_name_of_unit_in_charge_of_teaching_vie
+    examples: |
+      - Đơn vị phụ trách dạy môn Đồ họa máy tính 1 tên gì?
+      - Bộ môn nào phụ trách dạy Đồ họa máy tính 1?
+      - Đơn vị, bộ phận nào chịu trách nhiệm dạy môn Đồ họa máy tính 1?
+      - Ai quản lý trách nhiệm giảng dạy môn Đồ họa máy tính 1?
+      - Tên khoa, đơn vị phụ trách giảng dạy môn Đồ họa máy tính 1 là gì?
+      - Đơn vị nào đảm nhận nhiệm vụ dạy môn Đồ họa máy tính 1?
+      - Bạn có thể cho biết tên khoa chịu trách nhiệm dạy môn Đồ họa máy tính 1 được không?
+      - Ai chịu trách nhiệm giảng dạy môn Đồ họa máy tính 1 trong cơ sở?
+
+  - intent: ask_education_program_multimedia_communications_computer_graphics_1_number_of_cresits_vie
+    examples: |
+      - Số tín chỉ của môn Đồ họa máy tính 1 là bao nhiêu?
+      - Môn Đồ họa máy tính 1 được tính bao nhiêu tín chỉ?
+      - Số tín chỉ của khóa học Đồ họa máy tính 1 là bao nhiêu?
+      - Bạn có thể cung cấp thông tin về số giờ tín chỉ được phân bổ cho môn Đồ họa máy tính 1 không?
+      - Tổng giá trị tín chỉ của môn Đồ họa máy tính 1 là bao nhiêu?
+      - Khóa Đồ họa máy tính 1 có bao nhiêu tín chỉ?
+      - Khối lượng tín chỉ của khóa học Đồ họa máy tính 1 là bao nhiêu?
+      - Bạn có thể cho biết số tín chỉ khi hoàn thành môn Đồ họa máy tính 1 không?
+  
+  - intent: ask_education_program_multimedia_communications_computer_graphics_1_number_of_credit_hours_vie 
+    examples: |
+      - Số giờ tín chỉ môn Đồ họa máy tính 1 là bao nhiêu?
+      - Môn Đồ họa máy tính 1 đòi hỏi bao nhiêu giờ tín chỉ?
+      - Tổng số giờ tín chỉ được phân bổ cho môn Đồ họa máy tính 1 là bao nhiêu?
+      - Bạn có thể cho biết số giờ tín chỉ của môn Đồ họa máy tính 1 được không?
+      - Yêu cầu số giờ tín chỉ của môn Đồ họa máy tính 1 là bao nhiêu?
+      - Môn Đồ họa máy tính 1 được tính bao nhiêu giờ tín chỉ?
+      - Số giờ tín chỉ được chỉ định cho môn Đồ họa máy tính 1 là bao nhiêu?
+      - Bạn có thể nêu rõ số giờ tín chỉ cần thiết cho môn Đồ họa máy tính 1 được không?
+
+  - intent: ask_education_program_multimedia_communications_computer_graphics_1_course_type_vie
+    examples: |
+      - Thuật ngữ loại của Đồ họa máy tính 1 là gì?
+      - Loại thuật ngữ nào đặc trưng cho Đồ họa máy tính 1?
+      - Bạn có thể chỉ rõ cách phân loại thuật ngữ Đồ họa máy tính 1 được không?
+      - Thuật ngữ Đồ họa máy tính 1 thuộc loại hoặc phân loại nào?
+      - Loại thuật ngữ cụ thể được gán cho Đồ họa máy tính 1 là gì?
+      - Bạn phân loại thời lượng học kỳ của môn Đồ họa máy tính 1 như thế nào?
+      - Phân loại hay phân loại thuật ngữ liên quan đến Đồ họa máy tính 1 là gì?
+      - Bạn có thể giải thích rõ hơn thuật ngữ phân loại dành riêng cho Đồ họa máy tính 1 được không?
+
+  - intent: ask_education_program_multimedia_communications_computer_graphics_1_course_instructor_info_vie
+    examples: |
+      - Bạn có thể cho biết cụ thể về giáo viên dạy Đồ họa máy tính 1 được không?
+      - Giảng viên, giảng viên hướng dẫn môn Đồ họa máy tính 1 là ai?
+      - Thông tin chi tiết về các giảng viên tham gia giảng dạy Đồ họa máy tính 1.
+      - Bạn có thể chia sẻ thông tin về các thầy cô dạy Đồ họa máy tính 1 được không?
+      - Bạn có thể cho biết thông tin chi tiết về các cá nhân dạy Đồ họa máy tính 1 được không?
+      - Thông tin chi tiết về giáo viên dạy Đồ họa máy tính 1
+      - Thông tin về giáo viên dạy Đồ họa máy tính 1
+      - Thông tin về giáo viên dạy Đồ họa máy tính 1
+
+  - intent: ask_education_program_multimedia_communications_computer_graphics_1_objective_of_course_vie
+    examples: |
+      - Mục tiêu của môn Đồ họa máy tính 1 là gì?
+      - Mục đích, mục đích của khóa học Đồ họa máy tính 1 là gì?
+      - Bạn có thể giải thích mục tiêu của môn Đồ họa máy tính 1 được không?
+      - Đầu ra, mục đích dự kiến của khóa học Đồ họa máy tính 1 là gì?
+      - Bạn có thể mô tả mục tiêu chính của khóa học Đồ họa máy tính 1 được không?
+      - Mục đích, nhiệm vụ cốt lõi của môn Đồ họa máy tính 1 là gì?
+      - Mục tiêu học tập của môn Đồ họa máy tính 1 là gì?
+      - Bạn có thể nêu mục tiêu và ý định của khóa học Đồ họa máy tính 1 được không?
+
+  - intent: ask_education_program_multimedia_communications_computer_graphics_1_course_structure_vie
+    examples: |
+      - Cấu trúc môn Đồ họa máy tính 1 gồm những gì?
+      - Cấu trúc môn học Đồ họa máy tính 1 gồm những yếu tố nào?
+      - Thầy có thể tóm tắt các nội dung trong cấu trúc môn Đồ họa máy tính 1 được không?
+      - Cấu trúc môn học Đồ họa máy tính 1 gồm những gì?
+      - Thầy có thể trình bày chi tiết cấu trúc môn Đồ họa máy tính 1 gồm những gì không?
+      - Cấu trúc môn học Đồ họa máy tính 1 được kết hợp những yếu tố hoặc phần nào?
+      - Thầy có thể mô tả các thành phần trong cấu trúc môn Đồ họa máy tính 1 được không?
+      - Cấu trúc bài học Đồ họa máy tính 1 có cấu trúc như thế nào?
+  
+  - intent: ask_education_program_multimedia_communications_computer_graphics_1_teaching_and_learning_methods_and_activities_vie
+    examples: |
+      - Phương pháp và hoạt động dạy học của môn Đồ họa máy tính 1 bao gồm những gì?
+      - Dạy và học môn Đồ họa máy tính 1 có những phương pháp, hoạt động nào?
+      - Bạn có thể mô tả các kỹ thuật giảng dạy và hoạt động học tập được sử dụng trong Đồ họa máy tính 1 không?
+      - Những chiến lược dạy học và hoạt động học tập nào được đưa vào Đồ họa máy tính 1?
+      - Bạn có thể nêu các phương pháp, hoạt động dạy và học môn Đồ họa máy tính 1 được không?
+      - Những phương pháp giảng dạy và hoạt động học tập nào là một phần của Đồ họa Máy tính 1?
+      - Bạn có thể giải thích về phương pháp dạy học và hoạt động học tập của môn Đồ họa máy tính 1 được không?
+      - Môn Đồ họa máy tính 1 có những phương pháp dạy và hoạt động học nào?
+
+  - intent: ask_education_program_multimedia_communications_computer_graphics_1_subject_assessment_methods_vie
+    examples: |
+      - Phương pháp đánh giá môn Đồ họa máy tính 1 là gì?
+      - Môn Đồ họa máy tính 1 được đánh giá như thế nào?
+      - Môn Đồ họa máy tính 1 được áp dụng phương pháp đánh giá nào?
+      - Bạn có thể mô tả cách đánh giá được áp dụng cho môn Đồ họa máy tính 1 được không?
+      - Dùng phương pháp nào để đánh giá kết quả học tập của học sinh môn Đồ họa máy tính 1?
+      - Đánh giá học sinh môn Đồ họa máy tính 1 như thế nào?
+      - Bạn có thể nêu phương pháp đánh giá môn Đồ họa máy tính 1 được không?
+      - Quy trình đánh giá học sinh môn Đồ họa máy tính 1 như thế nào?
+
+  - intent: ask_education_program_multimedia_communications_computer_graphics_1_duties_of_the_learner_vie
+    examples: |
+      - Nhiệm vụ của người học môn Đồ họa máy tính 1 là gì?
+      - Sinh viên học ngành Đồ họa máy tính 1 có nghĩa vụ, trách nhiệm gì?
+      - Thầy có thể nêu những nhiệm vụ, nhiệm vụ mong đợi của người học môn Đồ họa máy tính 1 được không?
+      - Học sinh có trách nhiệm gì khi học Đồ họa máy tính 1?
+      - Hãy mô tả các vai trò, nhiệm vụ mà người học phải đảm nhận trong môn Đồ họa máy tính 1?
+      - Nhiệm vụ, vai trò dự kiến của học sinh ngành Đồ họa máy tính 1 là gì?
+      - Bạn có thể giải thích những nghĩa vụ, nhiệm vụ mà người học phải thực hiện trong Đồ họa máy tính 1 được không?
+      - Trách nhiệm cụ thể của học sinh học Đồ họa máy tính 1 là gì?
+  
+  - intent: ask_education_program_multimedia_communications_computer_graphics_1_additional_reading_materials_vie
+    examples: |
+      - Tài liệu đọc thêm môn Đồ họa máy tính 1 là gì?
+      - Bạn có thể cung cấp thêm tài liệu đọc khác cho môn Đồ họa máy tính 1 được không?
+      - Những nguồn tài liệu hoặc tài liệu đọc bổ sung nào được đề xuất cho Đồ họa máy tính 1?
+      - Có tài liệu đọc thêm nào được khuyến khích cho môn Đồ họa máy tính 1 không?
+      - Bạn có thể liệt kê những cuốn sách hoặc tài liệu đọc bổ sung cho môn Đồ họa máy tính 1 được không?
+      - Nguồn tài liệu đọc nào khác bổ sung cho môn Đồ họa máy tính 1?
+      - Có văn bản, tài liệu bổ sung nào đi kèm Đồ họa máy tính 1 không?
+      - Bạn có thể gợi ý thêm tài liệu đọc bổ sung cho môn Đồ họa máy tính 1 được không?

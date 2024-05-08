@@ -1,0 +1,145 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_computer_graphics_1_course_code
+    examples: |
+      - What is the course code of Computer graphics 1?
+      - What is the specific course code assigned to Computer graphics 1?
+      - Could you provide the course identification code for Computer graphics 1?
+      - What alphanumeric code represents the Computer graphics 1 course?
+      - Could you share the course number or code for Computer graphics 1?
+      - What is the unique identifier, in terms of code, for the Computer graphics 1 course?
+      - Could you specify the course code designated for Computer graphics 1?
+      - What code is used to refer to the Computer graphics 1 course within the curriculum?
+
+  - intent: ask_education_program_multimedia_communications_computer_graphics_1_is_prerequisite_courses
+    examples: |
+      - Is the Computer graphics 1 prerequisite courses?
+      - Does Computer graphics 1 serve as a prerequisite for other courses?
+      - Is Computer graphics 1 a required precursor for subsequent courses?
+      - Does completing Computer graphics 1 precede other course enrollments?
+      - Is there a requirement for students to take Computer graphics 1 before other courses?
+      - Is Computer graphics 1 a necessary preliminary course for further studies?
+      - Does the completion of Computer graphics 1 precede the enrollment in other courses?
+      - Is Computer graphics 1 a prerequisite for advancing to additional coursework?
+  
+  - intent: ask_education_program_multimedia_communications_computer_graphics_1_name_of_unit_in_charge_of_teaching
+    examples: |
+      - What is name of unit in charge of teaching of Computer graphics 1? 
+      - Which department oversees the instruction of Computer Graphics 1?
+      - What is the unit or department responsible for teaching Computer Graphics 1?
+      - Who manages the teaching responsibilities for Computer Graphics 1?
+      - What is the name of the department or unit in charge of instructing Computer Graphics 1?
+      - Which specific unit handles the teaching duties for Computer Graphics 1?
+      - Could you provide the departmental name responsible for teaching Computer Graphics 1?
+      - Who is responsible for the instruction of Computer Graphics 1 within the institution?
+
+  - intent: ask_education_program_multimedia_communications_computer_graphics_1_number_of_cresits
+    examples: |
+      - What is the number of credits for the Computer Graphics 1?
+      - How many credits are assigned to the Computer Graphics 1 course?
+      - What is the credit count for the Computer Graphics 1 course?
+      - Could you provide information about the credit hours allocated to Computer Graphics 1?
+      - What is the total credit value for the Computer Graphics 1 course?
+      - How many credit units does the Computer Graphics 1 course carry?
+      - What is the credit load attributed to the Computer Graphics 1 course?
+      - Could you specify the number of credits attributed to completing Computer Graphics 1?
+  
+  - intent: ask_education_program_multimedia_communications_computer_graphics_1_number_of_credit_hours 
+    examples: |
+      - What is the number of credit hours for the Computer Graphics 1 subject?
+      - How many credit hours does the Computer Graphics 1 subject entail?
+      - What is the total count of credit hours allocated to the Computer Graphics 1 subject?
+      - Could you provide the number of credit hours associated with the Computer Graphics 1 subject?
+      - What is the credit hour requirement for the Computer Graphics 1 subject?
+      - How many credit hours are attributed to the Computer Graphics 1 subject?
+      - What is the designated credit hour count for the Computer Graphics 1 subject?
+      - Could you specify the credit hours required for the Computer Graphics 1 subject?
+
+  - intent: ask_education_program_multimedia_communications_computer_graphics_1_course_type
+    examples: |
+      - What is the type term of the Computer Graphics 1?
+      - What category of term characterizes the Computer Graphics 1?
+      - Could you specify the classification of the term for Computer Graphics 1?
+      - What type or classification does the term for Computer Graphics 1 fall under?
+      - What is the specific term type attributed to Computer Graphics 1?
+      - How would you classify the term duration for Computer Graphics 1?
+      - What is the classification or categorization of the term relating to Computer Graphics 1?
+      - Could you elaborate on the term classification specific to Computer Graphics 1?
+
+  - intent: ask_education_program_multimedia_communications_computer_graphics_1_course_instructor_info
+    examples: |
+      - Can you provide specifics about the teachers instructing Computer Graphics 1?
+      - Who are the educators or instructors leading the Computer Graphics 1 course?
+      - Details about the faculty members involved in teaching Computer Graphics 1.
+      - Could you share information about the instructors handling Computer Graphics 1?
+      - Can you provide insight into the individuals teaching Computer Graphics 1?
+      - Details regarding the educators for Computer Graphics 1
+      - Information concerning the instructors responsible for teaching Computer Graphics 1
+      - Information about instructors of the Computer Graphics 1
+
+  - intent: ask_education_program_multimedia_communications_computer_graphics_1_objective_of_course
+    examples: |
+      - What is the Objective of the course of Computer Graphics 1?
+      - What are the goals or aims of the Computer Graphics 1 course?
+      - Could you explain the course objectives for Computer Graphics 1?
+      - What is the intended outcome or purpose of the Computer Graphics 1 course?
+      - Could you describe the primary aims or objectives of the Computer Graphics 1 course?
+      - What is the core purpose or mission of the Computer Graphics 1 course?
+      - What are the learning objectives associated with the Computer Graphics 1 course?
+      - Could you outline the goals or intentions behind the Computer Graphics 1 course?
+
+  - intent: ask_education_program_multimedia_communications_computer_graphics_1_course_structure
+    examples: |
+      - What does the course structure of the Computer Graphics 1 include?
+      - What elements form part of the course structure in Computer Graphics 1?
+      - Could you outline the contents encompassed in the course structure of Computer Graphics 1?
+      - What constitutes the framework or components of the Computer Graphics 1 course structure?
+      - Could you detail what's included in the course structure of Computer Graphics 1?
+      - What elements or sections are incorporated within the course structure of Computer Graphics 1?
+      - Could you describe the components comprising the course structure of Computer Graphics 1?
+      - What makes up the layout or content of the course structure in Computer Graphics 1?
+  
+  - intent: ask_education_program_multimedia_communications_computer_graphics_1_teaching_and_learning_methods_and_activities
+    examples: |
+      - What does the teaching and learning methods and activities of the Computer Graphics 1 include?
+      - What methods and activities are involved in teaching and learning within Computer Graphics 1?
+      - Could you describe the instructional techniques and learning activities utilized in Computer Graphics 1?
+      - What teaching strategies and learning activities are incorporated into Computer Graphics 1?
+      - Could you outline the methods and activities used for teaching and learning in Computer Graphics 1?
+      - What instructional approaches and learning activities form part of Computer Graphics 1?
+      - Could you explain the teaching methodologies and learning activities involved in Computer Graphics 1?
+      - What teaching methods and learning activities are part of the Computer Graphics 1 course?
+
+  - intent: ask_education_program_multimedia_communications_computer_graphics_1_subject_assessment_methods
+    examples: |
+      - What is the method of evaluating the subject of the Computer Graphics 1?
+      - How is the Computer Graphics 1 subject evaluated?
+      - What assessment method is employed for the Computer Graphics 1 subject?
+      - Could you describe the evaluation approach utilized for the Computer Graphics 1 subject?
+      - What method is used to assess student performance in the Computer Graphics 1 subject?
+      - How are students evaluated in the Computer Graphics 1 subject?
+      - Could you outline the method of assessing the Computer Graphics 1 subject?
+      - What is the procedure for evaluating students in the Computer Graphics 1 subject?
+
+  - intent: ask_education_program_multimedia_communications_computer_graphics_1_duties_of_the_learner
+    examples: |
+      - What is the duties of the learner of the Computer Graphics 1?
+      - What are the obligations or responsibilities of the student studying Computer Graphics 1?
+      - Could you outline the tasks or duties expected from learners in the Computer Graphics 1 course?
+      - What responsibilities do students have while studying Computer Graphics 1?
+      - Could you describe the roles or tasks that learners are required to undertake in Computer Graphics 1?
+      - What are the expected duties or roles of students enrolled in Computer Graphics 1?
+      - Could you explain the obligations or tasks that learners are supposed to fulfill in Computer Graphics 1?
+      - What specific responsibilities are expected from students learning Computer Graphics 1?
+  
+  - intent: ask_education_program_multimedia_communications_computer_graphics_1_additional_reading_materials
+    examples: |
+      - What are the additional reading materials for the Computer Graphics 1 subject?
+      - Could you provide other recommended reading materials for Computer Graphics 1?
+      - What additional resources or supplementary reading materials are suggested for Computer Graphics 1?
+      - Are there any extra reading materials recommended for the Computer Graphics 1 subject?
+      - Could you list any supplementary books or reading materials for Computer Graphics 1?
+      - What other reading resources complement the Computer Graphics 1 subject?
+      - Are there any supplementary texts or materials that accompany Computer Graphics 1?
+      - Could you suggest additional reading materials that supplement the Computer Graphics 1 course?

@@ -1,0 +1,145 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_principles_of_computers_course_code_vie
+    examples: |
+       - Mã khóa học Nguyên lý máy tính là gì?
+       - Mã khóa học cụ thể của Nguyên lý máy tính là gì?
+       - Bạn có thể cung cấp mã nhận dạng khóa học Nguyên lý máy tính được không?
+       - Mã chữ và số nào đại diện cho khóa học Nguyên lý máy tính?
+       - Bạn có thể chia sẻ mã số hoặc mã khóa học Nguyên lý máy tính được không?
+       - Mã định danh duy nhất về mặt mã cho khóa học Nguyên tắc Máy tính là gì?
+       - Bạn có thể chỉ rõ mã khóa học dành cho Nguyên lý máy tính được không?
+       - Mã nào được dùng để chỉ môn Nguyên lý máy tính trong chương trình giảng dạy?
+
+  - intent: ask_education_program_multimedia_communications_principles_of_computers_is_prerequisite_courses_vie
+    examples: |
+       - Nguyên lý Máy tính có phải là khóa học tiên quyết không?
+       - Nguyên lý Máy tính có phải là điều kiện tiên quyết cho các khóa học khác không?
+       - Nguyên lý máy tính có phải là tiền đề cần thiết cho các khóa học tiếp theo không?
+       - Việc hoàn thành Nguyên lý Máy tính có trước khi đăng ký khóa học khác không?
+       - Có yêu cầu học viên phải học Nguyên lý Máy tính trước các khóa học khác không?
+       - Nguyên lý máy tính có phải là khóa học sơ bộ cần thiết để học tiếp không?
+       - Việc hoàn thành Nguyên lý Máy tính có trước khi đăng ký các khóa học khác không?
+       - Nguyên tắc Máy tính có phải là điều kiện tiên quyết để tiến tới các khóa học bổ sung không?
+  
+  - intent: ask_education_program_multimedia_communications_principles_of_computers_name_of_unit_in_charge_of_teaching_vie
+    examples: |
+       - Đơn vị phụ trách giảng dạy Nguyên lý Máy tính tên gì?
+       - Bộ phận nào phụ trách việc giảng dạy Nguyên lý máy tính?
+       - Đơn vị, bộ phận nào chịu trách nhiệm giảng dạy Nguyên lý Máy tính?
+       - Ai quản lý trách nhiệm giảng dạy môn Nguyên lý máy tính?
+       - Tên khoa hoặc đơn vị phụ trách giảng dạy Nguyên lý Máy tính là gì?
+       - Đơn vị nào đảm nhận nhiệm vụ giảng dạy môn Nguyên lý máy tính?
+       - Bạn có thể cho biết tên khoa chịu trách nhiệm giảng dạy Nguyên lý Máy tính được không?
+       - Ai chịu trách nhiệm giảng dạy Nguyên lý Máy tính trong cơ sở?
+
+  - intent: ask_education_program_multimedia_communications_principles_of_computers_number_of_cresits_vie
+    examples: |
+       - Số tín chỉ của Nguyên lý Máy tính là bao nhiêu?
+       - Khóa học Nguyên lý máy tính có bao nhiêu tín chỉ?
+       - Số tín chỉ của khóa học Nguyên tắc Máy tính là bao nhiêu?
+       - Bạn có thể cung cấp thông tin về số giờ tín chỉ được phân bổ cho Nguyên lý Máy tính không?
+       - Tổng giá trị tín chỉ của khóa học Nguyên lý Máy tính là bao nhiêu?
+       - Khóa học Nguyên lý Máy tính có bao nhiêu đơn vị tín chỉ?
+       - Khối lượng tín chỉ được quy cho khóa học Nguyên tắc Máy tính là bao nhiêu?
+       - Bạn có thể chỉ định số tín chỉ được quy cho việc hoàn thành Nguyên tắc Máy tính không?
+  
+  - intent: ask_education_program_multimedia_communications_principles_of_computers_number_of_credit_hours_vie
+    examples: |
+       - Số giờ tín chỉ của môn Nguyên lý Máy tính là bao nhiêu?
+       - Môn Nguyên lý Máy tính đòi hỏi bao nhiêu giờ tín chỉ?
+       - Tổng số giờ tín chỉ được phân bổ cho môn Nguyên tắc Máy tính là bao nhiêu?
+       - Bạn có thể cung cấp số giờ tín chỉ liên quan đến môn Nguyên tắc Máy tính không?
+       - Yêu cầu về số giờ tín chỉ cho môn Nguyên lý Máy tính là gì?
+       - Có bao nhiêu giờ tín chỉ cho môn Nguyên tắc Máy tính?
+       - Số giờ tín chỉ được chỉ định cho môn Nguyên tắc Máy tính là bao nhiêu?
+       - Bạn có thể nêu rõ số giờ tín chỉ cần thiết cho môn Nguyên lý máy tính không?
+
+  - intent: ask_education_program_multimedia_communications_principles_of_computers_course_type_vie
+    examples: |
+       - Thuật ngữ loại của Nguyên lý máy tính là gì?
+       - Loại thuật ngữ nào đặc trưng cho Nguyên tắc của Máy tính?
+       - Bạn có thể chỉ rõ cách phân loại thuật ngữ Nguyên lý máy tính được không?
+       - Thuật ngữ Nguyên lý máy tính thuộc loại hoặc phân loại nào?
+       - Loại thuật ngữ cụ thể được gán cho Nguyên tắc Máy tính là gì?
+       - Bạn phân loại thời hạn của môn Nguyên lý Máy tính như thế nào?
+       - Phân loại hay phân loại thuật ngữ liên quan đến Nguyên lý của Máy tính là gì?
+       - Bạn có thể giải thích rõ hơn về thuật ngữ phân loại cụ thể của Nguyên lý máy tính không?
+
+  - intent: ask_education_program_multimedia_communications_principles_of_computers_course_instructor_info_vie
+    examples: |
+       - Bạn có thể cho biết cụ thể về những giáo viên giảng dạy Nguyên lý Máy tính được không?
+       - Ai là giảng viên hoặc giảng viên hướng dẫn khóa học Nguyên lý máy tính?
+       - Thông tin chi tiết về các giảng viên tham gia giảng dạy Nguyên lý Máy tính.
+       - Bạn có thể chia sẻ thông tin về các giảng viên dạy Nguyên lý máy tính được không?
+       - Bạn có thể cung cấp cái nhìn sâu sắc hơn về những cá nhân giảng dạy Nguyên lý Máy tính không?
+       - Thông tin chi tiết về các nhà giáo dục Nguyên lý Máy tính.
+       - Thông tin liên quan đến giáo viên chịu trách nhiệm giảng dạy Nguyên lý máy tính.
+       - Thông tin về người dạy Nguyên lý máy tính
+
+  - intent: ask_education_program_multimedia_communications_principles_of_computers_objective_of_course_vie
+    examples: |
+       - Mục tiêu của môn Nguyên lý máy tính là gì?
+       - Mục đích và mục đích của khóa học Nguyên lý máy tính là gì?
+       - Bạn có thể giải thích mục tiêu khóa học Nguyên lý máy tính được không?
+       - Kết quả hoặc mục đích dự định của khóa học Nguyên tắc Máy tính là gì?
+       - Bạn có thể mô tả mục tiêu chính của khóa học Nguyên lý máy tính không?
+       - Mục đích hoặc sứ mệnh cốt lõi của khóa học Nguyên lý Máy tính là gì?
+       - Mục tiêu học tập của khóa học Nguyên lý máy tính là gì?
+       - Bạn có thể phác thảo các mục tiêu hoặc ý định đằng sau khóa học Nguyên tắc Máy tính không?
+
+  - intent: ask_education_program_multimedia_communications_principles_of_computers_course_structure_vie
+    examples: |
+       - Cấu trúc môn học Nguyên lý máy tính bao gồm những gì?
+       - Những yếu tố nào tạo thành một phần của cấu trúc khóa học Nguyên lý Máy tính?
+       - Bạn có thể tóm tắt những nội dung trong cấu trúc môn học Nguyên lý máy tính được không?
+       - Điều gì tạo nên khuôn khổ hoặc các thành phần của cấu trúc khóa học Nguyên tắc Máy tính?
+       - Bạn có thể trình bày chi tiết cấu trúc khóa học Nguyên lý máy tính gồm những gì không?
+       - Những yếu tố hoặc phần nào được kết hợp trong cấu trúc khóa học Nguyên lý máy tính?
+       - Bạn có thể mô tả các thành phần trong cấu trúc môn học Nguyên lý máy tính được không?
+       - Cấu trúc bài học Nguyên lý máy tính có cấu trúc như thế nào?
+  
+  - intent: ask_education_program_multimedia_communications_principles_of_computers_teaching_and_learning_methods_and_activities_vie
+    examples: |
+       - Phương pháp và hoạt động dạy và học của Nguyên lý máy tính bao gồm những gì?
+       - Những phương pháp và hoạt động nào được áp dụng trong việc dạy và học trong Nguyên lý Máy tính?
+       - Bạn có thể mô tả các kỹ thuật giảng dạy và hoạt động học tập được sử dụng trong Nguyên lý Máy tính không?
+       - Những chiến lược giảng dạy và hoạt động học tập nào được kết hợp trong Nguyên lý Máy tính?
+       - Bạn có thể nêu các phương pháp, hoạt động dạy và học trong Nguyên lý máy tính được không?
+       - Những phương pháp giảng dạy và hoạt động học tập nào là một phần của Nguyên tắc Máy tính?
+       - Bạn có thể giải thích phương pháp giảng dạy và hoạt động học tập của môn Nguyên lý máy tính được không?
+       - Phương pháp giảng dạy và hoạt động học tập nào là một phần của môn học Nguyên lý máy tính?
+
+  - intent: ask_education_program_multimedia_communications_principles_of_computers_subject_assessment_methods_vie
+    examples: |
+       - Phương pháp đánh giá môn Nguyên lý máy tính là gì?
+       - Môn Nguyên lý Máy tính được đánh giá như thế nào?
+       - Phương pháp đánh giá nào được áp dụng cho môn Nguyên lý máy tính?
+       - Bạn có thể mô tả cách đánh giá được áp dụng cho môn Nguyên lý máy tính không?
+       - Phương pháp nào được sử dụng để đánh giá kết quả học tập của học sinh trong môn Nguyên lý máy tính?
+       - Đánh giá học sinh môn Nguyên lý máy tính như thế nào?
+       - Bạn có thể nêu phương pháp đánh giá môn Nguyên lý máy tính được không?
+       - Quy trình đánh giá học sinh môn Nguyên lý máy tính như thế nào?
+
+  - intent: ask_education_program_multimedia_communications_principles_of_computers_duties_of_the_learner_vie
+    examples: |
+       - Nhiệm vụ của người học Nguyên lý máy tính là gì?
+       - Nghĩa vụ, trách nhiệm của sinh viên học Nguyên lý Máy tính là gì?
+       - Bạn có thể nêu những nhiệm vụ, nhiệm vụ mong đợi của người học trong môn Nguyên lý máy tính được không?
+       - Sinh viên có những trách nhiệm gì khi học Nguyên lý Máy tính?
+       - Bạn có thể mô tả các vai trò, nhiệm vụ mà người học phải đảm nhận trong Nguyên lý máy tính?
+       - Nhiệm vụ hoặc vai trò dự kiến của sinh viên theo học Nguyên lý Máy tính là gì?
+       - Bạn có thể giải thích những nghĩa vụ, nhiệm vụ mà người học phải thực hiện trong Nguyên lý máy tính?
+       - Trách nhiệm cụ thể của sinh viên học Nguyên lý Máy tính là gì?
+  
+  - intent: ask_education_program_multimedia_communications_principles_of_computers_additional_reading_materials_vie
+    examples: |
+       - Tài liệu đọc thêm cho môn Nguyên lý máy tính là gì?
+       - Bạn có thể cung cấp các tài liệu đọc khác được đề xuất cho Nguyên lý máy tính không?
+       - Những nguồn tài liệu bổ sung hoặc tài liệu đọc bổ sung nào được đề xuất cho Nguyên lý Máy tính?
+       - Có tài liệu đọc thêm nào được đề xuất cho môn Nguyên lý Máy tính không?
+       - Bạn có thể liệt kê bất kỳ cuốn sách hoặc tài liệu đọc bổ sung nào về Nguyên lý máy tính không?
+       - Những tài liệu đọc nào khác bổ sung cho môn Nguyên tắc Máy tính?
+       - Có văn bản hoặc tài liệu bổ sung nào đi kèm Nguyên lý máy tính không?
+       - Bạn có thể gợi ý thêm tài liệu đọc bổ sung cho khóa học Nguyên lý máy tính được không?

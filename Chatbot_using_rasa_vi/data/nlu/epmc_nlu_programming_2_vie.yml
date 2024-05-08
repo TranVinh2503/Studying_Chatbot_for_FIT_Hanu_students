@@ -1,0 +1,145 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_programming_2_course_code_vie
+    examples: |
+       - Mã khóa học Lập trình 2 là gì?
+       - Mã khóa học cụ thể được gán cho Lập trình 2 là gì?
+       - Bạn có thể cung cấp mã nhận dạng khóa học cho Lập trình 2 được không?
+       - Mã chữ số nào đại diện cho khóa học Lập trình 2?
+       - Bạn có thể chia sẻ mã khóa học hoặc mã môn Lập trình 2 được không?
+       - Mã định danh duy nhất về mặt mã cho khóa học Lập trình 2 là gì?
+       - Bạn có thể cho biết mã khóa học dành cho Lập trình 2 được không?
+       - Mã nào dùng để tham khảo khóa học Lập trình 2 trong chương trình?
+
+  - intent: ask_education_program_multimedia_communications_programming_2_is_prerequisite_courses_vie
+    examples: |
+       - Lập trình có phải là môn học tiên quyết không?
+       - Lập trình 2 có phải là điều kiện tiên quyết cho các khóa học khác không?
+       - Lập trình 2 có bắt buộc phải học trước cho các khóa học tiếp theo không?
+       - Việc hoàn thành Chương trình 2 có trước khi đăng ký các khóa học khác không?
+       - Có yêu cầu sinh viên phải học Lập trình 2 trước các khóa học khác không?
+       - Lập trình 2 có phải là khóa học sơ bộ cần thiết để học tiếp không?
+       - Việc hoàn thành Chương trình 2 có trước khi đăng ký các khóa học khác không?
+       - Lập trình 2 có phải là điều kiện tiên quyết để tiến tới các khóa học bổ sung không?
+  
+  - intent: ask_education_program_multimedia_communications_programming_2_name_of_unit_in_charge_of_teaching_vie
+    examples: |
+       - Đơn vị phụ trách dạy Lập trình 2 tên gì?
+       - Bộ phận nào giám sát việc giảng dạy Lập trình 2?
+       - Đơn vị, bộ phận nào chịu trách nhiệm dạy Lập trình 2?
+       - Ai quản lý trách nhiệm giảng dạy Chương trình 2?
+       - Tên khoa, đơn vị phụ trách giảng dạy Lập trình 2 là gì?
+       - Đơn vị nào đảm nhận nhiệm vụ giảng dạy Chương trình 2?
+       - Bạn có thể cho biết tên khoa chịu trách nhiệm dạy Lập trình 2 được không?
+       - Ai chịu trách nhiệm giảng dạy Lập trình 2 trong cơ sở?
+
+  - intent: ask_education_program_multimedia_communications_programming_2_number_of_cresits_vie
+    examples: |
+       - Số tín chỉ cho Chương trình 2 là bao nhiêu?
+       - Khóa Lập trình 2 được tính bao nhiêu tín chỉ?
+       - Số tín chỉ của khóa Lập trình 2 là bao nhiêu?
+       - Bạn có thể cung cấp thông tin về số giờ tín chỉ được phân bổ cho Chương trình 2 không?
+       - Tổng giá trị tín chỉ của khóa Lập trình 2 là bao nhiêu?
+       - Khóa Lập trình 2 có bao nhiêu đơn vị tín chỉ?
+       - Khối lượng tín chỉ được quy cho khóa học Lập trình 2 là bao nhiêu?
+       - Bạn có thể chỉ định số tín chỉ được quy cho việc hoàn thành Chương trình 2 không?
+  
+  - intent: ask_education_program_multimedia_communications_programming_2_number_of_credit_hours_vie
+    examples: |
+       - Số giờ tín chỉ của môn Lập trình 2 là bao nhiêu?
+       - Môn Lập trình 2 đòi hỏi bao nhiêu giờ tín chỉ?
+       - Tổng số giờ tín chỉ được phân bổ cho môn Lập trình 2 là bao nhiêu?
+       - Bạn có thể cung cấp số giờ tín chỉ liên quan đến môn Lập trình 2 không?
+       - Yêu cầu số giờ tín chỉ cho môn Lập trình 2 là bao nhiêu?
+       - Có bao nhiêu giờ tín chỉ được tính cho môn Lập trình 2?
+       - Số giờ tín chỉ được chỉ định cho môn Lập trình 2 là bao nhiêu?
+       - Bạn có thể nêu rõ số giờ tín chỉ cần thiết cho môn Lập trình 2 được không?
+
+  - intent: ask_education_program_multimedia_communications_programming_2_course_type_vie
+    examples: |
+       - Thuật ngữ loại của Lập trình 2 là gì?
+       - Loại thuật ngữ nào đặc trưng cho Lập trình 2?
+       - Bạn có thể chỉ rõ cách phân loại thuật ngữ cho Lập trình 2 được không?
+       - Thuật ngữ Lập trình 2 thuộc loại hoặc phân loại nào?
+       - Loại thuật ngữ cụ thể được quy cho Lập trình 2 là gì?
+       - Bạn phân loại thời lượng học kỳ cho Chương trình 2 như thế nào?
+       - Phân loại hay phân loại thuật ngữ liên quan đến Lập trình 2 là gì?
+       - Bạn có thể giải thích rõ hơn về thuật ngữ phân loại cụ thể cho Chương trình 2 không?
+
+  - intent: ask_education_program_multimedia_communications_programming_2_course_instructor_info_vie
+    examples: |
+       - Bạn có thể cho biết cụ thể về giáo viên giảng dạy Lập trình 2 được không?
+       - Ai là giảng viên, giảng viên hướng dẫn khóa học Lập trình 2?
+       - Thông tin chi tiết về các giảng viên tham gia giảng dạy Chương trình 2.
+       - Bạn có thể chia sẻ thông tin về các giảng viên đang thực hiện Lập trình 2 được không?
+       - Bạn có thể cung cấp thông tin chi tiết về các cá nhân đang giảng dạy Lập trình 2 không?
+       - Thông tin chi tiết về các nhà giáo dục cho Chương trình 2
+       - Thông tin liên quan đến giảng viên chịu trách nhiệm giảng dạy Chương trình 2
+       - Thông tin về giảng viên của Chương trình 2
+
+  - intent: ask_education_program_multimedia_communications_programming_2_objective_of_course_vie
+    examples: |
+       - Mục tiêu của khóa học Lập trình 2 là gì?
+       - Mục đích hoặc mục đích của khóa học Lập trình 2 là gì?
+       - Bạn có thể giải thích mục tiêu khóa học của Lập trình 2 được không?
+       - Kết quả hoặc mục đích dự kiến của khóa học Lập trình 2 là gì?
+       - Bạn có thể mô tả mục tiêu chính của khóa học Lập trình 2 không?
+       - Mục đích hoặc nhiệm vụ cốt lõi của khóa học Lập trình 2 là gì?
+       - Mục tiêu học tập của khóa học Lập trình 2 là gì?
+       - Bạn có thể nêu mục tiêu hoặc ý định của khóa học Lập trình 2 được không?
+
+  - intent: ask_education_program_multimedia_communications_programming_2_course_structure_vie
+    examples: |
+       - Cấu trúc khóa học của Lập trình 2 bao gồm những gì?
+       - Những yếu tố nào tạo thành một phần của cấu trúc khóa học trong Lập trình 2?
+       - Thầy có thể tóm tắt các nội dung trong cấu trúc môn Lập trình 2 được không?
+       - Điều gì tạo nên khung hoặc các thành phần của cấu trúc khóa học Lập trình 2?
+       - Thầy có thể trình bày chi tiết cấu trúc môn học Lập trình 2 có những gì không?
+       - Những thành phần hoặc phần nào được kết hợp trong cấu trúc khóa học của Lập trình 2?
+       - Bạn có thể mô tả các thành phần trong cấu trúc môn học Lập trình 2 được không?
+       - Cấu trúc bài học trong Lập trình 2 có cấu trúc như thế nào?
+  
+  - intent: ask_education_program_multimedia_communications_programming_2_teaching_and_learning_methods_and_activities_vie
+    examples: |
+       - Phương pháp và hoạt động dạy và học của Chương trình 2 bao gồm những gì?
+       - Việc dạy và học trong Chương trình 2 có những phương pháp và hoạt động nào?
+       - Bạn có thể mô tả các kỹ thuật giảng dạy và hoạt động học tập được sử dụng trong Chương trình 2 không?
+       - Những chiến lược giảng dạy và hoạt động học tập nào được đưa vào Chương trình 2?
+       - Bạn có thể nêu các phương pháp và hoạt động dạy và học trong Lập trình 2 được không?
+       - Những phương pháp giảng dạy và hoạt động học tập nào là một phần của Chương trình 2?
+       - Bạn có thể giải thích về phương pháp giảng dạy và hoạt động học tập của Chương trình 2 được không?
+       - Khóa học Lập trình 2 có những phương pháp giảng dạy và hoạt động học tập nào?
+
+  - intent: ask_education_program_multimedia_communications_programming_2_subject_assessment_methods_vie
+    examples: |
+       - Phương pháp đánh giá chủ đề của Chương trình 2 là gì?
+       - Môn Lập trình 2 được đánh giá như thế nào?
+       - Phương pháp đánh giá nào được sử dụng cho môn Lập trình 2?
+       - Bạn có thể mô tả cách đánh giá được áp dụng cho môn Lập trình 2 được không?
+       - Phương pháp nào được sử dụng để đánh giá kết quả học tập của học sinh môn Lập trình 2?
+       - Học sinh được đánh giá thế nào ở môn Lập trình 2?
+       - Bạn có thể nêu cách đánh giá môn Lập trình 2 được không?
+       - Quy trình đánh giá học sinh môn Lập trình 2 như thế nào?
+
+  - intent: ask_education_program_multimedia_communications_programming_2_duties_of_the_learner_vie
+    examples: |
+       - Nhiệm vụ của người học Lập trình 2 là gì?
+       - Sinh viên học Lập trình 2 có nghĩa vụ, trách nhiệm gì?
+       - Bạn có thể nêu những nhiệm vụ, nhiệm vụ mong đợi của người học trong khóa Lập trình 2 được không?
+       - Sinh viên có trách nhiệm gì khi học Lập trình 2?
+       - Bạn có thể mô tả vai trò, nhiệm vụ mà người học phải đảm nhận trong Lập trình 2 được không?
+       - Nhiệm vụ hoặc vai trò dự kiến của học viên đăng ký học Chương trình 2 là gì?
+       - Bạn có thể giải thích nghĩa vụ, nhiệm vụ mà người học phải thực hiện trong Chương trình 2 được không?
+       - Trách nhiệm cụ thể của học sinh học Lập trình 2 là gì?
+  
+  - intent: ask_education_program_multimedia_communications_programming_2_additional_reading_materials_vie
+    examples: |
+       - Tài liệu đọc thêm của môn Lập trình 2 là gì?
+       - Bạn có thể cung cấp các tài liệu đọc gợi ý khác cho Lập trình 2 không?
+       - Những nguồn tài liệu hoặc tài liệu đọc bổ sung nào được đề xuất cho Chương trình 2?
+       - Có tài liệu đọc thêm nào được khuyến khích cho môn Lập trình 2 không?
+       - Bạn có thể liệt kê thêm sách hoặc tài liệu đọc bổ sung cho Lập trình 2 được không?
+       - Những tài liệu đọc nào khác bổ sung cho chủ đề Lập trình 2?
+       - Có văn bản, tài liệu bổ sung nào đi kèm Chương trình 2 không?
+       - Bạn có thể gợi ý thêm tài liệu đọc bổ sung cho khóa Lập trình 2 được không?

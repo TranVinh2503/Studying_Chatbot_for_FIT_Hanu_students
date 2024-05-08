@@ -1,0 +1,94 @@
+version: "3.1"
+
+nlu:
+
+  - intent: ask_education_program_multimedia_communications_communication_theories_course_code
+    examples: |
+      - What is the course code of Communication Theories?
+      - What is the specific course code assigned to Communication Theories?
+      - Could you provide the course identification code for Communication Theories?
+      - What alphanumeric code represents the Communication Theories course?
+      
+  - intent: ask_education_program_multimedia_communications_communication_theories_is_prerequisite_courses
+    examples: |
+      - Is the Communication Theories prerequisite courses?
+      - Does Communication Theories serve as a prerequisite for other courses?
+      - Is Communication Theories Services a required precursor for subsequent courses?
+      - Does completing Communication Theories precede other course enrollments?
+  
+  - intent: ask_education_program_multimedia_communications_communication_theories_name_of_unit_in_charge_of_teaching
+    examples: |
+      - What is name of unit in charge of teaching of Communication Theories? 
+      - Which department oversees the instruction of Communication Theories?
+      - What is the unit or department responsible for teaching Communication Theories?
+      - Who manages the teaching responsibilities for Communication Theories?
+
+  - intent: ask_education_program_multimedia_communications_communication_theories_number_of_cresits
+    examples: |
+      - What is the number of credits for the Communication Theories?
+      - How many credits are assigned to the Communication Theories course?
+      - What is the credit count for the Communication Theories course?
+      - Could you provide information about the credit hours allocated to Communication Theories?
+      
+  - intent: ask_education_program_multimedia_communications_communication_theories_number_of_credit_hours 
+    examples: |
+      - What is the number of credit hours for the Communication Theories subject?
+      - How many credit hours does the Communication Theories subject entail?
+      - What is the total count of credit hours allocated to the Communication Theories subject?
+      - Could you provide the number of credit hours associated with the Communication Theories subject?
+      
+  - intent: ask_education_program_multimedia_communications_communication_theories_course_type
+    examples: |
+      - What is the type term of the Communication Theories?
+      - What category of term characterizes the Communication Theories?
+      - Could you specify the classification of the term for Communication Theories?
+      - What type or classification does the term for Communication Theories fall under?
+      
+  - intent: ask_education_program_multimedia_communications_communication_theories_course_instructor_info
+    examples: |
+      - Can you provide specifics about the teachers instructing Communication Theories?
+      - Who are the educators or instructors leading the Special Communication Theories?
+      - Details about the faculty members involved in teaching Communication Theories.
+      - Could you share information about the instructors handling Communication Theories?
+      
+  - intent: ask_education_program_multimedia_communications_communication_theories_objective_of_course
+    examples: |
+      - What is the Objective of the course of Communication Theories?
+      - What are the goals or aims of the Communication Theories course?
+      - Could you explain the course objectives for Communication Theories?
+      - What is the intended outcome or purpose of the Communication Theories?
+      
+  - intent: ask_education_program_multimedia_communications_communication_theories_course_structure
+    examples: |
+      - What does the course structure of theCommunication Theories include?
+      - What elements form part of the course structure in Communication Theories?
+      - Could you outline the contents encompassed in the course structure of Communication Theories?
+      - What constitutes the framework or components of the Communication Theories course structure?
+      
+  - intent: ask_education_program_multimedia_communications_communication_theories_teaching_and_learning_methods_and_activities
+    examples: |
+      - What does the teaching and learning methods and activities of the Communication Theories include?
+      - What methods and activities are involved in teaching and learning within Communication Theories?
+      - Could you describe the instructional techniques and learning activities utilized in Communication Theories?
+      - What teaching strategies and learning activities are incorporated into Communication Theories?
+      
+  - intent: ask_education_program_multimedia_communications_communication_theories_subject_assessment_methods
+    examples: |
+      - What is the method of evaluating the subject of the Communication Theories?
+      - How is the Communication Theories subject evaluated?
+      - What assessment method is employed for the Communication Theories subject?
+      - Could you describe the evaluation approach utilized for the Communication Theories subject?
+      
+  - intent: ask_education_program_multimedia_communications_communication_theories_duties_of_the_learner
+    examples: |
+      - What is the duties of the learner of the Communication Theories?
+      - What are the obligations or responsibilities of the student studying Communication Theories?
+      - Could you outline the tasks or duties expected from learners in the Communication Theories course?
+      - What responsibilities do students have while studying Communication Theories?
+      
+  - intent: ask_education_program_multimedia_communications_communication_theories_additional_reading_materials
+    examples: |
+      - What are the additional reading materials for the Communication Theories subject?
+      - Could you provide other recommended reading materials for Communication Theories?
+      - What additional resources or supplementary reading materials are suggested for Communication Theories?
+      - Are there any extra reading materials recommended for the Special Communication Theories?

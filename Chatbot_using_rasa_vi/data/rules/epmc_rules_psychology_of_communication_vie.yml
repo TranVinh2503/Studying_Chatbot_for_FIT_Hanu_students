@@ -1,0 +1,67 @@
+version: "3.1"
+
+rules:
+  - rule: Respond to course code of psychology of communication
+    steps:
+      - intent: ask_education_program_multimedia_communications_psychology_of_communication_course_code_vie
+      - action: utter_ask_education_program_multimedia_communications_psychology_of_communication_course_code_vie
+  
+  - rule: Respond to psychology of communication is prerequisite courses
+    steps:
+      - intent: ask_education_program_multimedia_communications_psychology_of_communication_is_prerequisite_courses_vie
+      - action: utter_ask_education_program_multimedia_communications_psychology_of_communication_is_prerequisite_courses_vie
+
+  - rule: Respond to name of unit in charge of teaching of psychology of communication
+    steps:
+      - intent: ask_education_program_multimedia_communications_psychology_of_communication_name_of_unit_in_charge_of_teaching_vie
+      - action: utter_ask_education_program_multimedia_communications_psychology_of_communication_name_of_unit_in_charge_of_teaching_vie
+
+  - rule: Respond to the number of credits of psychology of communication
+    steps:
+      - intent: ask_education_program_multimedia_communications_psychology_of_communication_number_of_cresits_vie
+      - action: utter_ask_education_program_multimedia_communications_psychology_of_communication_number_of_cresits_vie
+  
+  - rule: Respond to the number of credit hours of psychology of communication
+    steps: 
+     - intent: ask_education_program_multimedia_communications_psychology_of_communication_number_of_credit_hours_vie
+     - action: utter_ask_education_program_multimedia_communications_psychology_of_communication_number_of_credit_hours_vie
+  
+  - rule: Respond to course type of psychology of communication
+    steps:
+      - intent: ask_education_program_multimedia_communications_psychology_of_communication_course_type_vie
+      - action: utter_ask_education_program_multimedia_communications_psychology_of_communication_course_type_vie
+
+  - rule: Respond to course instructor information of psychology of communication
+    steps:
+      - intent: ask_education_program_multimedia_communications_psychology_of_communication_course_instructor_info_vie
+      - action: utter_ask_education_program_multimedia_communications_psychology_of_communication_course_instructor_info_vie
+  
+  - rule: Respond to objective of course of psychology of communication
+    steps:
+      - intent: ask_education_program_multimedia_communications_psychology_of_communication_objective_of_course_vie
+      - action: utter_ask_education_program_multimedia_communications_psychology_of_communication_objective_of_course_vie
+
+  - rule: Respond to objective of course's course structure of psychology of communication
+    steps: 
+      - intent: ask_education_program_multimedia_communications_psychology_of_communication_course_structure_vie
+      - action: utter_ask_education_program_multimedia_communications_psychology_of_communication_course_structure_vie
+
+  - rule: Respond to teaching and learning methods and activities of psychology of communication
+    steps:
+      - intent: ask_education_program_multimedia_communications_psychology_of_communication_teaching_and_learning_methods_and_activities_vie
+      - action: utter_ask_education_program_multimedia_communications_psychology_of_communication_teaching_and_learning_methods_and_activities_vie
+  
+  - rule: Respond to subject assessment methods of psychology of communication
+    steps:
+      - intent: ask_education_program_multimedia_communications_psychology_of_communication_subject_assessment_methods_vie
+      - action: utter_ask_education_program_multimedia_communications_psychology_of_communication_subject_assessment_methods_vie
+  
+  - rule: Respond to duties of the learner of psychology of communication
+    steps:
+      - intent: ask_education_program_multimedia_communications_psychology_of_communication_duties_of_the_learner_vie
+      - action: utter_ask_education_program_multimedia_communications_psychology_of_communication_duties_of_the_learner_vie
+
+  - rule: Respond to additional reading materials of psychology of communication 
+    steps:
+      - intent: ask_education_program_multimedia_communications_psychology_of_communication_additional_reading_materials_vie
+      - action: utter_ask_education_program_multimedia_communications_psychology_of_communication_additional_reading_materials_vie

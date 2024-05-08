@@ -1,0 +1,93 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_coorporate_communication_course_code_vie
+    examples: |
+      - Mã khóa học Giao tiếp tổng hợp là gì?
+      - Mã khóa học cụ thể được gán cho Truyền thông phối hợp là gì?
+      - Bạn có thể cung cấp mã nhận dạng khóa học cho giao tiếp Coorporate được không?
+      - Mã chữ số nào đại diện cho khóa học Giao tiếp Coorporate?
+      
+  - intent: ask_education_program_multimedia_communications_coorporate_communication_is_prerequisite_courses_vie
+    examples: |
+      - Đây có phải là khóa học tiên quyết về giao tiếp trong công ty?
+      - Giao tiếp tập thể có phải là điều kiện tiên quyết cho các khóa học khác không?
+      - Dịch vụ liên lạc phối hợp có phải là tiền đề cần thiết cho các khóa học tiếp theo không?
+      - Việc hoàn thành giao tiếp Coorporate có trước khi đăng ký khóa học khác không?
+  
+  - intent: ask_education_program_multimedia_communications_coorporate_communication_name_of_unit_in_charge_of_teaching_vie
+    examples: |
+      - Đơn vị phụ trách giảng dạy Truyền thông doanh nghiệp tên gì?
+      - Bộ phận nào giám sát việc hướng dẫn truyền thông của Tập đoàn?
+      - Đơn vị, bộ phận nào chịu trách nhiệm giảng dạy môn Giao tiếp phối hợp?
+      - Ai quản lý trách nhiệm giảng dạy cho Truyền thông doanh nghiệp?
+
+  - intent: ask_education_program_multimedia_communications_coorporate_communication_number_of_cresits_vie
+    examples: |
+      - Số tín chỉ cho phần Truyền thông của Tập đoàn là bao nhiêu?
+      - Khóa học Giao tiếp tập thể có bao nhiêu tín chỉ?
+      - Số tín chỉ của khóa học Giao tiếp doanh nghiệp là bao nhiêu?
+      - Bạn có thể cung cấp thông tin về số giờ tín chỉ được phân bổ cho Truyền thông của Tập đoàn không?
+      
+  - intent: ask_education_program_multimedia_communications_coorporate_communication_number_of_credit_hours_vie
+    examples: |
+      - Số giờ tín chỉ của môn Truyền thông doanh nghiệp là bao nhiêu?
+      - Môn học Truyền thông doanh nghiệp đòi hỏi bao nhiêu giờ tín chỉ?
+      - Tổng số giờ tín chỉ được phân bổ cho môn học truyền thông của Tập đoàn là bao nhiêu?
+      - Bạn có thể cung cấp số giờ tín chỉ liên quan đến chủ đề giao tiếp của Tập đoàn không?
+      
+  - intent: ask_education_program_multimedia_communications_coorporate_communication_course_type_vie
+    examples: |
+      - Thuật ngữ loại của giao tiếp Coorporate là gì?
+      - Loại thuật ngữ nào đặc trưng cho giao tiếp của Coorporate?
+      - Bạn có thể chỉ rõ cách phân loại thuật ngữ liên lạc Coorporate được không?
+      - Thuật ngữ giao tiếp hợp tác thuộc loại hoặc phân loại nào?
+      
+  - intent: ask_education_program_multimedia_communications_coorporate_communication_course_instructor_info_vie
+    examples: |
+      - Bạn có thể cung cấp thông tin cụ thể về giáo viên giảng dạy Coorporate được không?
+      - Ai là nhà giáo dục hoặc người hướng dẫn dẫn dắt hoạt động truyền thông của Tổ chức Đặc biệt?
+      - Thông tin chi tiết về các giảng viên tham gia giảng dạy Giao tiếp kết hợp.
+      - Bạn có thể chia sẻ thông tin về các giảng viên xử lý giao tiếp Coorporate không?
+      
+  - intent: ask_education_program_multimedia_communications_coorporate_communication_objective_of_course_vie
+    examples: |
+      - Mục tiêu của khóa học Giao tiếp trong doanh nghiệp là gì?
+      - Mục đích hoặc mục đích của Tâm lý giao tiếp trong doanh nghiệp là gì?
+      - Bạn có thể giải thích mục tiêu khóa học về Giao tiếp doanh nghiệp được không?
+      - Kết quả hoặc mục đích dự kiến của hoạt động giao tiếp trong Tập đoàn là gì?
+      
+  - intent: ask_education_program_multimedia_communications_coorporate_communication_course_structure_vie
+    examples: |
+      - Cấu trúc khóa học Truyền thông doanh nghiệp bao gồm những gì?
+      - Những yếu tố nào tạo thành một phần của cấu trúc khóa học về Giao tiếp kết hợp?
+      - Bạn có thể tóm tắt các nội dung trong cấu trúc môn học Giao tiếp doanh nghiệp được không?
+      - Điều gì tạo nên khuôn khổ hoặc các thành phần của cấu trúc khóa học Giao tiếp doanh nghiệp?
+      
+  - intent: ask_education_program_multimedia_communications_coorporate_communication_teaching_and_learning_methods_and_activities_vie
+    examples: |
+      - Phương pháp dạy và học cũng như các hoạt động giao tiếp của Doanh nghiệp bao gồm những gì?
+      - Những phương pháp và hoạt động nào liên quan đến việc dạy và học trong Giao tiếp tập thể?
+      - Bạn có thể mô tả các kỹ thuật giảng dạy và hoạt động học tập được sử dụng trong giao tiếp của Tập đoàn không?
+      - Những chiến lược giảng dạy và hoạt động học tập nào được kết hợp trong Giao tiếp tập thể?
+      
+  - intent: ask_education_program_multimedia_communications_coorporate_communication_subject_assessment_methods_vie
+    examples: |
+      - Phương pháp đánh giá chủ đề giao tiếp của Tập đoàn là gì?
+      - Môn học Giao tiếp tập thể được đánh giá như thế nào?
+      - Phương pháp đánh giá nào được áp dụng cho môn học Giao tiếp tập thể?
+      - Bạn có thể mô tả cách tiếp cận đánh giá được sử dụng cho chủ đề Truyền thông doanh nghiệp không?
+      
+  - intent: ask_education_program_multimedia_communications_coorporate_communication_duties_of_the_learner_vie
+    examples: |
+      - Nhiệm vụ của người học giao tiếp trong Coorporate là gì?
+      - Nghĩa vụ, trách nhiệm của sinh viên học Giao tiếp kết hợp là gì?
+      - Thầy có thể nêu những nhiệm vụ, nhiệm vụ mong đợi của học viên trong khóa học Giao tiếp tập thể được không?
+      - Sinh viên có trách nhiệm gì khi học Giao tiếp kết hợp?
+      
+  - intent: ask_education_program_multimedia_communications_coorporate_communication_additional_reading_materials_vie
+    examples: |
+      - Tài liệu đọc thêm cho môn Truyền thông doanh nghiệp là gì?
+      - Bạn có thể cung cấp các tài liệu đọc được đề xuất khác cho giao tiếp của Tập đoàn không?
+      - Những nguồn lực hoặc tài liệu đọc bổ sung nào được đề xuất cho hoạt động truyền thông của Tập đoàn?
+      - Có tài liệu đọc bổ sung nào được khuyến nghị cho hoạt động liên lạc của Tổ chức Đặc biệt không?

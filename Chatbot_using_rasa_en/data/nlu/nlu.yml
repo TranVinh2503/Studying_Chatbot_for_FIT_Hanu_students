@@ -1,0 +1,134 @@
+---
+version: "3.1"
+nlu:
+  - intent: ask_mandatory_events
+    examples: |
+      - What are some events I have to attend?
+      - What are the mandatory events for new students?
+      - Can you list the required events for me?
+      - Are there any obligatory events for students?
+      - Please provide a list of the events that are mandatory for me.
+  - intent: ask_administrative_procedures_enroll_course
+    examples: >
+      - What is the procedure for course enrollment?
+
+      - Could you guide me through the steps to register for classes?
+
+      - I'm curious about the administrative steps involved in signing up for courses.
+
+      - Is there a specific form I need to fill out to enroll in courses?
+
+      - Are there any prerequisites I should be aware of when enrolling in classes?
+  - intent: ask_administrative_procedures_change_major
+    examples: >
+      - How does one go about changing their major, and what paperwork is
+      required?
+
+      - Can you explain the administrative process for switching majors?
+
+      - What steps should I follow if I want to change my declared major?
+
+      - Are there any implications on my current credits if I decide to change my major?
+
+      - Could you provide examples of common reasons students change their majors?
+  - intent: ask_administrative_procedures_apply_for_financial_aid
+    examples: >
+      - What are the administrative procedures for applying for financial
+      aid?
+
+      - Could you provide information on how to submit the paperwork for financial assistance?
+
+      - I'm interested in the steps involved in applying for university financial aid.
+
+      - Are there specific deadlines I need to be aware of for financial aid applications?
+
+      - What types of financial aid options are available for students, and how do I qualify for them?     
+  - intent: ask_administrative_procedures_id_card
+    examples: >
+      - What is the process for obtaining a student ID card, and what
+      documents are needed?
+
+      - Could you guide me through the administrative steps for getting a student identification card?
+
+      - What paperwork is required for the issuance of a student ID?
+
+      - Can I obtain a digital student ID, or is it only available in physical form?
+
+      - Are there any fees associated with obtaining or replacing a student ID card?
+  - intent: ask_health_insurance_regulations
+    examples: >
+      - What are the health insurance requirements for students at the
+      university?
+
+      - Can you explain the process for enrolling in the university's health insurance plan?
+
+      - Are there any specific health insurance providers we must use while attending the university?
+
+      - How do I submit a health insurance claim for medical expenses incurred while studying here?
+
+      - Is there a deadline for students to provide proof of health insurance coverage? 
+  - intent: ask_academic_regulations_advanced_courses
+    examples: >
+      - Can you explain the prerequisites for enrolling in advanced courses
+      in my department?
+
+      - What academic criteria do I need to meet before registering for upper-level classes?
+
+      - Are there specific courses I must complete before gaining access to advanced coursework?
+
+      - Do prerequisites differ for students with varying majors within the same department?
+
+      - How can I find information about prerequisites for specific courses in the course catalog?      
+  - intent: ask_academic_regulations_grade
+    examples: >
+      - What is the grading policy for undergraduate students, and how is it
+      calculated?
+
+      - Can you explain the grading scale used for undergraduate courses at the university?
+
+      - Are there specific criteria for determining grades, such as exams, assignments, or participation?
+
+      - How is the GPA calculated, and what weight is given to different types of assignments?
+
+      - Are there any exceptions or variations in the grading policy for certain courses or programs?
+  - intent: ask_exam_conditions
+    examples: >
+      - What are the prerequisites for taking the final exam in my course?
+
+      - Can you explain the minimum attendance requirements for my classes?
+
+      - How many absences are students allowed before they face academic consequences?
+  - intent: ask_tuition_fee_regulations
+    examples: >
+      - What are the regulations regarding tuition fees at the university?
+
+      - When is the deadline for paying tuition fees for the current semester?
+
+      - How can I make a payment for my tuition fees?
+
+      - What should I do if I can't afford to pay the full tuition amount on time?
+  - intent: ask_education_program_information_technology_major_overall
+    examples: |
+      - What is the major code of Information Technology major?
+      - What is the specific course code assigned to Information Technology?
+      - What is the language taught in the Information Technology major? 
+      - What is the training form of the Information Technology major?
+  - intent: ask_education_program_information_technology_major_goal
+    examples: >
+      - What are the expected outcomes upon program completion?
+
+      - Which skills will the educational institution impart during the course?
+
+      - How can the skills acquired in my major be applied in future endeavors?
+
+      - What tangible results or outputs can one anticipate from pursuing this major?
+  - intent: ask_education_program_information_technology_job_posstion
+    examples: |
+      - After completing the course, what positions can I apply for?
+      - Which position is the training course for?
+      - What positions will I be able to do if I study this major?
+      - What jobs is the knowledge in this major suitable for?
+  - intent: greet
+    examples: |
+      - "Hello"
+      - "Hi"

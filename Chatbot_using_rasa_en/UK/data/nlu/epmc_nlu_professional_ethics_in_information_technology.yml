@@ -1,0 +1,93 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_professional_ethics_in_information_technology_course_code
+    examples: |
+      - What is the course code of Professional Ethics in Information Technology?
+      - What is the specific course code assigned to Professional Ethics in Information Technology?
+      - Could you provide the course identification code for Professional Ethics in Information Technology?
+      - What alphanumeric code represents the Professional Ethics in Information Technology?
+      
+  - intent: ask_education_program_multimedia_communications_professional_ethics_in_information_technology_is_prerequisite_courses
+    examples: |
+      - Is the Professional Ethics in Information Technology prerequisite courses?
+      - Does Professional Ethics in Information Technology serve as a prerequisite for other courses?
+      - Is Professional Ethics in Information Technology Services a required precursor for subsequent courses?
+      - Does completing Professional Ethics in Information Technology precede other course enrollments?
+  
+  - intent: ask_education_program_multimedia_communications_professional_ethics_in_information_technology_name_of_unit_in_charge_of_teaching
+    examples: |
+      - What is name of unit in charge of teaching of Professional Ethics in Information Technology? 
+      - Which department oversees the instruction of Professional Ethics in Information Technology?
+      - What is the unit or department responsible for teaching Professional Ethics in Information Technology?
+      - Who manages the teaching responsibilities for Professional Ethics in Information Technology?
+
+  - intent: ask_education_program_multimedia_communications_professional_ethics_in_information_technology_number_of_cresits
+    examples: |
+      - What is the number of credits for the Professional Ethics in Information Technology?
+      - How many credits are assigned to the Professional Ethics in Information Technology course?
+      - What is the credit count for the Professional Ethics in Information Technology course?
+      - Could you provide information about the credit hours allocated to Professional Ethics in Information Technology?
+      
+  - intent: ask_education_program_multimedia_communications_professional_ethics_in_information_technology_number_of_credit_hours 
+    examples: |
+      - What is the number of credit hours for the Professional Ethics in Information Technology subject?
+      - How many credit hours does the Professional Ethics in Information Technology subject entail?
+      - What is the total count of credit hours allocated to the Professional Ethics in Information Technology subject?
+      - Could you provide the number of credit hours associated with the Professional Ethics in Information Technology subject?
+      
+  - intent: ask_education_program_multimedia_communications_professional_ethics_in_information_technology_course_type
+    examples: |
+      - What is the type term of the Professional Ethics in Information Technology?
+      - What category of term characterizes the Professional Ethics in Information Technology?
+      - Could you specify the classification of the term for Professional Ethics in Information Technology?
+      - What type or classification does the term for Professional Ethics in Information Technology fall under?
+      
+  - intent: ask_education_program_multimedia_communications_professional_ethics_in_information_technology_course_instructor_info
+    examples: |
+      - Can you provide specifics about the teachers instructing Professional Ethics in Information Technology?
+      - Who are the educators or instructors leading the Special Professional Ethics in Information Technology?
+      - Details about the faculty members involved in teaching Professional Ethics in Information Technology.
+      - Could you share information about the instructors handling Professional Ethics in Information Technology?
+      
+  - intent: ask_education_program_multimedia_communications_professional_ethics_in_information_technology_objective_of_course
+    examples: |
+      - What is the Objective of the course of Professional Ethics in Information Technology?
+      - What are the goals or aims of the Psychology of Professional Ethics in Information Technology?
+      - Could you explain the course objectives for Professional Ethics in Information Technology?
+      - What is the intended outcome or purpose of the Professional Ethics in Information Technology?
+      
+  - intent: ask_education_program_multimedia_communications_professional_ethics_in_information_technology_course_structure
+    examples: |
+      - What does the course structure of the Professional Ethics in Information Technology include?
+      - What elements form part of the course structure in Professional Ethics in Information Technology?
+      - Could you outline the contents encompassed in the course structure of Professional Ethics in Information Technology?
+      - What constitutes the framework or components of the Professional Ethics in Information Technology course structure?
+      
+  - intent: ask_education_program_multimedia_communications_professional_ethics_in_information_technology_teaching_and_learning_methods_and_activities
+    examples: |
+      - What does the teaching and learning methods and activities of the Professional Ethics in Information Technology include?
+      - What methods and activities are involved in teaching and learning within Professional Ethics in Information Technology?
+      - Could you describe the instructional techniques and learning activities utilized in Professional Ethics in Information Technology?
+      - What teaching strategies and learning activities are incorporated into Professional Ethics in Information Technology?
+      
+  - intent: ask_education_program_multimedia_communications_professional_ethics_in_information_technology_subject_assessment_methods
+    examples: |
+      - What is the method of evaluating the subject of the Professional Ethics in Information Technology?
+      - How is the Professional Ethics in Information Technology subject evaluated?
+      - What assessment method is employed for the Professional Ethics in Information Technology subject?
+      - Could you describe the evaluation approach utilized for the Professional Ethics in Information Technology subject?
+      
+  - intent: ask_education_program_multimedia_communications_professional_ethics_in_information_technology_duties_of_the_learner
+    examples: |
+      - What is the duties of the learner of the Professional Ethics in Information Technology?
+      - What are the obligations or responsibilities of the student studying Professional Ethics in Information Technology?
+      - Could you outline the tasks or duties expected from learners in the Professional Ethics in Information Technology course?
+      - What responsibilities do students have while studying Professional Ethics in Information Technology?
+      
+  - intent: ask_education_program_multimedia_communications_professional_ethics_in_information_technology_additional_reading_materials
+    examples: |
+      - What are the additional reading materials for the Professional Ethics in Information Technology subject?
+      - Could you provide other recommended reading materials for Professional Ethics in Information Technology?
+      - What additional resources or supplementary reading materials are suggested for Professional Ethics in Information Technology?
+      - Are there any extra reading materials recommended for the Special Professional Ethics in Information Technology?

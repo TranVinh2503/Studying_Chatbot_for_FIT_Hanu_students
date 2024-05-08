@@ -1,0 +1,145 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_database_system_course_code
+    examples: |
+      - What is the course code of Database System?
+      - What is the specific course code assigned to Database System?
+      - Could you provide the course identification code for Database System?
+      - What alphanumeric code represents the Database System course?
+      - Could you share the course number or code for Database System?
+      - What is the unique identifier, in terms of code, for the Database System course?
+      - Could you specify the course code designated for Database System?
+      - What code is used to refer to the Database System course within the curriculum?
+
+  - intent: ask_education_program_multimedia_communications_database_system_is_prerequisite_courses
+    examples: |
+      - Is the Database System prerequisite courses?
+      - Does Database System serve as a prerequisite for other courses?
+      - Is Database System a required precursor for subsequent courses?
+      - Does completing Database System precede other course enrollments?
+      - Is there a requirement for students to take Database System before other courses?
+      - Is Database System a necessary preliminary course for further studies?
+      - Does the completion of Database System precede the enrollment in other courses?
+      - Is Database System a prerequisite for advancing to additional coursework?
+  
+  - intent: ask_education_program_multimedia_communications_database_system_name_of_unit_in_charge_of_teaching
+    examples: |
+      - What is name of unit in charge of teaching of Database System? 
+      - Which department oversees the instruction of Database System?
+      - What is the unit or department responsible for teaching Database System?
+      - Who manages the teaching responsibilities for Database System?
+      - What is the name of the department or unit in charge of instructing Database System?
+      - Which specific unit handles the teaching duties for Database System?
+      - Could you provide the departmental name responsible for teaching Database System?
+      - Who is responsible for the instruction of Database System within the institution?
+
+  - intent: ask_education_program_multimedia_communications_database_system_number_of_cresits
+    examples: |
+      - What is the number of credits for the Database System?
+      - How many credits are assigned to the Database System course?
+      - What is the credit count for the Database System course?
+      - Could you provide information about the credit hours allocated to Database System?
+      - What is the total credit value for the Database System course?
+      - How many credit units does the Database System course carry?
+      - What is the credit load attributed to the Database System course?
+      - Could you specify the number of credits attributed to completing Database System?
+  
+  - intent: ask_education_program_multimedia_communications_database_system_number_of_credit_hours 
+    examples: |
+      - What is the number of credit hours for the Database System subject?
+      - How many credit hours does the Database System subject entail?
+      - What is the total count of credit hours allocated to the Database System subject?
+      - Could you provide the number of credit hours associated with the Database System subject?
+      - What is the credit hour requirement for the Database System subject?
+      - How many credit hours are attributed to the Database System subject?
+      - What is the designated credit hour count for the Database System subject?
+      - Could you specify the credit hours required for the Database System subject?
+
+  - intent: ask_education_program_multimedia_communications_database_system_course_type
+    examples: |
+      - What is the type term of the Database System?
+      - What category of term characterizes the Database System?
+      - Could you specify the classification of the term for Database System?
+      - What type or classification does the term for Database System fall under?
+      - What is the specific term type attributed to Database System?
+      - How would you classify the term duration for Database System?
+      - What is the classification or categorization of the term relating to Database System?
+      - Could you elaborate on the term classification specific to Database System?
+
+  - intent: ask_education_program_multimedia_communications_database_system_course_instructor_info
+    examples: |
+      - Can you provide specifics about the teachers instructing Database System?
+      - Who are the educators or instructors leading the Database System course?
+      - Details about the faculty members involved in teaching Database System.
+      - Could you share information about the instructors handling Database System?
+      - Can you provide insight into the individuals teaching Database System?
+      - Details regarding the educators for Database System
+      - Information concerning the instructors responsible for teaching Database System
+      - Information about instructors of the Database System
+
+  - intent: ask_education_program_multimedia_communications_database_system_objective_of_course
+    examples: |
+      - What is the Objective of the course of Database System?
+      - What are the goals or aims of the Database System course?
+      - Could you explain the course objectives for Database System?
+      - What is the intended outcome or purpose of the Database System course?
+      - Could you describe the primary aims or objectives of the Database System course?
+      - What is the core purpose or mission of the Database System course?
+      - What are the learning objectives associated with the Database System course?
+      - Could you outline the goals or intentions behind the Database System course?
+
+  - intent: ask_education_program_multimedia_communications_database_system_course_structure
+    examples: |
+      - What does the course structure of the Database System include?
+      - What elements form part of the course structure in Database System?
+      - Could you outline the contents encompassed in the course structure of Database System?
+      - What constitutes the framework or components of the Database System course structure?
+      - Could you detail what's included in the course structure of Database System?
+      - What elements or sections are incorporated within the course structure of Database System?
+      - Could you describe the components comprising the course structure of Database System?
+      - What makes up the layout or content of the course structure in Database System?
+  
+  - intent: ask_education_program_multimedia_communications_database_system_teaching_and_learning_methods_and_activities
+    examples: |
+      - What does the teaching and learning methods and activities of the Database System include?
+      - What methods and activities are involved in teaching and learning within Database System?
+      - Could you describe the instructional techniques and learning activities utilized in Database System?
+      - What teaching strategies and learning activities are incorporated into Database System?
+      - Could you outline the methods and activities used for teaching and learning in Database System?
+      - What instructional approaches and learning activities form part of Database System?
+      - Could you explain the teaching methodologies and learning activities involved in Database System?
+      - What teaching methods and learning activities are part of the Database System course?
+
+  - intent: ask_education_program_multimedia_communications_database_system_subject_assessment_methods
+    examples: |
+      - What is the method of evaluating the subject of the Database System?
+      - How is the Database System subject evaluated?
+      - What assessment method is employed for the Database System subject?
+      - Could you describe the evaluation approach utilized for the Database System subject?
+      - What method is used to assess student performance in the Database System subject?
+      - How are students evaluated in the Database System subject?
+      - Could you outline the method of assessing the Database System subject?
+      - What is the procedure for evaluating students in the Database System subject?
+
+  - intent: ask_education_program_multimedia_communications_database_system_duties_of_the_learner
+    examples: |
+      - What is the duties of the learner of the Database System?
+      - What are the obligations or responsibilities of the student studying Database System?
+      - Could you outline the tasks or duties expected from learners in the Database System course?
+      - What responsibilities do students have while studying Database System?
+      - Could you describe the roles or tasks that learners are required to undertake in Database System?
+      - What are the expected duties or roles of students enrolled in Database System?
+      - Could you explain the obligations or tasks that learners are supposed to fulfill in Database System?
+      - What specific responsibilities are expected from students learning Database System?
+  
+  - intent: ask_education_program_multimedia_communications_database_system_additional_reading_materials
+    examples: |
+      - What are the additional reading materials for the Database System subject?
+      - Could you provide other recommended reading materials for Database System?
+      - What additional resources or supplementary reading materials are suggested for Database System?
+      - Are there any extra reading materials recommended for the Database System subject?
+      - Could you list any supplementary books or reading materials for Database System?
+      - What other reading resources complement the Database System subject?
+      - Are there any supplementary texts or materials that accompany Database System?
+      - Could you suggest additional reading materials that supplement the Database System course?

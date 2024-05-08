@@ -1,0 +1,93 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_user_experience_design_course_code_vie
+    examples: |
+       - Mã khóa học Thiết kế trải nghiệm người dùng là gì?
+       - Mã khóa học cụ thể được gán cho Thiết kế trải nghiệm người dùng là gì?
+       - Bạn có thể cung cấp mã nhận dạng khóa học Thiết kế trải nghiệm người dùng được không?
+       - Mã chữ số nào đại diện cho khóa học Thiết kế trải nghiệm người dùng?
+      
+  - intent: ask_education_program_multimedia_communications_user_experience_design_is_prerequisite_courses_vie
+    examples: |
+       - Đây có phải là khóa học tiên quyết về Thiết kế Trải nghiệm Người dùng không?
+       - Thiết kế trải nghiệm người dùng có phải là điều kiện tiên quyết cho các khóa học khác không?
+       - Dịch vụ thiết kế trải nghiệm người dùng có phải là tiền đề cần thiết cho các khóa học tiếp theo không?
+       - Việc hoàn thành Thiết kế trải nghiệm người dùng có trước khi đăng ký khóa học khác không?
+  
+  - intent: ask_education_program_multimedia_communications_user_experience_design_name_of_unit_in_charge_of_teaching_vie
+    examples: |
+       - Tên đơn vị phụ trách giảng dạy Thiết kế trải nghiệm người dùng là gì?
+       - Bộ phận nào giám sát việc hướng dẫn Thiết kế trải nghiệm người dùng?
+       - Đơn vị, bộ phận nào chịu trách nhiệm giảng dạy Thiết kế trải nghiệm người dùng?
+       - Ai quản lý trách nhiệm giảng dạy về Thiết kế trải nghiệm người dùng?
+
+  - intent: ask_education_program_multimedia_communications_user_experience_design_number_of_cresits_vie
+    examples: |
+       - Số tín chỉ cho Thiết kế trải nghiệm người dùng là bao nhiêu?
+       - Khóa học Thiết kế trải nghiệm người dùng có bao nhiêu tín chỉ?
+       - Số tín chỉ cho khóa học Thiết kế Trải nghiệm Người dùng là bao nhiêu?
+       - Bạn có thể cung cấp thông tin về số giờ tín dụng được phân bổ cho Thiết kế trải nghiệm người dùng không?
+      
+  - intent: ask_education_program_multimedia_communications_user_experience_design_number_of_credit_hours_vie
+    examples: |
+       - Số giờ tín chỉ của môn Thiết kế trải nghiệm người dùng là bao nhiêu?
+       - Môn học Thiết kế Trải nghiệm Người dùng đòi hỏi bao nhiêu giờ tín chỉ?
+       - Tổng số giờ tín chỉ được phân bổ cho môn Thiết kế Trải nghiệm Người dùng là bao nhiêu?
+       - Bạn có thể cung cấp số giờ tín chỉ liên quan đến chủ đề Thiết kế trải nghiệm người dùng không?
+      
+  - intent: ask_education_program_multimedia_communications_user_experience_design_course_type_vie
+    examples: |
+       - Thuật ngữ loại của Thiết kế trải nghiệm người dùng là gì?
+       - Loại thuật ngữ nào đặc trưng cho Thiết kế trải nghiệm người dùng?
+       - Bạn có thể chỉ rõ cách phân loại thuật ngữ Thiết kế trải nghiệm người dùng được không?
+       - Thuật ngữ Thiết kế trải nghiệm người dùng thuộc loại hoặc phân loại nào?
+      
+  - intent: ask_education_program_multimedia_communications_user_experience_design_course_instructor_info_vie
+    examples: |
+       - Bạn có thể cung cấp thông tin cụ thể về giáo viên hướng dẫn Thiết kế trải nghiệm người dùng không?
+       - Ai là nhà giáo dục hoặc người hướng dẫn thiết kế Trải nghiệm Người dùng Đặc biệt?
+       - Thông tin chi tiết về các giảng viên tham gia giảng dạy Thiết kế trải nghiệm người dùng.
+       - Bạn có thể chia sẻ thông tin về các giảng viên phụ trách Thiết kế trải nghiệm người dùng được không?
+      
+  - intent: ask_education_program_multimedia_communications_user_experience_design_objective_of_course_vie
+    examples: |
+       - Mục tiêu của khóa học Thiết kế trải nghiệm người dùng là gì?
+       - Mục đích hoặc mục đích của khóa học Thiết kế trải nghiệm người dùng là gì?
+       - Bạn có thể giải thích mục tiêu khóa học về Thiết kế trải nghiệm người dùng không?
+       - Kết quả hoặc mục đích dự kiến của khóa học Thiết kế Trải nghiệm Người dùng là gì?
+      
+  - intent: ask_education_program_multimedia_communications_user_experience_design_course_structure_vie
+    examples: |
+       - Cấu trúc khóa học Thiết kế trải nghiệm người dùng bao gồm những gì?
+       - Những yếu tố nào tạo thành một phần của cấu trúc khóa học về Thiết kế trải nghiệm người dùng?
+       - Bạn có thể tóm tắt các nội dung trong cấu trúc khóa học Thiết kế trải nghiệm người dùng được không?
+       - Điều gì tạo nên khuôn khổ hoặc các thành phần của cấu trúc khóa học Thiết kế Trải nghiệm Người dùng?
+      
+  - intent: ask_education_program_multimedia_communications_user_experience_design_teaching_and_learning_methods_and_activities_vie
+    examples: |
+       - Phương pháp và hoạt động dạy và học của Thiết kế trải nghiệm người dùng bao gồm những gì?
+       - Những phương pháp và hoạt động nào liên quan đến việc dạy và học trong Thiết kế Trải nghiệm Người dùng?
+       - Bạn có thể mô tả các kỹ thuật giảng dạy và hoạt động học tập được sử dụng trong Thiết kế trải nghiệm người dùng không?
+       - Những chiến lược giảng dạy và hoạt động học tập nào được đưa vào Thiết kế Trải nghiệm Người dùng?
+      
+  - intent: ask_education_program_multimedia_communications_user_experience_design_subject_assessment_methods_vie
+    examples: |
+       - Phương pháp đánh giá chủ đề Thiết kế trải nghiệm người dùng là gì?
+       - Môn học Thiết kế trải nghiệm người dùng được đánh giá như thế nào?
+       - Phương pháp đánh giá nào được áp dụng cho môn Thiết kế trải nghiệm người dùng?
+       - Bạn có thể mô tả cách tiếp cận đánh giá được sử dụng cho chủ đề Thiết kế trải nghiệm người dùng không?
+      
+  - intent: ask_education_program_multimedia_communications_user_experience_design_duties_of_the_learner_vie
+    examples: |
+       - Nhiệm vụ của người học Thiết kế trải nghiệm người dùng là gì?
+       - Nghĩa vụ, trách nhiệm của sinh viên học Thiết kế trải nghiệm người dùng là gì?
+       - Bạn có thể nêu những nhiệm vụ hoặc nhiệm vụ mong đợi của học viên trong khóa học Thiết kế trải nghiệm người dùng được không?
+       - Sinh viên có trách nhiệm gì khi học Thiết kế trải nghiệm người dùng?
+      
+  - intent: ask_education_program_multimedia_communications_user_experience_design_additional_reading_materials_vie
+    examples: |
+       - Tài liệu đọc bổ sung cho môn Thiết kế trải nghiệm người dùng là gì?
+       - Bạn có thể cung cấp các tài liệu đọc được đề xuất khác cho Thiết kế trải nghiệm người dùng không?
+       - Những tài nguyên hoặc tài liệu đọc bổ sung nào được đề xuất cho Thiết kế trải nghiệm người dùng?
+       - Có tài liệu đọc bổ sung nào được đề xuất cho Thiết kế trải nghiệm người dùng đặc biệt không?

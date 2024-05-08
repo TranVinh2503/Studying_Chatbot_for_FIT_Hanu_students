@@ -1,0 +1,67 @@
+version: "3.1"
+
+stories:
+  - story: Respond to course code of principles of marketing
+    steps:
+      - intent: ask_education_program_multimedia_communications_principles_of_marketing_course_code_vie
+      - action: utter_ask_education_program_multimedia_communications_principles_of_marketing_course_code_vie
+  
+  - story: Respond to principles of marketing is prerequisite courses
+    steps:
+      - intent: ask_education_program_multimedia_communications_principles_of_marketing_is_prerequisite_courses_vie
+      - action: utter_ask_education_program_multimedia_communications_principles_of_marketing_is_prerequisite_courses_vie
+
+  - story: Respond to name of unit in charge of teaching of principles of marketing
+    steps:
+      - intent: ask_education_program_multimedia_communications_principles_of_marketing_name_of_unit_in_charge_of_teaching_vie
+      - action: utter_ask_education_program_multimedia_communications_principles_of_marketing_name_of_unit_in_charge_of_teaching_vie
+
+  - story: Respond to the number of credits of principles of marketing
+    steps:
+      - intent: ask_education_program_multimedia_communications_principles_of_marketing_number_of_cresits_vie
+      - action: utter_ask_education_program_multimedia_communications_principles_of_marketing_number_of_cresits_vie
+  
+  - story: Respond to the number of credit hours of principles of marketing
+    steps: 
+     - intent: ask_education_program_multimedia_communications_principles_of_marketing_number_of_credit_hours_vie
+     - action: utter_ask_education_program_multimedia_communications_principles_of_marketing_number_of_credit_hours_vie
+  
+  - story: Respond to course type of principles of marketing
+    steps:
+      - intent: ask_education_program_multimedia_communications_principles_of_marketing_course_type_vie
+      - action: utter_ask_education_program_multimedia_communications_principles_of_marketing_course_type_vie
+
+  - story: Respond to course instructor information of principles of marketing
+    steps:
+      - intent: ask_education_program_multimedia_communications_principles_of_marketing_course_instructor_info_vie
+      - action: utter_ask_education_program_multimedia_communications_principles_of_marketing_course_instructor_info_vie
+  
+  - story: Respond to objective of course of principles of marketing
+    steps:
+      - intent: ask_education_program_multimedia_communications_principles_of_marketing_objective_of_course_vie
+      - action: utter_ask_education_program_multimedia_communications_principles_of_marketing_objective_of_course_vie
+
+  - story: Respond to objective of course's course structure of principles of marketing
+    steps: 
+      - intent: ask_education_program_multimedia_communications_principles_of_marketing_course_structure_vie
+      - action: utter_ask_education_program_multimedia_communications_principles_of_marketing_course_structure_vie
+
+  - story: Respond to teaching and learning methods and activities of principles of marketing
+    steps:
+      - intent: ask_education_program_multimedia_communications_principles_of_marketing_teaching_and_learning_methods_and_activities_vie
+      - action: utter_ask_education_program_multimedia_communications_principles_of_marketing_teaching_and_learning_methods_and_activities_vie
+  
+  - story: Respond to subject assessment methods of principles of marketing
+    steps:
+      - intent: ask_education_program_multimedia_communications_principles_of_marketing_subject_assessment_methods_vie
+      - action: utter_ask_education_program_multimedia_communications_principles_of_marketing_subject_assessment_methods_vie
+  
+  - story: Respond to duties of the learner of principles of marketing 
+    steps:
+      - intent: ask_education_program_multimedia_communications_principles_of_marketing_duties_of_the_learner_vie
+      - action: utter_ask_education_program_multimedia_communications_principles_of_marketing_duties_of_the_learner_vie
+
+  - story: Respond to additional reading materials of principles of marketing
+    steps:
+      - intent: ask_education_program_multimedia_communications_principles_of_marketing_additional_reading_materials_vie
+      - action: utter_ask_education_program_multimedia_communications_principles_of_marketing_additional_reading_materials_vie

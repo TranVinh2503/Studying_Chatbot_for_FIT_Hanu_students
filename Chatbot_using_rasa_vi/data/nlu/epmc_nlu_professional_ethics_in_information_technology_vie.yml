@@ -1,0 +1,93 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_professional_ethics_in_information_technology_course_code_vie
+    examples: |
+       - Mã khóa học Đạo đức nghề nghiệp Công nghệ thông tin là gì?
+       - Mã khóa học cụ thể của môn Đạo đức nghề nghiệp Công nghệ thông tin là gì?
+       - Bạn có thể cho mình xin mã khóa học môn Đạo đức nghề nghiệp Công nghệ thông tin được không?
+       - Mã chữ số nào thể hiện Đạo đức nghề nghiệp Công nghệ thông tin?
+      
+  - intent: ask_education_program_multimedia_communications_professional_ethics_in_information_technology_is_prerequisite_courses_vie
+    examples: |
+       - Đạo đức nghề nghiệp Công nghệ thông tin có phải là môn tiên quyết không?
+       - Đạo đức nghề nghiệp Công nghệ thông tin có phải là điều kiện tiên quyết cho các khóa học khác không?
+       - Đạo đức nghề nghiệp trong dịch vụ công nghệ thông tin có phải là tiền đề cần thiết cho các khóa học tiếp theo không?
+       - Việc hoàn thành môn Đạo đức nghề nghiệp Công nghệ thông tin có trước khi đăng ký các khóa học khác không?
+  
+  - intent: ask_education_program_multimedia_communications_professional_ethics_in_information_technology_name_of_unit_in_charge_of_teaching_vie
+    examples: |
+       - Đơn vị phụ trách giảng dạy môn Đạo đức nghề nghiệp Công nghệ thông tin có tên là gì?
+       - Bộ môn nào giám sát việc giảng dạy Đạo đức nghề nghiệp Công nghệ thông tin?
+       - Đơn vị, bộ phận nào chịu trách nhiệm giảng dạy Đạo đức nghề nghiệp Công nghệ thông tin?
+       - Ai quản lý trách nhiệm giảng dạy môn Đạo đức nghề nghiệp Công nghệ thông tin?
+
+  - intent: ask_education_program_multimedia_communications_professional_ethics_in_information_technology_number_of_cresits_vie
+    examples: |
+       - Số tín chỉ của môn Đạo đức nghề nghiệp trong Công nghệ thông tin là bao nhiêu?
+       - Môn Đạo đức nghề nghiệp Công nghệ thông tin được tính bao nhiêu tín chỉ?
+       - Số tín chỉ của khóa học Đạo đức nghề nghiệp trong Công nghệ thông tin là bao nhiêu?
+       - Bạn có thể cung cấp thông tin về số giờ tín chỉ được phân bổ cho môn Đạo đức nghề nghiệp trong Công nghệ thông tin không?
+      
+  - intent: ask_education_program_multimedia_communications_professional_ethics_in_information_technology_number_of_credit_hours_vie
+    examples: |
+       - Số giờ tín chỉ của môn Đạo đức nghề nghiệp Công nghệ thông tin là bao nhiêu?
+       - Môn Đạo đức nghề nghiệp Công nghệ thông tin đòi hỏi bao nhiêu giờ tín chỉ?
+       - Tổng số giờ tín chỉ được phân bổ cho môn Đạo đức nghề nghiệp trong Công nghệ thông tin là bao nhiêu?
+       - Bạn có thể cho biết số giờ tín chỉ liên quan đến môn Đạo đức nghề nghiệp Công nghệ thông tin được không?
+      
+  - intent: ask_education_program_multimedia_communications_professional_ethics_in_information_technology_course_type_vie
+    examples: |
+       - Thuật ngữ loại của Đạo đức nghề nghiệp Công nghệ thông tin là gì?
+       - Loại thuật ngữ nào đặc trưng cho Đạo đức nghề nghiệp Công nghệ thông tin?
+       - Xin ông chỉ rõ cách phân loại thuật ngữ Đạo đức nghề nghiệp công nghệ thông tin?
+       - Thuật ngữ Đạo đức nghề nghiệp trong Công nghệ thông tin thuộc loại hoặc phân loại nào?
+      
+  - intent: ask_education_program_multimedia_communications_professional_ethics_in_information_technology_course_instructor_info_vie
+    examples: |
+       - Bạn có thể cho biết cụ thể về các giáo viên giảng dạy Đạo đức nghề nghiệp Công nghệ thông tin được không?
+       - Ai là những nhà giáo dục hoặc người hướng dẫn đạo đức nghề nghiệp đặc biệt trong lĩnh vực Công nghệ thông tin?
+       - Thông tin chi tiết về đội ngũ giảng viên tham gia giảng dạy môn Đạo đức nghề nghiệp Công nghệ thông tin.
+       - Ông có thể chia sẻ thông tin về những người hướng dẫn môn Đạo đức nghề nghiệp Công nghệ thông tin được không?
+      
+  - intent: ask_education_program_multimedia_communications_professional_ethics_in_information_technology_objective_of_course_vie
+    examples: |
+       - Mục tiêu của môn Đạo đức nghề nghiệp Công nghệ thông tin là gì?
+       - Mục tiêu, mục đích của Tâm lý đạo đức nghề nghiệp Công nghệ thông tin là gì?
+       - Bạn có thể giải thích mục tiêu của môn Đạo đức nghề nghiệp Công nghệ thông tin được không?
+       - Kết quả hoặc mục đích dự kiến của Đạo đức nghề nghiệp trong Công nghệ thông tin là gì?
+      
+  - intent: ask_education_program_multimedia_communications_professional_ethics_in_information_technology_course_structure_vie
+    examples: |
+       - Cấu trúc môn Đạo đức nghề nghiệp Công nghệ thông tin gồm những gì?
+       - Những yếu tố nào tạo thành một phần của cấu trúc khóa học về Đạo đức nghề nghiệp trong Công nghệ thông tin?
+       - Thầy có thể tóm tắt các nội dung trong cấu trúc môn học Đạo đức nghề nghiệp Công nghệ thông tin được không?
+       - Điều gì tạo nên khuôn khổ hoặc các thành phần của cấu trúc khóa học Đạo đức nghề nghiệp trong Công nghệ thông tin?
+      
+  - intent: ask_education_program_multimedia_communications_professional_ethics_in_information_technology_teaching_and_learning_methods_and_activities_vie
+    examples: |
+       - Phương pháp, hoạt động dạy và học của môn Đạo đức nghề nghiệp Công nghệ thông tin bao gồm những gì?
+       - Trong dạy và học môn Đạo đức nghề nghiệp Công nghệ thông tin có những phương pháp và hoạt động nào?
+       - Bạn có thể mô tả các kỹ thuật giảng dạy và hoạt động học tập được sử dụng trong Đạo đức nghề nghiệp Công nghệ thông tin?
+       - Những chiến lược giảng dạy và hoạt động học tập nào được lồng ghép vào Đạo đức nghề nghiệp Công nghệ thông tin?
+      
+  - intent: ask_education_program_multimedia_communications_professional_ethics_in_information_technology_subject_assessment_methods_vie
+    examples: |
+       - Phương pháp đánh giá môn Đạo đức nghề nghiệp Công nghệ thông tin là gì?
+       - Môn Đạo đức nghề nghiệp Công nghệ thông tin được đánh giá như thế nào?
+       - Môn Đạo đức nghề nghiệp Công nghệ thông tin được áp dụng phương pháp đánh giá nào?
+       - Bạn có thể mô tả cách đánh giá được áp dụng cho môn Đạo đức nghề nghiệp Công nghệ thông tin được không?
+      
+  - intent: ask_education_program_multimedia_communications_professional_ethics_in_information_technology_duties_of_the_learner_vie
+    examples: |
+       - Nhiệm vụ của người học môn Đạo đức nghề nghiệp Công nghệ thông tin là gì?
+       - Nghĩa vụ, trách nhiệm của sinh viên học ngành Đạo đức nghề Công nghệ thông tin là gì?
+       - Thầy có thể nêu những nhiệm vụ, nhiệm vụ mong đợi của người học trong môn Đạo đức nghề nghiệp Công nghệ thông tin được không?
+       - Sinh viên có trách nhiệm gì khi học môn Đạo đức nghề nghiệp Công nghệ thông tin?
+      
+  - intent: ask_education_program_multimedia_communications_professional_ethics_in_information_technology_additional_reading_materials_vie
+    examples: |
+       - Tài liệu đọc bổ sung cho môn Đạo đức nghề nghiệp trong Công nghệ thông tin là gì?
+       - Bạn có thể cung cấp các tài liệu đọc gợi ý khác về Đạo đức nghề nghiệp trong Công nghệ thông tin không?
+       - Những nguồn tài liệu bổ sung hoặc tài liệu đọc bổ sung nào được đề xuất cho Đạo đức nghề nghiệp trong Công nghệ thông tin?
+       - Có tài liệu đọc thêm nào được khuyến nghị cho môn Đạo đức nghề nghiệp đặc biệt trong Công nghệ thông tin không?

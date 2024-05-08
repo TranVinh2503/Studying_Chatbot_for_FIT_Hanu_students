@@ -1,0 +1,145 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_principles_of_computers_course_code
+    examples: |
+      - What is the course code of Principles of Computers?
+      - What is the specific course code assigned to Principles of Computers?
+      - Could you provide the course identification code for Principles of Computers?
+      - What alphanumeric code represents the Principles of Computers course?
+      - Could you share the course number or code for Principles of Computers?
+      - What is the unique identifier, in terms of code, for the Principles of Computers course?
+      - Could you specify the course code designated for Principles of Computers?
+      - What code is used to refer to the Principles of Computers course within the curriculum?
+
+  - intent: ask_education_program_multimedia_communications_principles_of_computers_is_prerequisite_courses
+    examples: |
+      - Is the Principles of Computers prerequisite courses?
+      - Does Principles of Computers serve as a prerequisite for other courses?
+      - Is Principles of Computers a required precursor for subsequent courses?
+      - Does completing Principles of Computers precede other course enrollments?
+      - Is there a requirement for students to take Principles of Computers before other courses?
+      - Is Principles of Computers a necessary preliminary course for further studies?
+      - Does the completion of Principles of Computers precede the enrollment in other courses?
+      - Is Principles of Computers a prerequisite for advancing to additional coursework?
+  
+  - intent: ask_education_program_multimedia_communications_principles_of_computers_name_of_unit_in_charge_of_teaching
+    examples: |
+      - What is name of unit in charge of teaching of Principles of Computers? 
+      - Which department oversees the instruction of Principles of Computers?
+      - What is the unit or department responsible for teaching Principles of Computers?
+      - Who manages the teaching responsibilities for Principles of Computers?
+      - What is the name of the department or unit in charge of instructing Principles of Computers?
+      - Which specific unit handles the teaching duties for Principles of Computers?
+      - Could you provide the departmental name responsible for teaching Principles of Computers?
+      - Who is responsible for the instruction of Principles of Computers within the institution?
+
+  - intent: ask_education_program_multimedia_communications_principles_of_computers_number_of_cresits
+    examples: |
+      - What is the number of credits for the Principles of Computers?
+      - How many credits are assigned to the Principles of Computers course?
+      - What is the credit count for the Principles of Computers course?
+      - Could you provide information about the credit hours allocated to Principles of Computers?
+      - What is the total credit value for the Principles of Computers course?
+      - How many credit units does the Principles of Computers course carry?
+      - What is the credit load attributed to the Principles of Computers course?
+      - Could you specify the number of credits attributed to completing Principles of Computers?
+  
+  - intent: ask_education_program_multimedia_communications_principles_of_computers_number_of_credit_hours 
+    examples: |
+      - What is the number of credit hours for the Principles of Computers subject?
+      - How many credit hours does the Principles of Computers subject entail?
+      - What is the total count of credit hours allocated to the Principles of Computers subject?
+      - Could you provide the number of credit hours associated with the Principles of Computers subject?
+      - What is the credit hour requirement for the Principles of Computers subject?
+      - How many credit hours are attributed to the Principles of Computers subject?
+      - What is the designated credit hour count for the Principles of Computers subject?
+      - Could you specify the credit hours required for the Principles of Computers subject?
+
+  - intent: ask_education_program_multimedia_communications_principles_of_computers_course_type
+    examples: |
+      - What is the type term of the Principles of Computers?
+      - What category of term characterizes the Principles of Computers?
+      - Could you specify the classification of the term for Principles of Computers?
+      - What type or classification does the term for Principles of Computers fall under?
+      - What is the specific term type attributed to Principles of Computers?
+      - How would you classify the term duration for Principles of Computers?
+      - What is the classification or categorization of the term relating to Principles of Computers?
+      - Could you elaborate on the term classification specific to Principles of Computers?
+
+  - intent: ask_education_program_multimedia_communications_principles_of_computers_course_instructor_info
+    examples: |
+      - Can you provide specifics about the teachers instructing Principles of Computers?
+      - Who are the educators or instructors leading the Principles of Computers course?
+      - Details about the faculty members involved in teaching Principles of Computers.
+      - Could you share information about the instructors handling Principles of Computers?
+      - Can you provide insight into the individuals teaching Principles of Computers?
+      - Details regarding the educators for Principles of Computers.
+      - Information concerning the instructors responsible for teaching Principles of Computers.
+      - Information about instructors of the Principles of Computers
+
+  - intent: ask_education_program_multimedia_communications_principles_of_computers_objective_of_course
+    examples: |
+      - What is the Objective of the course of Principles of Computers?
+      - What are the goals or aims of the Principles of Computers course?
+      - Could you explain the course objectives for Principles of Computers?
+      - What is the intended outcome or purpose of the Principles of Computers course?
+      - Could you describe the primary aims or objectives of the Principles of Computers course?
+      - What is the core purpose or mission of the Principles of Computers course?
+      - What are the learning objectives associated with the Principles of Computers course?
+      - Could you outline the goals or intentions behind the Principles of Computers course?
+
+  - intent: ask_education_program_multimedia_communications_principles_of_computers_course_structure
+    examples: |
+      - What does the course structure of the Principles of Computers include?
+      - What elements form part of the course structure in Principles of Computers?
+      - Could you outline the contents encompassed in the course structure of Principles of Computers?
+      - What constitutes the framework or components of the Principles of Computers course structure?
+      - Could you detail what's included in the course structure of Principles of Computers?
+      - What elements or sections are incorporated within the course structure of Principles of Computers?
+      - Could you describe the components comprising the course structure of Principles of Computers?
+      - What makes up the layout or content of the course structure in Principles of Computers?
+  
+  - intent: ask_education_program_multimedia_communications_principles_of_computers_teaching_and_learning_methods_and_activities
+    examples: |
+      - What does the teaching and learning methods and activities of the Principles of Computers include?
+      - What methods and activities are involved in teaching and learning within Principles of Computers?
+      - Could you describe the instructional techniques and learning activities utilized in Principles of Computers?
+      - What teaching strategies and learning activities are incorporated into Principles of Computers?
+      - Could you outline the methods and activities used for teaching and learning in Principles of Computers?
+      - What instructional approaches and learning activities form part of Principles of Computers?
+      - Could you explain the teaching methodologies and learning activities involved in Principles of Computers?
+      - What teaching methods and learning activities are part of the Principles of Computers course?
+
+  - intent: ask_education_program_multimedia_communications_principles_of_computers_subject_assessment_methods
+    examples: |
+      - What is the method of evaluating the subject of the Principles of Computers?
+      - How is the Principles of Computers subject evaluated?
+      - What assessment method is employed for the Principles of Computers subject?
+      - Could you describe the evaluation approach utilized for the Principles of Computers subject?
+      - What method is used to assess student performance in the Principles of Computers subject?
+      - How are students evaluated in the Principles of Computers subject?
+      - Could you outline the method of assessing the Principles of Computers subject?
+      - What is the procedure for evaluating students in the Principles of Computers subject?
+
+  - intent: ask_education_program_multimedia_communications_principles_of_computers_duties_of_the_learner
+    examples: |
+      - What is the duties of the learner of the Principles of Computers?
+      - What are the obligations or responsibilities of the student studying Principles of Computers?
+      - Could you outline the tasks or duties expected from learners in the Principles of Computers course?
+      - What responsibilities do students have while studying Principles of Computers?
+      - Could you describe the roles or tasks that learners are required to undertake in Principles of Computers?
+      - What are the expected duties or roles of students enrolled in Principles of Computers?
+      - Could you explain the obligations or tasks that learners are supposed to fulfill in Principles of Computers?
+      - What specific responsibilities are expected from students learning Principles of Computers?
+  
+  - intent: ask_education_program_multimedia_communications_principles_of_computers_additional_reading_materials
+    examples: |
+      - What are the additional reading materials for the Principles of Computers subject?
+      - Could you provide other recommended reading materials for Principles of Computers?
+      - What additional resources or supplementary reading materials are suggested for Principles of Computers?
+      - Are there any extra reading materials recommended for the Principles of Computers subject?
+      - Could you list any supplementary books or reading materials for Principles of Computers?
+      - What other reading resources complement the Principles of Computers subject?
+      - Are there any supplementary texts or materials that accompany Principles of Computers?
+      - Could you suggest additional reading materials that supplement the Principles of Computers course?

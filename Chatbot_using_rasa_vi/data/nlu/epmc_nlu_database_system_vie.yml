@@ -1,0 +1,145 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_database_system_course_code_vie
+    examples: |
+      - Mã khóa học Hệ Cơ Sở Dữ Liệu là gì?
+      - Mã khóa học cụ thể được gán cho Hệ thống cơ sở dữ liệu là gì?
+      - Bạn có thể cung cấp mã nhận dạng khóa học cho Hệ thống cơ sở dữ liệu được không?
+      - Mã chữ số nào đại diện cho khóa học Hệ thống cơ sở dữ liệu?
+      - Bạn có thể chia sẻ mã khóa học hoặc mã khóa học Hệ Cơ Sở Dữ Liệu được không?
+      - Mã định danh duy nhất về mặt mã cho khóa học Hệ thống cơ sở dữ liệu là gì?
+      - Bạn có thể chỉ rõ mã khóa học dành cho Hệ thống cơ sở dữ liệu được không?
+      - Mã nào được dùng để tham khảo khóa học Hệ thống cơ sở dữ liệu trong chương trình giảng dạy?
+
+  - intent: ask_education_program_multimedia_communications_database_system_is_prerequisite_courses_vie
+    examples: |
+      - Hệ Cơ Sở Dữ Liệu có phải là môn học tiên quyết không?
+      - Hệ thống cơ sở dữ liệu có phải là điều kiện tiên quyết cho các khóa học khác không?
+      - Hệ thống cơ sở dữ liệu có phải là tiền đề cần thiết cho các khóa học tiếp theo không?
+      - Việc hoàn thành Hệ thống cơ sở dữ liệu có trước khi đăng ký khóa học khác không?
+      - Có yêu cầu sinh viên phải học Hệ thống cơ sở dữ liệu trước các khóa học khác không?
+      - Hệ thống cơ sở dữ liệu có phải là khóa học sơ bộ cần thiết cho các nghiên cứu tiếp theo không?
+      - Việc hoàn thành Hệ thống Cơ sở dữ liệu có trước khi đăng ký các khóa học khác không?
+      - Hệ thống cơ sở dữ liệu có phải là điều kiện tiên quyết để tiến tới các khóa học bổ sung không?
+  
+  - intent: ask_education_program_multimedia_communications_database_system_name_of_unit_in_charge_of_teaching_vie
+    examples: |
+      - Đơn vị phụ trách giảng dạy Hệ Cơ sở dữ liệu tên gì?
+      - Bộ phận nào giám sát việc hướng dẫn Hệ thống Cơ sở dữ liệu?
+      - Đơn vị, bộ phận nào chịu trách nhiệm giảng dạy về Hệ Cơ sở dữ liệu?
+      - Ai quản lý trách nhiệm giảng dạy Hệ Cơ Sở Dữ Liệu?
+      - Tên phòng, đơn vị phụ trách hướng dẫn Hệ thống cơ sở dữ liệu là gì?
+      - Đơn vị nào đảm nhận nhiệm vụ giảng dạy Hệ Cơ sở dữ liệu?
+      - Bạn có thể cho biết tên bộ phận chịu trách nhiệm giảng dạy Hệ Cơ Sở Dữ Liệu được không?
+      - Ai chịu trách nhiệm hướng dẫn Hệ thống Cơ sở dữ liệu trong cơ sở?
+
+  - intent: ask_education_program_multimedia_communications_database_system_number_of_cresits_vie
+    examples: |
+      - Số tín chỉ cho Hệ Cơ Sở Dữ Liệu là bao nhiêu?
+      - Khóa học Hệ thống cơ sở dữ liệu có bao nhiêu tín chỉ?
+      - Số tín chỉ cho khóa học Hệ thống cơ sở dữ liệu là bao nhiêu?
+      - Bạn có thể cung cấp thông tin về số giờ tín chỉ được phân bổ cho Hệ thống Cơ sở dữ liệu không?
+      - Tổng giá trị tín chỉ của môn Hệ thống cơ sở dữ liệu là bao nhiêu?
+      - Khóa học Hệ thống cơ sở dữ liệu có bao nhiêu đơn vị tín chỉ?
+      - Khối lượng tín chỉ được quy cho khóa học Hệ thống cơ sở dữ liệu là bao nhiêu?
+      - Bạn có thể chỉ định số tín chỉ được quy cho việc hoàn thành Hệ thống cơ sở dữ liệu không?
+  
+  - intent: ask_education_program_multimedia_communications_database_system_number_of_credit_hours_vie 
+    examples: |
+      - Số giờ tín chỉ của môn Hệ thống cơ sở dữ liệu là bao nhiêu?
+      - Môn học Hệ thống cơ sở dữ liệu đòi hỏi bao nhiêu giờ tín chỉ?
+      - Tổng số giờ tín chỉ được phân bổ cho môn Hệ thống cơ sở dữ liệu là bao nhiêu?
+      - Bạn có thể cho biết số giờ tín chỉ liên quan đến môn Hệ thống cơ sở dữ liệu được không?
+      - Yêu cầu số giờ tín chỉ của môn Hệ thống cơ sở dữ liệu là bao nhiêu?
+      - Có bao nhiêu giờ tín chỉ được tính cho môn Hệ Cơ sở dữ liệu?
+      - Số giờ tín chỉ được chỉ định cho môn Hệ thống cơ sở dữ liệu là bao nhiêu?
+      - Bạn có thể nêu rõ số giờ tín chỉ cần thiết cho môn Hệ thống cơ sở dữ liệu được không?
+
+  - intent: ask_education_program_multimedia_communications_database_system_course_type_vie
+    examples: |
+      - Thuật ngữ loại của Hệ thống cơ sở dữ liệu là gì?
+      - Loại thuật ngữ nào đặc trưng cho Hệ thống cơ sở dữ liệu?
+      - Bạn có thể nêu rõ cách phân loại thuật ngữ Hệ thống cơ sở dữ liệu được không?
+      - Thuật ngữ Hệ thống cơ sở dữ liệu thuộc loại hoặc phân loại nào?
+      - Loại thuật ngữ cụ thể được gán cho Hệ thống cơ sở dữ liệu là gì?
+      - Bạn phân loại thời hạn của Hệ thống Cơ sở dữ liệu như thế nào?
+      - Phân loại hay phân loại thuật ngữ liên quan đến Hệ thống cơ sở dữ liệu là gì?
+      - Bạn có thể giải thích rõ hơn thuật ngữ phân loại dành riêng cho Hệ thống cơ sở dữ liệu được không?
+
+  - intent: ask_education_program_multimedia_communications_database_system_course_instructor_info_vie
+    examples: |
+      - Bạn có thể cung cấp thông tin cụ thể về giáo viên hướng dẫn Hệ thống cơ sở dữ liệu được không?
+      - Ai là giảng viên hoặc giảng viên hướng dẫn khóa học Hệ thống cơ sở dữ liệu?
+      - Thông tin chi tiết về các giảng viên tham gia giảng dạy Hệ Cơ Sở Dữ Liệu.
+      - Bạn có thể chia sẻ thông tin về các giảng viên đang xử lý Hệ thống Cơ sở dữ liệu được không?
+      - Bạn có thể cung cấp cái nhìn sâu sắc hơn về các cá nhân đang giảng dạy Hệ thống cơ sở dữ liệu không?
+      - Thông tin chi tiết về các nhà giáo dục cho Hệ thống cơ sở dữ liệu
+      - Thông tin liên quan đến giảng viên chịu trách nhiệm giảng dạy Hệ thống cơ sở dữ liệu
+      - Thông tin về người hướng dẫn của Hệ thống cơ sở dữ liệu
+
+  - intent: ask_education_program_multimedia_communications_database_system_objective_of_course_vie
+    examples: |
+      - Mục tiêu của khóa học Hệ thống cơ sở dữ liệu là gì?
+      - Mục đích hoặc mục đích của khóa học Hệ thống cơ sở dữ liệu là gì?
+      - Bạn có thể giải thích mục tiêu khóa học về Hệ thống cơ sở dữ liệu được không?
+      - Kết quả hoặc mục đích dự kiến của khóa học Hệ thống cơ sở dữ liệu là gì?
+      - Bạn có thể mô tả mục tiêu chính của khóa học Hệ thống cơ sở dữ liệu không?
+      - Mục đích hoặc nhiệm vụ cốt lõi của khóa học Hệ thống cơ sở dữ liệu là gì?
+      - Mục tiêu học tập của khóa học Hệ thống cơ sở dữ liệu là gì?
+      - Bạn có thể phác thảo mục tiêu hoặc ý định của khóa học Hệ thống cơ sở dữ liệu được không?
+
+  - intent: ask_education_program_multimedia_communications_database_system_course_structure_vie
+    examples: |
+      - Cấu trúc môn học Hệ Cơ Sở Dữ Liệu bao gồm những gì?
+      - Những thành phần nào tạo thành một phần của cấu trúc khóa học trong Hệ thống cơ sở dữ liệu?
+      - Bạn có thể tóm tắt các nội dung trong cấu trúc môn học Hệ Cơ sở dữ liệu được không?
+      - Điều gì tạo nên khuôn khổ hoặc các thành phần của cấu trúc khóa học Hệ thống cơ sở dữ liệu?
+      - Bạn có thể trình bày chi tiết cấu trúc khóa học Hệ thống cơ sở dữ liệu gồm những gì không?
+      - Những thành phần hoặc phần nào được kết hợp trong cấu trúc khóa học của Hệ thống cơ sở dữ liệu?
+      - Bạn có thể mô tả các thành phần trong cấu trúc môn học Hệ Cơ sở dữ liệu được không?
+      - Cấu trúc hoặc nội dung của cấu trúc môn học trong Hệ thống cơ sở dữ liệu có cấu tạo như thế nào?
+  
+  - intent: ask_education_program_multimedia_communications_database_system_teaching_and_learning_methods_and_activities_vie
+    examples: |
+      - Phương pháp, hoạt động dạy và học của Hệ thống Cơ sở dữ liệu bao gồm những gì?
+      - Việc dạy và học trong hệ Cơ sở dữ liệu có những phương pháp, hoạt động nào?
+      - Bạn có thể mô tả các kỹ thuật giảng dạy và hoạt động học tập được sử dụng trong Hệ thống Cơ sở dữ liệu được không?
+      - Những chiến lược giảng dạy và hoạt động học tập nào được tích hợp vào Hệ thống Cơ sở dữ liệu?
+      - Bạn có thể nêu các phương pháp, hoạt động dạy và học trong Hệ Cơ sở dữ liệu được không?
+      - Những phương pháp giảng dạy và hoạt động học tập nào là một phần của Hệ thống Cơ sở dữ liệu?
+      - Bạn có thể giải thích về phương pháp giảng dạy và hoạt động học tập trong Hệ thống Cơ sở dữ liệu được không?
+      - Môn học Hệ Cơ Sở Dữ Liệu có những phương pháp giảng dạy và hoạt động học tập nào?
+
+  - intent: ask_education_program_multimedia_communications_database_system_subject_assessment_methods_vie
+    examples: |
+      - Phương pháp đánh giá chủ thể của Hệ thống cơ sở dữ liệu là gì?
+      - Môn học Hệ thống cơ sở dữ liệu được đánh giá như thế nào?
+      - Môn học Hệ thống cơ sở dữ liệu được áp dụng phương pháp đánh giá nào?
+      - Bạn có thể mô tả phương pháp đánh giá được áp dụng cho môn Hệ thống cơ sở dữ liệu được không?
+      - Phương pháp nào được sử dụng để đánh giá kết quả học tập của học sinh môn Hệ Cơ sở dữ liệu?
+      - Đánh giá học sinh môn Hệ thống cơ sở dữ liệu như thế nào?
+      - Bạn có thể nêu phương pháp đánh giá môn Hệ thống cơ sở dữ liệu được không?
+      - Quy trình đánh giá học sinh môn Hệ thống cơ sở dữ liệu như thế nào?
+
+  - intent: ask_education_program_multimedia_communications_database_system_duties_of_the_learner_vie
+    examples: |
+      - Nhiệm vụ của người học Hệ Cơ sở dữ liệu là gì?
+      - Sinh viên học Hệ Cơ sở dữ liệu có nghĩa vụ, trách nhiệm gì?
+      - Bạn có thể nêu những nhiệm vụ, nhiệm vụ mong đợi của người học trong môn Hệ thống cơ sở dữ liệu được không?
+      - Sinh viên có trách nhiệm gì khi học Hệ Cơ Sở Dữ Liệu?
+      - Bạn có thể mô tả những vai trò, nhiệm vụ mà người học phải đảm nhiệm trong Hệ thống Cơ sở dữ liệu được không?
+      - Nhiệm vụ hoặc vai trò dự kiến của sinh viên đăng ký vào Hệ thống Cơ sở dữ liệu là gì?
+      - Bạn có thể giải thích nghĩa vụ, nhiệm vụ mà người học phải thực hiện trong Hệ thống Cơ sở dữ liệu không?
+      - Trách nhiệm cụ thể của sinh viên khi học Hệ Cơ sở dữ liệu là gì?
+  
+  - intent: ask_education_program_multimedia_communications_database_system_additional_reading_materials_vie
+    examples: |
+      - Tài liệu đọc thêm môn Hệ cơ sở dữ liệu gồm những tài liệu gì?
+      - Bạn có thể cung cấp các tài liệu đọc khác được đề xuất cho Hệ thống cơ sở dữ liệu không?
+      - Những nguồn tài liệu hoặc tài liệu đọc bổ sung nào được đề xuất cho Hệ thống Cơ sở dữ liệu?
+      - Có tài liệu đọc thêm nào được khuyến khích cho môn Hệ thống cơ sở dữ liệu không?
+      - Bạn có thể liệt kê những cuốn sách, tài liệu đọc bổ sung về Hệ Cơ Sở Dữ Liệu được không?
+      - Nguồn tài liệu đọc nào khác bổ sung cho môn Hệ thống cơ sở dữ liệu?
+      - Có văn bản, tài liệu bổ sung nào đi kèm Hệ thống cơ sở dữ liệu không?
+      - Bạn có thể gợi ý thêm tài liệu đọc bổ sung cho khóa học Hệ thống cơ sở dữ liệu được không?

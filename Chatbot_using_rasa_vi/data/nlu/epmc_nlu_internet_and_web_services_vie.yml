@@ -1,0 +1,93 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_internet_and_web_services_course_code_vie
+    examples: |
+       - Mã khóa học Internet và Dịch vụ Web là gì?
+       - Mã khóa học cụ thể được gán cho Dịch vụ Internet và Web là gì?
+       - Bạn có thể cung cấp mã nhận dạng khóa học cho Internet và Dịch vụ Web được không?
+       - Mã chữ và số nào đại diện cho khóa học về Internet và Dịch vụ Web?
+      
+  - intent: ask_education_program_multimedia_communications_internet_and_web_services_is_prerequisite_courses_vie
+    examples: |
+       - Internet và Dịch vụ Web có phải là khóa học tiên quyết không?
+       - Internet và Dịch vụ Web có phải là điều kiện tiên quyết cho các khóa học khác không?
+       - Internet và Dịch vụ Web có phải là tiền đề cần thiết cho các khóa học tiếp theo không?
+       - Việc hoàn thành Dịch vụ Internet và Web có trước khi đăng ký khóa học khác không?
+  
+  - intent: ask_education_program_multimedia_communications_internet_and_web_services_name_of_unit_in_charge_of_teaching_vie
+    examples: |
+       - Đơn vị phụ trách giảng dạy Internet và Dịch vụ Web tên gì?
+       - Bộ phận nào giám sát việc hướng dẫn sử dụng Internet và Dịch vụ Web?
+       - Đơn vị, bộ phận chịu trách nhiệm giảng dạy về Internet và Dịch vụ Web là gì?
+       - Ai quản lý trách nhiệm giảng dạy về Internet và Dịch vụ Web?
+
+  - intent: ask_education_program_multimedia_communications_internet_and_web_services_number_of_cresits_vie
+    examples: |
+       - Số tín chỉ cho Internet và Dịch vụ Web là bao nhiêu?
+       - Khóa học Internet và Dịch vụ Web có bao nhiêu tín chỉ?
+       - Số tín chỉ cho khóa học về Internet và Dịch vụ Web là bao nhiêu?
+       - Bạn có thể cung cấp thông tin về số giờ tín dụng được phân bổ cho Internet và Dịch vụ Web không?
+      
+  - intent: ask_education_program_multimedia_communications_internet_and_web_services_number_of_credit_hours_vie
+    examples: |
+       - Số giờ tín chỉ của môn Internet và Dịch vụ Web là bao nhiêu?
+       - Môn học Internet và Dịch vụ Web đòi hỏi bao nhiêu giờ tín chỉ?
+       - Tổng số giờ tín chỉ được phân bổ cho môn học Internet và Dịch vụ Web là bao nhiêu?
+       - Bạn có thể cung cấp số giờ tín chỉ liên quan đến môn học Internet và Dịch vụ Web không?
+      
+  - intent: ask_education_program_multimedia_communications_internet_and_web_services_course_type_vie
+    examples: |
+       - Thuật ngữ loại của Internet và Dịch vụ Web là gì?
+       - Loại thuật ngữ nào đặc trưng cho Internet và Dịch vụ Web?
+       - Bạn có thể chỉ rõ cách phân loại thuật ngữ Internet và Dịch vụ Web được không?
+       - Thuật ngữ Internet và Dịch vụ Web thuộc loại hoặc phân loại nào?
+      
+  - intent: ask_education_program_multimedia_communications_internet_and_web_services_course_instructor_info_vie
+    examples: |
+       - Bạn có thể cung cấp thông tin cụ thể về giáo viên giảng dạy Internet và Dịch vụ Web được không?
+       - Các nhà giáo dục hoặc người hướng dẫn dẫn đầu Dịch vụ Web và Internet Đặc biệt là ai?
+       - Thông tin chi tiết về các giảng viên tham gia giảng dạy Internet và Dịch vụ Web.
+       - Bạn có thể chia sẻ thông tin về các giảng viên đang xử lý Internet và Dịch vụ Web được không?
+      
+  - intent: ask_education_program_multimedia_communications_internet_and_web_services_objective_of_course_vie
+    examples: |
+       - Mục tiêu của khóa học về Internet và Dịch vụ Web là gì?
+       - Mục đích hoặc mục đích của khóa học Internet và Dịch vụ Web là gì?
+       - Bạn có thể giải thích mục tiêu khóa học về Internet và Dịch vụ Web được không?
+       - Kết quả hoặc mục đích dự định của khóa học Internet và Dịch vụ Web là gì?
+      
+  - intent: ask_education_program_multimedia_communications_internet_and_web_services_course_structure_vie
+    examples: |
+       - Cấu trúc môn học về Internet và Dịch vụ Web bao gồm những gì?
+       - Những yếu tố nào tạo thành một phần của cấu trúc khóa học về Internet và Dịch vụ Web?
+       - Thầy có thể tóm tắt các nội dung trong cấu trúc môn học Internet và Dịch vụ Web được không?
+       - Điều gì tạo nên khuôn khổ hoặc các thành phần của cấu trúc khóa học Internet và Dịch vụ Web?
+
+  - intent: ask_education_program_multimedia_communications_internet_and_web_services_teaching_and_learning_methods_and_activities_vie
+    examples: |
+       - Phương pháp, hoạt động dạy và học của Internet và các dịch vụ Web bao gồm những gì?
+       - Những phương pháp và hoạt động nào được áp dụng trong việc dạy và học trên Internet và các Dịch vụ Web?
+       - Bạn có thể mô tả các kỹ thuật giảng dạy và hoạt động học tập được sử dụng trên Internet và Dịch vụ Web không?
+       - Những chiến lược giảng dạy và hoạt động học tập nào được tích hợp vào Internet và Dịch vụ Web?
+      
+  - intent: ask_education_program_multimedia_communications_internet_and_web_services_subject_assessment_methods_vie
+    examples: |
+       - Phương pháp đánh giá chủ đề Internet và Dịch vụ Web là gì?
+       - Môn học Internet và Dịch vụ Web được đánh giá như thế nào?
+       - Phương pháp đánh giá nào được áp dụng cho môn học Internet và Dịch vụ Web?
+       - Bạn có thể mô tả cách tiếp cận đánh giá được sử dụng cho môn Internet và Dịch vụ Web không?
+      
+  - intent: ask_education_program_multimedia_communications_internet_and_web_services_duties_of_the_learner_vie
+    examples: |
+       - Nhiệm vụ của người học Internet và các dịch vụ Web là gì?
+       - Sinh viên học Internet và Dịch vụ Web có nghĩa vụ, trách nhiệm gì?
+       - Bạn có thể nêu những nhiệm vụ, nhiệm vụ mong đợi của học viên trong khóa học Internet và Dịch vụ Web được không?
+       - Sinh viên có trách nhiệm gì khi học về Internet và Dịch vụ Web?
+      
+  - intent: ask_education_program_multimedia_communications_internet_and_web_services_additional_reading_materials_vie
+    examples: |
+       - Tài liệu đọc thêm cho môn Internet và Dịch vụ Web là gì?
+       - Bạn có thể cung cấp các tài liệu đọc khác được đề xuất cho Internet và Dịch vụ Web không?
+       - Những nguồn tài nguyên hoặc tài liệu đọc bổ sung nào được đề xuất cho Internet và Dịch vụ Web?
+       - Có tài liệu đọc bổ sung nào được khuyến nghị cho Dịch vụ Web và Internet Đặc biệt không?

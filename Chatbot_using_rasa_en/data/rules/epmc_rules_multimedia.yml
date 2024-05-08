@@ -1,0 +1,67 @@
+version: "3.1"
+
+rules:
+  - rule: Respond to course code of multimedia
+    steps:
+      - intent: ask_education_program_multimedia_communications_multimedia_course_code
+      - action: utter_ask_education_program_multimedia_communications_multimedia_course_code
+  
+  - rule: Respond to multimedia is prerequisite courses
+    steps:
+      - intent: ask_education_program_multimedia_communications_multimedia_is_prerequisite_courses
+      - action: utter_ask_education_program_multimedia_communications_multimedia_is_prerequisite_courses
+
+  - rule: Respond to name of unit in charge of teaching of multimedia
+    steps:
+      - intent: ask_education_program_multimedia_communications_multimedia_name_of_unit_in_charge_of_teaching
+      - action: utter_ask_education_program_multimedia_communications_multimedia_name_of_unit_in_charge_of_teaching
+
+  - rule: Respond to the number of credits of multimedia
+    steps:
+      - intent: ask_education_program_multimedia_communications_multimedia_number_of_cresits
+      - action: utter_ask_education_program_multimedia_communications_multimedia_number_of_cresits
+  
+  - rule: Respond to the number of credit hours of multimedia
+    steps: 
+     - intent: ask_education_program_multimedia_communications_multimedia_number_of_credit_hours
+     - action: utter_ask_education_program_multimedia_communications_multimedia_number_of_credit_hours
+  
+  - rule: Respond to course type of multimedia
+    steps:
+      - intent: ask_education_program_multimedia_communications_multimedia_course_type
+      - action: utter_ask_education_program_multimedia_communications_multimedia_course_type
+
+  - rule: Respond to course instructor information of multimedia
+    steps:
+      - intent: ask_education_program_multimedia_communications_multimedia_course_instructor_info
+      - action: utter_ask_education_program_multimedia_communications_multimedia_course_instructor_info
+  
+  - rule: Respond to objective of course of multimedia
+    steps:
+      - intent: ask_education_program_multimedia_communications_multimedia_objective_of_course
+      - action: utter_ask_education_program_multimedia_communications_multimedia_objective_of_course
+
+  - rule: Respond to objective of course's course structure of multimedia
+    steps: 
+      - intent: ask_education_program_multimedia_communications_multimedia_course_structure
+      - action: utter_ask_education_program_multimedia_communications_multimedia_course_structure
+
+  - rule: Respond to teaching and learning methods and activities of multimedia
+    steps:
+      - intent: ask_education_program_multimedia_communications_multimedia_teaching_and_learning_methods_and_activities
+      - action: utter_ask_education_program_multimedia_communications_multimedia_teaching_and_learning_methods_and_activities
+  
+  - rule: Respond to subject assessment methods of multimedia
+    steps:
+      - intent: ask_education_program_multimedia_communications_multimedia_subject_assessment_methods
+      - action: utter_ask_education_program_multimedia_communications_multimedia_subject_assessment_methods
+  
+  - rule: Respond to duties of the learner of multimedia
+    steps:
+      - intent: ask_education_program_multimedia_communications_multimedia_duties_of_the_learner
+      - action: utter_ask_education_program_multimedia_communications_multimedia_duties_of_the_learner
+
+  - rule: Respond to additional reading materials of multimedia
+    steps:
+      - intent: ask_education_program_multimedia_communications_multimedia_additional_reading_materials
+      - action: utter_ask_education_program_multimedia_communications_multimedia_additional_reading_materials

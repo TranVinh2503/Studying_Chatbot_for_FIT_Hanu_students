@@ -1,0 +1,55 @@
+---
+version: "3.1"
+rules:
+  - rule: Respond to mandatory events
+    steps:
+      - intent: ask_mandatory_events
+      - action: utter_ask_mandatory_events
+  - rule: Respond to enroll courses
+    steps:
+      - intent: ask_administrative_procedures_enroll_course
+      - action: utter_ask_administrative_procedures_enroll_course
+  - rule: Respond to change major
+    steps:
+      - intent: ask_administrative_procedures_change_major
+      - action: utter_ask_administrative_procedures_change_major
+  - rule: Respond to apply for financial aid
+    steps:
+      - intent: ask_administrative_procedures_apply_for_financial_aid
+      - action: utter_ask_administrative_procedures_apply_for_financial_aid
+  - rule: Respond to id card
+    steps:
+      - intent: ask_administrative_procedures_id_card
+      - action: utter_ask_administrative_procedures_id_card
+  - rule: Respond to heath insurance regolations
+    steps:
+      - intent: ask_health_insurance_regulations
+      - action: utter_ask_health_insurance_regulations
+  - rule: Respond to advanced courses
+    steps:
+      - intent: ask_academic_regulations_advanced_courses
+      - action: utter_ask_academic_regulations_advanced_courses
+  - rule: Respond to grade
+    steps:
+      - intent: ask_academic_regulations_grade
+      - action: utter_ask_academic_regulations_grade
+  - rule: Respond to exam conditions
+    steps:
+      - intent: ask_exam_conditions
+      - action: utter_ask_exam_conditions
+  - rule: Respond to tuition fees
+    steps:
+      - intent: ask_tuition_fee_regulations
+      - action: utter_ask_tuition_fee_regulations
+  - rule: Respond to IT major
+    steps:
+      - intent: ask_education_program_information_technology_major_overall
+      - action: utter_ask_education_program_information_technology_major_overall
+  - rule: Respond to major outcomes
+    steps:
+      - intent: ask_education_program_information_technology_major_goal
+      - action: utter_ask_education_program_information_technology_major_goal
+  - rule: Respond to job possition
+    steps:
+      - intent: ask_education_program_information_technology_job_posstion
+      - action: utter_ask_education_program_information_technology_job_posstion

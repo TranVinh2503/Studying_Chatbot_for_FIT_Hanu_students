@@ -1,0 +1,94 @@
+version: "3.1"
+
+nlu:
+
+  - intent: ask_education_program_multimedia_communications_public_relations_course_code
+    examples: |
+      - What is the course code of Public Relations?
+      - What is the specific course code assigned to Public Relations?
+      - Could you provide the course identification code for Public Relations?
+      - What alphanumeric code represents the Public Relations course?
+      
+  - intent: ask_education_program_multimedia_communications_public_relations_is_prerequisite_courses
+    examples: |
+      - Is the Public Relations prerequisite courses?
+      - Does Public Relations serve as a prerequisite for other courses?
+      - Is Public Relations Services a required precursor for subsequent courses?
+      - Does completing Public Relations precede other course enrollments?
+  
+  - intent: ask_education_program_multimedia_communications_public_relations_name_of_unit_in_charge_of_teaching
+    examples: |
+      - What is name of unit in charge of teaching of Public Relations? 
+      - Which department oversees the instruction of Public Relations?
+      - What is the unit or department responsible for teaching Public Relations?
+      - Who manages the teaching responsibilities for Public Relations?
+
+  - intent: ask_education_program_multimedia_communications_public_relations_number_of_cresits
+    examples: |
+      - What is the number of credits for the Public Relations?
+      - How many credits are assigned to the Public Relations course?
+      - What is the credit count for the Public Relations course?
+      - Could you provide information about the credit hours allocated to Public Relations?
+      
+  - intent: ask_education_program_multimedia_communications_public_relations_number_of_credit_hours 
+    examples: |
+      - What is the number of credit hours for the Public Relations subject?
+      - How many credit hours does the Public Relations subject entail?
+      - What is the total count of credit hours allocated to the Public Relations subject?
+      - Could you provide the number of credit hours associated with the Public Relations subject?
+      
+  - intent: ask_education_program_multimedia_communications_public_relations_course_type
+    examples: |
+      - What is the type term of the Public Relations?
+      - What category of term characterizes the Public Relations?
+      - Could you specify the classification of the term for Public Relations?
+      - What type or classification does the term for Public Relations fall under?
+      
+  - intent: ask_education_program_multimedia_communications_public_relations_course_instructor_info
+    examples: |
+      - Can you provide specifics about the teachers instructing Public Relations?
+      - Who are the educators or instructors leading the Special Public Relations?
+      - Details about the faculty members involved in teaching Public Relations.
+      - Could you share information about the instructors handling Public Relations?
+      
+  - intent: ask_education_program_multimedia_communications_public_relations_objective_of_course
+    examples: |
+      - What is the Objective of the course of Public Relations?
+      - What are the goals or aims of the Psychology of Public Relations?
+      - Could you explain the course objectives for Public Relations?
+      - What is the intended outcome or purpose of the Public Relations?
+      
+  - intent: ask_education_program_multimedia_communications_public_relations_course_structure
+    examples: |
+      - What does the course structure of the Public Relations include?
+      - What elements form part of the course structure in Public Relations?
+      - Could you outline the contents encompassed in the course structure of Public Relations?
+      - What constitutes the framework or components of the Public Relations course structure?
+      
+  - intent: ask_education_program_multimedia_communications_public_relations_teaching_and_learning_methods_and_activities
+    examples: |
+      - What does the teaching and learning methods and activities of the Public Relations include?
+      - What methods and activities are involved in teaching and learning within Public Relations?
+      - Could you describe the instructional techniques and learning activities utilized in Public Relations?
+      - What teaching strategies and learning activities are incorporated into Public Relations?
+      
+  - intent: ask_education_program_multimedia_communications_public_relations_subject_assessment_methods
+    examples: |
+      - What is the method of evaluating the subject of the Public Relations?
+      - How is the Public Relations subject evaluated?
+      - What assessment method is employed for the Public Relations subject?
+      - Could you describe the evaluation approach utilized for the Public Relations subject?
+      
+  - intent: ask_education_program_multimedia_communications_public_relations_duties_of_the_learner
+    examples: |
+      - What is the duties of the learner of the Public Relations?
+      - What are the obligations or responsibilities of the student studying Public Relations?
+      - Could you outline the tasks or duties expected from learners in the Public Relations course?
+      - What responsibilities do students have while studying Public Relations?
+      
+  - intent: ask_education_program_multimedia_communications_public_relations_additional_reading_materials
+    examples: |
+      - What are the additional reading materials for the Public Relations subject?
+      - Could you provide other recommended reading materials for Public Relations?
+      - What additional resources or supplementary reading materials are suggested for Public Relations?
+      - Are there any extra reading materials recommended for the Special Public Relations?

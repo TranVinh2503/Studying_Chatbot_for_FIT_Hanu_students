@@ -1,0 +1,93 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_multimedia_course_code
+    examples: |
+      - What is the course code of Multimedia?
+      - What is the specific course code assigned to Multimedia?
+      - Could you provide the course identification code for Multimedia?
+      - What alphanumeric code represents the Multimedia course?
+      
+  - intent: ask_education_program_multimedia_communications_multimedia_is_prerequisite_courses
+    examples: |
+      - Is the Multimedia prerequisite courses?
+      - Does Multimedia serve as a prerequisite for other courses?
+      - Is Multimedia Services a required precursor for subsequent courses?
+      - Does completing Multimedia precede other course enrollments?
+  
+  - intent: ask_education_program_multimedia_communications_multimedia_name_of_unit_in_charge_of_teaching
+    examples: |
+      - What is name of unit in charge of teaching of Multimedia? 
+      - Which department oversees the instruction of Multimedia?
+      - What is the unit or department responsible for teaching Multimedia?
+      - Who manages the teaching responsibilities for Multimedia?
+
+  - intent: ask_education_program_multimedia_communications_multimedia_number_of_cresits
+    examples: |
+      - What is the number of credits for the Multimedia?
+      - How many credits are assigned to the Multimedia course?
+      - What is the credit count for the Multimedia course?
+      - Could you provide information about the credit hours allocated to Multimedia?
+      
+  - intent: ask_education_program_multimedia_communications_multimedia_number_of_credit_hours 
+    examples: |
+      - What is the number of credit hours for the Multimedia subject?
+      - How many credit hours does the Multimedia subject entail?
+      - What is the total count of credit hours allocated to the Multimedia subject?
+      - Could you provide the number of credit hours associated with the Multimedia subject?
+      
+  - intent: ask_education_program_multimedia_communications_multimedia_course_type
+    examples: |
+      - What is the type term of the Multimedia?
+      - What category of term characterizes the Multimedia?
+      - Could you specify the classification of the term for Multimedia?
+      - What type or classification does the term for Multimedia fall under?
+      
+  - intent: ask_education_program_multimedia_communications_multimedia_course_instructor_info
+    examples: |
+      - Can you provide specifics about the teachers instructing Multimedia?
+      - Who are the educators or instructors leading the Special Multimedia?
+      - Details about the faculty members involved in teaching Multimedia.
+      - Could you share information about the instructors handling Multimedia?
+      
+  - intent: ask_education_program_multimedia_communications_multimedia_objective_of_course
+    examples: |
+      - What is the Objective of the course of Multimedia?
+      - What are the goals or aims of the Multimedia course?
+      - Could you explain the course objectives for Multimedia?
+      - What is the intended outcome or purpose of the Multimedia?
+      
+  - intent: ask_education_program_multimedia_communications_multimedia_course_structure
+    examples: |
+      - What does the course structure of the Multimedia include?
+      - What elements form part of the course structure in Multimedia?
+      - Could you outline the contents encompassed in the course structure of Multimedia?
+      - What constitutes the framework or components of the Multimedia course structure?
+      
+  - intent: ask_education_program_multimedia_communications_multimedia_teaching_and_learning_methods_and_activities
+    examples: |
+      - What does the teaching and learning methods and activities of the Multimedia include?
+      - What methods and activities are involved in teaching and learning within Multimedia?
+      - Could you describe the instructional techniques and learning activities utilized in Multimedia?
+      - What teaching strategies and learning activities are incorporated into Multimedia?
+      
+  - intent: ask_education_program_multimedia_communications_multimedia_subject_assessment_methods
+    examples: |
+      - What is the method of evaluating the subject of the Multimedia?
+      - How is the Multimedia subject evaluated?
+      - What assessment method is employed for the Multimedia subject?
+      - Could you describe the evaluation approach utilized for the Multimedia subject?
+      
+  - intent: ask_education_program_multimedia_communications_multimedia_duties_of_the_learner
+    examples: |
+      - What is the duties of the learner of the Multimedia?
+      - What are the obligations or responsibilities of the student studying Multimedia?
+      - Could you outline the tasks or duties expected from learners in the Multimedia course?
+      - What responsibilities do students have while studying Multimedia?
+      
+  - intent: ask_education_program_multimedia_communications_multimedia_additional_reading_materials
+    examples: |
+      - What are the additional reading materials for the Multimedia subject?
+      - Could you provide other recommended reading materials for Multimedia?
+      - What additional resources or supplementary reading materials are suggested for Multimedia?
+      - Are there any extra reading materials recommended for the Special Multimedia?

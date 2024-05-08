@@ -1,0 +1,93 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_e_business_course_code_vie
+    examples: |
+       - Mã khóa học Thương mại điện tử là gì?
+       - Mã khóa học cụ thể được giao cho E-Business là gì?
+       - Bạn có thể cung cấp mã nhận dạng khóa học Kinh doanh điện tử được không?
+       - Mã chữ số nào đại diện cho khóa học Thương mại điện tử?
+      
+  - intent: ask_education_program_multimedia_communications_e_business_is_prerequisite_courses_vie
+    examples: |
+       - Là môn học tiên quyết về Kinh doanh điện tử?
+       - Kinh doanh điện tử có phải là điều kiện tiên quyết cho các khóa học khác không?
+       - Dịch vụ Thương mại điện tử có phải là bước khởi đầu cần thiết cho các khóa học tiếp theo không?
+       - Việc hoàn thành E-Business có trước khi đăng ký các khóa học khác không?
+  
+  - intent: ask_education_program_multimedia_communications_e_business_name_of_unit_in_charge_of_teaching_vie
+    examples: |
+       - Tên đơn vị phụ trách giảng dạy về Thương mại điện tử là gì?
+       - Bộ phận nào giám sát việc giảng dạy về Thương mại điện tử?
+       - Đơn vị, bộ phận nào chịu trách nhiệm giảng dạy về Thương mại điện tử?
+       - ai quản lý trách nhiệm giảng dạy về Thương mại điện tử?
+
+  - intent: ask_education_program_multimedia_communications_e_business_number_of_cresits_vie
+    examples: |
+       - Số tín chỉ cho phần Kinh doanh điện tử là bao nhiêu?
+       - Khóa học Thương mại điện tử có bao nhiêu tín chỉ?
+       - Số tín chỉ cho khóa học Kinh doanh điện tử là bao nhiêu?
+       - Bạn có thể cung cấp thông tin về số giờ tín chỉ được phân bổ cho Kinh doanh điện tử không?
+      
+  - intent: ask_education_program_multimedia_communications_e_business_number_of_credit_hours_vie
+    examples: |
+       - Số giờ tín chỉ của môn Thương mại điện tử là bao nhiêu?
+       - Môn học Thương mại điện tử đòi hỏi bao nhiêu giờ tín chỉ?
+       - Tổng số giờ tín chỉ được phân bổ cho môn Kinh doanh điện tử là bao nhiêu?
+       - Bạn có thể cung cấp số giờ tín chỉ liên quan đến chủ đề Thương mại điện tử không?
+      
+  - intent: ask_education_program_multimedia_communications_e_business_course_type_vie
+    examples: |
+       - Thuật ngữ loại hình Kinh doanh điện tử là gì?
+       - Loại thuật ngữ nào đặc trưng cho Kinh doanh điện tử?
+       - Xin ông chỉ rõ cách phân loại thuật ngữ Thương mại điện tử?
+       - Thuật ngữ Thương mại điện tử thuộc loại hoặc phân loại nào?
+      
+  - intent: ask_education_program_multimedia_communications_e_business_course_instructor_info_vie
+    examples: |
+       - Bạn có thể cho biết cụ thể về các giáo viên giảng dạy Thương mại điện tử được không?
+       - Những nhà giáo dục hoặc người hướng dẫn dẫn dắt Kinh doanh điện tử đặc biệt là ai?
+       - Thông tin chi tiết về các giảng viên tham gia giảng dạy Thương mại điện tử.
+       - Ông có thể chia sẻ thông tin về các giảng viên đang giảng dạy về Thương mại điện tử được không?
+      
+  - intent: ask_education_program_multimedia_communications_e_business_objective_of_course_vie
+    examples: |
+       - Mục tiêu của khóa học Thương mại điện tử là gì?
+       - Mục đích hoặc mục đích của khóa học Thương mại điện tử là gì?
+       - Bạn có thể giải thích mục tiêu khóa học về Thương mại điện tử được không?
+       - Kết quả hoặc mục đích dự định của khóa học Thương mại điện tử là gì?
+      
+  - intent: ask_education_program_multimedia_communications_e_business_course_structure_vie
+    examples: |
+       - Cấu trúc khóa học Thương mại điện tử bao gồm những gì?
+       - Những yếu tố nào tạo thành một phần của cấu trúc khóa học về Kinh doanh điện tử?
+       - Bạn có thể tóm tắt những nội dung trong cấu trúc môn học Thương mại điện tử được không?
+       - Điều gì tạo nên khuôn khổ hoặc các thành phần của cấu trúc khóa học Thương mại điện tử?
+      
+  - intent: ask_education_program_multimedia_communications_e_business_teaching_and_learning_methods_and_activities_vie
+    examples: |
+       - Phương pháp và hoạt động dạy và học của Thương mại điện tử bao gồm những gì?
+       - Những phương pháp và hoạt động nào được áp dụng trong việc dạy và học trong Thương mại điện tử?
+       - Bạn có thể mô tả các kỹ thuật giảng dạy và hoạt động học tập được sử dụng trong Thương mại điện tử không?
+       - Những chiến lược giảng dạy và hoạt động học tập nào được đưa vào Thương mại điện tử?
+      
+  - intent: ask_education_program_multimedia_communications_e_business_subject_assessment_methods_vie
+    examples: |
+       - Phương pháp đánh giá chủ thể của Thương mại điện tử là gì?
+       - Môn học Thương mại điện tử được đánh giá như thế nào?
+       - Phương pháp đánh giá nào được sử dụng cho môn học Thương mại điện tử?
+       - Bạn có thể mô tả phương pháp đánh giá được áp dụng cho môn học Thương mại điện tử được không?
+      
+  - intent: ask_education_program_multimedia_communications_e_business_duties_of_the_learner_vie
+    examples: |
+       - Nhiệm vụ của người học Thương mại điện tử là gì?
+       - Nghĩa vụ, trách nhiệm của sinh viên học Thương mại điện tử là gì?
+       - Thầy có thể nêu những nhiệm vụ, nhiệm vụ mong đợi của người học trong khóa học Thương mại điện tử được không?
+       - Sinh viên có trách nhiệm gì khi học Thương mại điện tử?
+      
+  - intent: ask_education_program_multimedia_communications_e_business_additional_reading_materials_vie
+    examples: |
+       - Tài liệu đọc thêm cho môn Thương mại điện tử là gì?
+       - Bạn có thể cung cấp các tài liệu đọc gợi ý khác cho E-Business không?
+       - Những nguồn tài liệu bổ sung hoặc tài liệu đọc bổ sung nào được đề xuất cho Kinh doanh điện tử?
+       - có tài liệu đọc bổ sung nào được khuyến nghị cho Kinh doanh điện tử đặc biệt không?

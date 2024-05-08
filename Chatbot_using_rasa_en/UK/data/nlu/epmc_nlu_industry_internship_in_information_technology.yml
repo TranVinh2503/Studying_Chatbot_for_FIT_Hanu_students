@@ -1,0 +1,93 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_industry_internship_course_code
+    examples: |
+      - What is the course code of Industry Internship?
+      - What is the specific course code assigned to Industry Internship?
+      - Could you provide the course identification code for Industry Internship?
+      - What alphanumeric code represents the Industry Internship?
+      
+  - intent: ask_education_program_multimedia_communications_industry_internship_is_prerequisite_courses
+    examples: |
+      - Is the Industry Internship prerequisite courses?
+      - Does Industry Internship serve as a prerequisite for other courses?
+      - Is Industry Internship Services a required precursor for subsequent courses?
+      - Does completing Industry Internship precede other course enrollments?
+  
+  - intent: ask_education_program_multimedia_communications_industry_internship_name_of_unit_in_charge_of_teaching
+    examples: |
+      - What is name of unit in charge of teaching of Industry Internship? 
+      - Which department oversees the instruction of Industry Internship?
+      - What is the unit or department responsible for teaching Industry Internship?
+      - Who manages the teaching responsibilities for Industry Internship?
+
+  - intent: ask_education_program_multimedia_communications_industry_internship_number_of_cresits
+    examples: |
+      - What is the number of credits for the Industry Internship?
+      - How many credits are assigned to the Industry Internship course?
+      - What is the credit count for the Industry Internship course?
+      - Could you provide information about the credit hours allocated to Industry Internship?
+      
+  - intent: ask_education_program_multimedia_communications_industry_internship_number_of_credit_hours 
+    examples: |
+      - What is the number of credit hours for the Industry Internship subject?
+      - How many credit hours does the Industry Internship subject entail?
+      - What is the total count of credit hours allocated to the Industry Internship subject?
+      - Could you provide the number of credit hours associated with the Industry Internship subject?
+      
+  - intent: ask_education_program_multimedia_communications_industry_internship_course_type
+    examples: |
+      - What is the type term of the Industry Internship?
+      - What category of term characterizes the Industry Internship?
+      - Could you specify the classification of the term for Industry Internship?
+      - What type or classification does the term for Industry Internship fall under?
+      
+  - intent: ask_education_program_multimedia_communications_industry_internship_course_instructor_info
+    examples: |
+      - Can you provide specifics about the teachers instructing Industry Internship?
+      - Who are the educators or instructors leading the Special Industry Internship?
+      - Details about the faculty members involved in teaching Industry Internship.
+      - Could you share information about the instructors handling Industry Internship?
+      
+  - intent: ask_education_program_multimedia_communications_industry_internship_objective_of_course
+    examples: |
+      - What is the Objective of the course of Industry Internship?
+      - What are the goals or aims of the Psychology of Industry Internship?
+      - Could you explain the course objectives for Industry Internship?
+      - What is the intended outcome or purpose of the Industry Internship?
+      
+  - intent: ask_education_program_multimedia_communications_industry_internship_course_structure
+    examples: |
+      - What does the course structure of the Industry Internship include?
+      - What elements form part of the course structure in Industry Internship?
+      - Could you outline the contents encompassed in the course structure of Industry Internship?
+      - What constitutes the framework or components of the Industry Internship course structure?
+      
+  - intent: ask_education_program_multimedia_communications_industry_internship_teaching_and_learning_methods_and_activities
+    examples: |
+      - What does the teaching and learning methods and activities of the Industry Internship include?
+      - What methods and activities are involved in teaching and learning within Industry Internship?
+      - Could you describe the instructional techniques and learning activities utilized in Industry Internship?
+      - What teaching strategies and learning activities are incorporated into Industry Internship?
+      
+  - intent: ask_education_program_multimedia_communications_industry_internship_subject_assessment_methods
+    examples: |
+      - What is the method of evaluating the subject of the Industry Internship?
+      - How is the Industry Internship subject evaluated?
+      - What assessment method is employed for the Industry Internship subject?
+      - Could you describe the evaluation approach utilized for the Industry Internship subject?
+      
+  - intent: ask_education_program_multimedia_communications_industry_internship_duties_of_the_learner
+    examples: |
+      - What is the duties of the learner of the Industry Internship?
+      - What are the obligations or responsibilities of the student studying Industry Internship?
+      - Could you outline the tasks or duties expected from learners in the Industry Internship?
+      - What responsibilities do students have while studying Industry Internship?
+      
+  - intent: ask_education_program_multimedia_communications_industry_internship_additional_reading_materials
+    examples: |
+      - What are the additional reading materials for the Industry Internship subject?
+      - Could you provide other recommended reading materials for Industry Internship?
+      - What additional resources or supplementary reading materials are suggested for Industry Internship?
+      - Are there any extra reading materials recommended for the Special Industry Internship?

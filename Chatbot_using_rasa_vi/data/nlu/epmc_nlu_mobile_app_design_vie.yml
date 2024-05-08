@@ -1,0 +1,93 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_mobile_app_design_course_code_vie
+    examples: |
+       - Mã khóa học Thiết kế ứng dụng di động là gì?
+       - Mã khóa học cụ thể của ngành Thiết kế ứng dụng di động là gì?
+       - Bạn có thể cung cấp mã nhận dạng khóa học Thiết kế ứng dụng di động được không?
+       - Mã chữ và số nào đại diện cho khóa học Thiết kế ứng dụng di động?
+      
+  - intent: ask_education_program_multimedia_communications_mobile_app_design_is_prerequisite_courses_vie
+    examples: |
+       - Đây có phải là khóa học tiên quyết về Thiết kế ứng dụng di động không?
+       - Thiết kế ứng dụng di động có phải là điều kiện tiên quyết cho các khóa học khác không?
+       - Dịch vụ thiết kế ứng dụng di động có phải là tiền đề cần thiết cho các khóa học tiếp theo không?
+       - Việc hoàn thành Thiết kế ứng dụng di động có trước khi đăng ký khóa học khác không?
+  
+  - intent: ask_education_program_multimedia_communications_mobile_app_design_name_of_unit_in_charge_of_teaching_vie
+    examples: |
+       - Tên đơn vị phụ trách giảng dạy Thiết kế Mobile App là gì?
+       - Bộ phận nào giám sát việc hướng dẫn Thiết kế Mobile App?
+       - Đơn vị, bộ phận nào chịu trách nhiệm giảng dạy Thiết kế Mobile App?
+       - Ai quản lý trách nhiệm giảng dạy môn Thiết kế ứng dụng di động?
+
+  - intent: ask_education_program_multimedia_communications_mobile_app_design_number_of_cresits_vie
+    examples: |
+       - Số tín chỉ cho phần Thiết kế ứng dụng di động là bao nhiêu?
+       - Khóa học Thiết kế ứng dụng di động được tính bao nhiêu tín chỉ?
+       - Số tín chỉ của khóa học Thiết kế ứng dụng di động là bao nhiêu?
+       - Bạn có thể cung cấp thông tin về số giờ tín chỉ được phân bổ cho Thiết kế ứng dụng di động không?
+      
+  - intent: ask_education_program_multimedia_communications_mobile_app_design_number_of_credit_hours_vie
+    examples: |
+       - Số giờ tín chỉ của môn Thiết kế ứng dụng di động là bao nhiêu?
+       - Môn học Thiết kế ứng dụng di động đòi hỏi bao nhiêu giờ tín chỉ?
+       - Tổng số giờ tín chỉ được phân bổ cho môn Thiết kế ứng dụng di động là bao nhiêu?
+       - Bạn có thể cung cấp số giờ tín chỉ liên quan đến môn Thiết kế ứng dụng di động không?
+      
+  - intent: ask_education_program_multimedia_communications_mobile_app_design_course_type_vie
+    examples: |
+       - Thuật ngữ kiểu của Thiết kế ứng dụng di động là gì?
+       - Loại thuật ngữ nào đặc trưng cho Thiết kế ứng dụng di động?
+       - Bạn có thể nêu rõ cách phân loại thuật ngữ Thiết kế ứng dụng di động được không?
+       - Thuật ngữ Thiết kế ứng dụng di động thuộc loại hoặc phân loại nào?
+      
+  - intent: ask_education_program_multimedia_communications_mobile_app_design_course_instructor_info_vie
+    examples: |
+       - Bạn có thể cung cấp thông tin cụ thể về giáo viên hướng dẫn Thiết kế ứng dụng di động được không?
+       - Những nhà giáo dục hoặc người hướng dẫn dẫn dắt Thiết kế ứng dụng di động đặc biệt là ai?
+       - Thông tin chi tiết về các giảng viên tham gia giảng dạy Thiết kế Mobile App.
+       - Bạn có thể chia sẻ thông tin về các giảng viên đang đảm nhận mảng Mobile App Design được không?
+      
+  - intent: ask_education_program_multimedia_communications_mobile_app_design_objective_of_course_vie
+    examples: |
+       - Mục tiêu của khóa học Thiết kế ứng dụng di động là gì?
+       - Mục đích và mục đích của khóa học Thiết kế ứng dụng di động là gì?
+       - Bạn có thể giải thích mục tiêu khóa học Thiết kế ứng dụng di động được không?
+       - Đầu ra hoặc mục đích dự kiến của khóa học Thiết kế ứng dụng di động là gì?
+      
+  - intent: ask_education_program_multimedia_communications_mobile_app_design_course_structure_vie
+    examples: |
+       - Cấu trúc khóa học Thiết kế ứng dụng di động bao gồm những gì?
+       - Những yếu tố nào tạo thành một phần của cấu trúc khóa học Thiết kế ứng dụng di động?
+       - Thầy có thể tóm tắt các nội dung trong cấu trúc môn học Thiết kế ứng dụng di động được không?
+       - Điều gì tạo nên khung hoặc các thành phần của cấu trúc khóa học Thiết kế ứng dụng di động?
+      
+  - intent: ask_education_program_multimedia_communications_mobile_app_design_teaching_and_learning_methods_and_activities_vie
+    examples: |
+       - Phương pháp, hoạt động dạy và học của Thiết kế Mobile App bao gồm những gì?
+       - Những phương pháp và hoạt động nào được áp dụng trong việc dạy và học trong Thiết kế ứng dụng di động?
+       - Bạn có thể mô tả các kỹ thuật giảng dạy và hoạt động học tập được sử dụng trong Thiết kế ứng dụng di động không?
+       - Chiến lược giảng dạy và hoạt động học tập nào được đưa vào Thiết kế ứng dụng di động?
+      
+  - intent: ask_education_program_multimedia_communications_mobile_app_design_subject_assessment_methods_vie
+    examples: |
+       - Phương pháp đánh giá đề tài Thiết kế App Mobile là gì?
+       - Môn học Thiết kế ứng dụng di động được đánh giá như thế nào?
+       - Môn học Thiết kế ứng dụng di động áp dụng phương pháp đánh giá nào?
+       - Bạn có thể mô tả cách đánh giá được áp dụng cho môn Thiết kế ứng dụng di động được không?
+      
+  - intent: ask_education_program_multimedia_communications_mobile_app_design_duties_of_the_learner_vie
+    examples: |
+       - Nhiệm vụ của người học Thiết kế ứng dụng di động là gì?
+       - Nghĩa vụ, trách nhiệm của sinh viên học Thiết kế ứng dụng di động là gì?
+       - Thầy có thể nêu những nhiệm vụ, nhiệm vụ mong đợi của học viên trong khóa học Thiết kế ứng dụng di động được không?
+       - Sinh viên có trách nhiệm gì khi học Thiết kế Mobile App?
+      
+  - intent: ask_education_program_multimedia_communications_mobile_app_design_additional_reading_materials_vie
+    examples: |
+       - Tài liệu đọc thêm môn Thiết kế ứng dụng di động là gì?
+       - Bạn có thể cung cấp các tài liệu đọc được đề xuất khác cho Thiết kế ứng dụng di động không?
+       - Những tài nguyên hoặc tài liệu đọc bổ sung nào được đề xuất cho Thiết kế ứng dụng di động?
+       - Có tài liệu đọc bổ sung nào được đề xuất cho Thiết kế ứng dụng di động đặc biệt không?

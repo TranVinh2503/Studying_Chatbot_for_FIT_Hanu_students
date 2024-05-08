@@ -1,0 +1,93 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_computer_graphics_3_course_code
+    examples: |
+      - What is the course code of Computer graphics 3?
+      - What is the specific course code assigned to Computer graphics 3?
+      - Could you provide the course identification code forComputer graphics 3?
+      - What alphanumeric code represents the Computer graphics 3 course?
+      
+  - intent: ask_education_program_multimedia_communications_computer_graphics_3_is_prerequisite_courses
+    examples: |
+      - Is the Computer graphics 3 prerequisite courses?
+      - Does Computer graphics 3 serve as a prerequisite for other courses?
+      - Is Computer graphics 3 Services a required precursor for subsequent courses?
+      - Does completing Computer graphics 3 precede other course enrollments?
+  
+  - intent: ask_education_program_multimedia_communications_computer_graphics_3_name_of_unit_in_charge_of_teaching
+    examples: |
+      - What is name of unit in charge of teaching of Computer graphics 3? 
+      - Which department oversees the instruction of Computer graphics 3?
+      - What is the unit or department responsible for teachingComputer graphics 3?
+      - Who manages the teaching responsibilities for Computer graphics 3?
+
+  - intent: ask_education_program_multimedia_communications_computer_graphics_3_number_of_cresits
+    examples: |
+      - What is the number of credits for the Computer graphics 3?
+      - How many credits are assigned to the Computer graphics 3 course?
+      - What is the credit count for the Computer graphics 3 course?
+      - Could you provide information about the credit hours allocated to Computer graphics 3?
+      
+  - intent: ask_education_program_multimedia_communications_computer_graphics_3_number_of_credit_hours 
+    examples: |
+      - What is the number of credit hours for the Computer graphics 3 subject?
+      - How many credit hours does the Computer graphics 3 subject entail?
+      - What is the total count of credit hours allocated to the Computer graphics 3 subject?
+      - Could you provide the number of credit hours associated with the Computer graphics 3 subject?
+      
+  - intent: ask_education_program_multimedia_communications_computer_graphics_3_course_type
+    examples: |
+      - What is the type term of the Computer graphics 3?
+      - What category of term characterizes the Computer graphics 3?
+      - Could you specify the classification of the term for Computer graphics 3?
+      - What type or classification does the term for Computer graphics 3 fall under?
+      
+  - intent: ask_education_program_multimedia_communications_computer_graphics_3_course_instructor_info
+    examples: |
+      - Can you provide specifics about the teachers instructing Computer graphics 3?
+      - Who are the educators or instructors leading the Special Computer graphics 3?
+      - Details about the faculty members involved in teaching Computer graphics 3.
+      - Could you share information about the instructors handling Computer graphics 3?
+      
+  - intent: ask_education_program_multimedia_communications_computer_graphics_3_objective_of_course
+    examples: |
+      - What is the Objective of the course of Computer graphics 3?
+      - What are the goals or aims of the Computer graphics 3 course?
+      - Could you explain the course objectives for Computer graphics 3?
+      - What is the intended outcome or purpose of the Computer graphics 3?
+      
+  - intent: ask_education_program_multimedia_communications_computer_graphics_3_course_structure
+    examples: |
+      - What does the course structure of the Computer graphics 3 include?
+      - What elements form part of the course structure in Computer graphics 3?
+      - Could you outline the contents encompassed in the course structure of Computer graphics 3?
+      - What constitutes the framework or components of the Computer graphics 3 course structure?
+      
+  - intent: ask_education_program_multimedia_communications_computer_graphics_3_teaching_and_learning_methods_and_activities
+    examples: |
+      - What does the teaching and learning methods and activities of the Computer graphics 3 include?
+      - What methods and activities are involved in teaching and learning within Computer graphics 3?
+      - Could you describe the instructional techniques and learning activities utilized in Computer graphics 3?
+      - What teaching strategies and learning activities are incorporated into Computer graphics 3?
+      
+  - intent: ask_education_program_multimedia_communications_computer_graphics_3_subject_assessment_methods
+    examples: |
+      - What is the method of evaluating the subject of the Computer graphics 3?
+      - How is the Computer graphics 3 subject evaluated?
+      - What assessment method is employed for the Computer graphics 3 subject?
+      - Could you describe the evaluation approach utilized for the Computer graphics 3 subject?
+      
+  - intent: ask_education_program_multimedia_communications_computer_graphics_3_duties_of_the_learner
+    examples: |
+      - What is the duties of the learner of the Computer graphics 3?
+      - What are the obligations or responsibilities of the student studying Computer graphics 3?
+      - Could you outline the tasks or duties expected from learners in the Computer graphics 3 course?
+      - What responsibilities do students have while studying Computer graphics 3?
+      
+  - intent: ask_education_program_multimedia_communications_computer_graphics_3_additional_reading_materials
+    examples: |
+      - What are the additional reading materials for the Computer graphics 3 subject?
+      - Could you provide other recommended reading materials for Computer graphics 3?
+      - What additional resources or supplementary reading materials are suggested for Computer graphics 3?
+      - Are there any extra reading materials recommended for the Special Computer graphics 3?

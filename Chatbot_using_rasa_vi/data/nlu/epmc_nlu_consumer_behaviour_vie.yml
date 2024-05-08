@@ -1,0 +1,94 @@
+version: "3.1"
+
+nlu:
+
+  - intent: ask_education_program_multimedia_communications_consumer_behaviour_course_code_vie
+    examples: |
+      - Mã khóa học Hành vi người tiêu dùng là gì?
+      - Mã khóa học cụ thể được gán cho Hành vi người tiêu dùng là gì?
+      - Bạn có thể cung cấp mã nhận dạng khóa học Hành vi người tiêu dùng được không?
+      - Mã chữ và số nào thể hiện Hành vi của người tiêu dùng?
+      
+  - intent: ask_education_program_multimedia_communications_consumer_behaviour_is_prerequisite_courses_vie
+    examples: |
+      - Khóa học tiên quyết về Hành vi người tiêu dùng?
+      - Hành vi người tiêu dùng có phải là tiền đề cho các khóa học khác không?
+      - Dịch vụ Hành vi Người tiêu dùng có phải là tiền đề cần thiết cho các khóa học tiếp theo không?
+      - Việc hoàn thành Hành vi của Người tiêu dùng có diễn ra trước khi đăng ký các khóa học khác không?
+  
+  - intent: ask_education_program_multimedia_communications_consumer_behaviour_name_of_unit_in_charge_of_teaching_vie
+    examples: |
+      - Tên đơn vị giảng dạy môn Hành vi người tiêu dùng là gì?
+      - Bộ phận nào giám sát việc hướng dẫn Hành vi người tiêu dùng?
+      - Đơn vị, bộ phận nào chịu trách nhiệm giảng dạy về Hành vi người tiêu dùng?
+      - Ai quản lý trách nhiệm giảng dạy môn Hành vi người tiêu dùng?
+
+  - intent: ask_education_program_multimedia_communications_consumer_behaviour_number_of_cresits_vie
+    examples: |
+      - Số tín chỉ cho Hành vi người tiêu dùng là bao nhiêu?
+      - Khóa học Hành vi người tiêu dùng có bao nhiêu tín chỉ?
+      - Số tín chỉ cho khóa học Hành vi người tiêu dùng là bao nhiêu?
+      - Bạn có thể cung cấp thông tin về số giờ tín dụng được phân bổ cho Hành vi của Người tiêu dùng không?
+      
+  - intent: ask_education_program_multimedia_communications_consumer_behaviour_number_of_credit_hours_vie 
+    examples: |
+      - Số giờ tín chỉ cho môn Hành vi người tiêu dùng là bao nhiêu?
+      - Môn học Hành vi người tiêu dùng đòi hỏi bao nhiêu giờ tín chỉ?
+      - Tổng số giờ tín chỉ được phân bổ cho môn Hành vi người tiêu dùng là bao nhiêu?
+      - Bạn có thể cung cấp số giờ tín chỉ liên quan đến chủ đề Hành vi người tiêu dùng không?
+      
+  - intent: ask_education_program_multimedia_communications_consumer_behaviour_course_type_vie
+    examples: |
+      - Thuật ngữ hành vi người tiêu dùng là gì?
+      - Loại thuật ngữ nào đặc trưng cho Hành vi của người tiêu dùng?
+      - Bạn có thể chỉ rõ cách phân loại thuật ngữ Hành vi người tiêu dùng được không?
+      - Thuật ngữ Hành vi người tiêu dùng thuộc loại hoặc phân loại nào?
+      
+  - intent: ask_education_program_multimedia_communications_consumer_behaviour_course_instructor_info_vie
+    examples: |
+      - Bạn có thể cung cấp thông tin cụ thể về những giáo viên hướng dẫn Hành vi người tiêu dùng không?
+      - Ai là nhà giáo dục hoặc người hướng dẫn Hành vi người tiêu dùng đặc biệt?
+      - Thông tin chi tiết về các giảng viên tham gia giảng dạy Hành vi người tiêu dùng.
+      - Bạn có thể chia sẻ thông tin về những người hướng dẫn môn Hành vi người tiêu dùng được không?
+      
+  - intent: ask_education_program_multimedia_communications_consumer_behaviour_objective_of_course_vie
+    examples: |
+      - Mục tiêu của khóa học Hành vi người tiêu dùng là gì?
+      - Mục đích hay mục đích của Tâm lý hành vi người tiêu dùng là gì?
+      - Bạn có thể giải thích mục tiêu khóa học Hành vi người tiêu dùng được không?
+      - Kết quả hoặc mục đích dự kiến của Hành vi Người tiêu dùng là gì?
+      
+  - intent: ask_education_program_multimedia_communications_consumer_behaviour_course_structure_vie
+    examples: |
+      - Cấu trúc khóa học Hành vi người tiêu dùng bao gồm những gì?
+      - Những yếu tố nào tạo thành một phần của cấu trúc khóa học về Hành vi người tiêu dùng?
+      - Bạn có thể tóm tắt những nội dung trong cấu trúc khóa học Hành vi người tiêu dùng được không?
+      - Điều gì tạo nên khuôn khổ hoặc các thành phần của cấu trúc khóa học Hành vi người tiêu dùng?
+      
+  - intent: ask_education_program_multimedia_communications_consumer_behaviour_teaching_and_learning_methods_and_activities_vie
+    examples: |
+      - Phương pháp, hoạt động dạy và học của Hành vi người tiêu dùng bao gồm những gì?
+      - Những phương pháp và hoạt động nào được áp dụng trong việc dạy và học môn Hành vi người tiêu dùng?
+      - Bạn có thể mô tả các kỹ thuật giảng dạy và hoạt động học tập được sử dụng trong Hành vi người tiêu dùng không?
+      - Những chiến lược giảng dạy và hoạt động học tập nào được lồng ghép vào Hành vi người tiêu dùng?
+      
+  - intent: ask_education_program_multimedia_communications_consumer_behaviour_subject_assessment_methods_vie
+    examples: |
+      - Phương pháp đánh giá chủ đề Hành vi người tiêu dùng là gì?
+      - Môn Hành vi người tiêu dùng được đánh giá như thế nào?
+      - Phương pháp đánh giá nào được sử dụng cho môn Hành vi người tiêu dùng?
+      - Bạn có thể mô tả phương pháp đánh giá được sử dụng cho môn học Hành vi người tiêu dùng không?
+      
+  - intent: ask_education_program_multimedia_communications_consumer_behaviour_duties_of_the_learner_vie
+    examples: |
+      - Nhiệm vụ của người học Hành vi người tiêu dùng là gì?
+      - Nghĩa vụ, trách nhiệm của sinh viên học ngành Hành vi người tiêu dùng là gì?
+      - Thầy có thể nêu những nhiệm vụ, nhiệm vụ mong đợi của học viên trong khóa học Hành vi người tiêu dùng?
+      - Sinh viên có trách nhiệm gì khi nghiên cứu Hành vi người tiêu dùng?
+      
+  - intent: ask_education_program_multimedia_communications_consumer_behaviour_additional_reading_materials_vie
+    examples: |
+      - Tài liệu đọc bổ sung cho chủ đề Hành vi người tiêu dùng là gì?
+      - Bạn có thể cung cấp các tài liệu đọc khác được đề xuất về Hành vi của người tiêu dùng không?
+      - Những nguồn tài liệu bổ sung hoặc tài liệu đọc bổ sung nào được đề xuất cho Hành vi của người tiêu dùng?
+      - Có khuyến nghị đọc thêm tài liệu nào về Hành vi người tiêu dùng đặc biệt không?

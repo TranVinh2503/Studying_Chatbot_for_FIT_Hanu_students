@@ -1,0 +1,93 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_communication_crisis_management_course_code
+    examples: |
+      - What is the course code of Communication crisis management?
+      - What is the specific course code assigned to Communication crisis management?
+      - Could you provide the course identification code for Communication crisis management?
+      - What alphanumeric code represents the Communication crisis management course?
+      
+  - intent: ask_education_program_multimedia_communications_communication_crisis_management_is_prerequisite_courses
+    examples: |
+      - Is the Communication crisis management prerequisite courses?
+      - Does Communication crisis management serve as a prerequisite for other courses?
+      - Is Communication crisis management Services a required precursor for subsequent courses?
+      - Does completing Communication crisis management precede other course enrollments?
+  
+  - intent: ask_education_program_multimedia_communications_communication_crisis_management_name_of_unit_in_charge_of_teaching
+    examples: |
+      - What is name of unit in charge of teaching of Communication crisis management? 
+      - Which department oversees the instruction of Communication crisis management?
+      - What is the unit or department responsible for teaching Communication crisis management?
+      - Who manages the teaching responsibilities for Communication crisis management?
+
+  - intent: ask_education_program_multimedia_communications_communication_crisis_management_number_of_cresits
+    examples: |
+      - What is the number of credits for the Communication crisis management?
+      - How many credits are assigned to the Communication crisis management course?
+      - What is the credit count for the Communication crisis management course?
+      - Could you provide information about the credit hours allocated to Communication crisis management?
+      
+  - intent: ask_education_program_multimedia_communications_communication_crisis_management_number_of_credit_hours 
+    examples: |
+      - What is the number of credit hours for the Communication crisis management subject?
+      - How many credit hours does the Communication crisis management subject entail?
+      - What is the total count of credit hours allocated to the Communication crisis management subject?
+      - Could you provide the number of credit hours associated with the Communication crisis management subject?
+      
+  - intent: ask_education_program_multimedia_communications_communication_crisis_management_course_type
+    examples: |
+      - What is the type term of the Communication crisis management?
+      - What category of term characterizes the Communication crisis management?
+      - Could you specify the classification of the term for Communication crisis management?
+      - What type or classification does the term for Communication crisis management fall under?
+      
+  - intent: ask_education_program_multimedia_communications_communication_crisis_management_course_instructor_info
+    examples: |
+      - Can you provide specifics about the teachers instructing Communication crisis management?
+      - Who are the educators or instructors leading the Special Communication crisis management?
+      - Details about the faculty members involved in teaching Communication crisis management.
+      - Could you share information about the instructors handling Communication crisis management?
+      
+  - intent: ask_education_program_multimedia_communications_communication_crisis_management_objective_of_course
+    examples: |
+      - What is the Objective of the course of Communication crisis management?
+      - What are the goals or aims of the Psychology of Communication crisis management?
+      - Could you explain the course objectives for Communication crisis management?
+      - What is the intended outcome or purpose of the Communication crisis management?
+      
+  - intent: ask_education_program_multimedia_communications_communication_crisis_management_course_structure
+    examples: |
+      - What does the course structure of the Communication crisis management include?
+      - What elements form part of the course structure in Communication crisis management?
+      - Could you outline the contents encompassed in the course structure of Communication crisis management?
+      - What constitutes the framework or components of the Communication crisis management course structure?
+      
+  - intent: ask_education_program_multimedia_communications_communication_crisis_management_teaching_and_learning_methods_and_activities
+    examples: |
+      - What does the teaching and learning methods and activities of the Communication crisis management include?
+      - What methods and activities are involved in teaching and learning within Communication crisis management?
+      - Could you describe the instructional techniques and learning activities utilized in Communication crisis management?
+      - What teaching strategies and learning activities are incorporated into Communication crisis management?
+      
+  - intent: ask_education_program_multimedia_communications_communication_crisis_management_subject_assessment_methods
+    examples: |
+      - What is the method of evaluating the subject of the Communication crisis management?
+      - How is the Communication crisis management subject evaluated?
+      - What assessment method is employed for the Communication crisis management subject?
+      - Could you describe the evaluation approach utilized for the Communication crisis management subject?
+      
+  - intent: ask_education_program_multimedia_communications_communication_crisis_management_duties_of_the_learner
+    examples: |
+      - What is the duties of the learner of the Communication crisis management?
+      - What are the obligations or responsibilities of the student studying Communication crisis management?
+      - Could you outline the tasks or duties expected from learners in the Communication crisis management course?
+      - What responsibilities do students have while studying Communication crisis management?
+      
+  - intent: ask_education_program_multimedia_communications_communication_crisis_management_additional_reading_materials
+    examples: |
+      - What are the additional reading materials for the Communication crisis management subject?
+      - Could you provide other recommended reading materials for Communication crisis management?
+      - What additional resources or supplementary reading materials are suggested for Communication crisis management?
+      - Are there any extra reading materials recommended for the Special Communication crisis management?

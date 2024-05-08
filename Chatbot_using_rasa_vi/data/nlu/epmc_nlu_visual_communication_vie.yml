@@ -1,0 +1,93 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_visual_communication_course_code_vie
+    examples: |
+       - Mã khóa học Giao tiếp bằng hình ảnh là gì?
+       - Mã khóa học cụ thể được giao cho ngành Giao tiếp bằng hình ảnh là gì?
+       - Bạn có thể cung cấp mã nhận dạng khóa học Giao tiếp bằng hình ảnh được không?
+       - Mã chữ số nào đại diện cho khóa học Giao tiếp bằng hình ảnh?
+      
+  - intent: ask_education_program_multimedia_communications_visual_communication_is_prerequisite_courses_vie
+    examples: |
+       - Có phải là môn học tiên quyết về Giao Tiếp Hình Ảnh?
+       - Giao tiếp bằng hình ảnh có phải là điều kiện tiên quyết cho các khóa học khác không?
+       - Dịch vụ Truyền thông Hình ảnh có phải là tiền đề cần thiết cho các khóa học tiếp theo không?
+       - Việc hoàn thành Giao tiếp bằng hình ảnh có trước khi đăng ký khóa học khác không?
+  
+  - intent: ask_education_program_multimedia_communications_visual_communication_name_of_unit_in_charge_of_teaching_vie
+    examples: |
+       - Tên đơn vị phụ trách giảng dạy môn Truyền thông hình ảnh là gì?
+       - Bộ phận nào giám sát việc giảng dạy môn Giao tiếp bằng hình ảnh?
+       - Đơn vị, bộ phận nào chịu trách nhiệm giảng dạy môn Truyền thông thị giác?
+       - Ai quản lý trách nhiệm giảng dạy môn Truyền thông hình ảnh?
+
+  - intent: ask_education_program_multimedia_communications_visual_communication_number_of_cresits_vie
+    examples: |
+       - Số tín chỉ cho môn Giao tiếp bằng hình ảnh là bao nhiêu?
+       - Khóa Giao tiếp bằng hình ảnh có bao nhiêu tín chỉ?
+       - Số tín chỉ cho khóa học Giao tiếp bằng hình ảnh là bao nhiêu?
+       - Bạn có thể cung cấp thông tin về số giờ tín chỉ được phân bổ cho Giao tiếp bằng hình ảnh không?
+      
+  - intent: ask_education_program_multimedia_communications_visual_communication_number_of_credit_hours_vie
+    examples: |
+       - Số giờ tín chỉ của môn Giao tiếp bằng hình ảnh là bao nhiêu?
+       - Môn Giao tiếp bằng hình ảnh đòi hỏi bao nhiêu giờ tín chỉ?
+       - Tổng số giờ tín chỉ được phân bổ cho môn Giao tiếp bằng hình ảnh là bao nhiêu?
+       - Bạn có thể cho biết số giờ tín chỉ liên quan đến môn Giao tiếp bằng hình ảnh được không?
+      
+  - intent: ask_education_program_multimedia_communications_visual_communication_course_type_vie
+    examples: |
+       - Thuật ngữ loại của Giao tiếp bằng hình ảnh là gì?
+       - Loại thuật ngữ nào đặc trưng cho Giao tiếp bằng hình ảnh?
+       - Bạn có thể chỉ rõ cách phân loại thuật ngữ Giao tiếp bằng hình ảnh được không?
+       - Thuật ngữ Giao tiếp bằng hình ảnh thuộc loại hoặc phân loại nào?
+      
+  - intent: ask_education_program_multimedia_communications_visual_communication_course_instructor_info_vie
+    examples: |
+       - Bạn có thể cung cấp thông tin cụ thể về giáo viên giảng dạy Giao tiếp bằng hình ảnh được không?
+       - Ai là những nhà giáo dục hoặc người hướng dẫn dẫn dắt môn Truyền thông Hình ảnh Đặc biệt?
+       - Thông tin chi tiết về các giảng viên tham gia giảng dạy Giao tiếp thị giác.
+       - Bạn có thể chia sẻ thông tin về các giảng viên dạy Giao tiếp bằng hình ảnh được không?
+      
+  - intent: ask_education_program_multimedia_communications_visual_communication_objective_of_course_vie
+    examples: |
+       - Mục tiêu của khóa học Giao tiếp bằng hình ảnh là gì?
+       - Mục tiêu hoặc mục đích của Tâm lý học Giao tiếp Hình ảnh là gì?
+       - Bạn có thể giải thích mục tiêu khóa học về Giao tiếp bằng hình ảnh được không?
+       - Kết quả hoặc mục đích dự kiến của Giao tiếp bằng hình ảnh là gì?
+      
+  - intent: ask_education_program_multimedia_communications_visual_communication_course_structure_vie
+    examples: |
+       - Cấu trúc khóa học Giao tiếp bằng hình ảnh bao gồm những gì?
+       - Những yếu tố nào tạo thành một phần của cấu trúc khóa học Giao tiếp bằng hình ảnh?
+       - Bạn có thể tóm tắt các nội dung trong cấu trúc môn học Giao tiếp bằng hình ảnh được không?
+       - Điều gì tạo nên khuôn khổ hoặc các thành phần của cấu trúc khóa học Giao tiếp bằng hình ảnh?
+      
+  - intent: ask_education_program_multimedia_communications_visual_communication_teaching_and_learning_methods_and_activities_vie
+    examples: |
+       - Phương pháp và hoạt động dạy và học của Giao tiếp bằng hình ảnh bao gồm những gì?
+       - Những phương pháp và hoạt động nào được áp dụng trong việc dạy và học trong Giao tiếp bằng hình ảnh?
+       - Bạn có thể mô tả các kỹ thuật giảng dạy và hoạt động học tập được sử dụng trong Giao tiếp bằng hình ảnh không?
+       - Những chiến lược giảng dạy và hoạt động học tập nào được kết hợp trong Giao tiếp bằng hình ảnh?
+      
+  - intent: ask_education_program_multimedia_communications_visual_communication_subject_assessment_methods_vie
+    examples: |
+       - Phương pháp đánh giá chủ đề Giao tiếp bằng hình ảnh là gì?
+       - Môn Giao tiếp bằng hình ảnh được đánh giá như thế nào?
+       - Phương pháp đánh giá nào được áp dụng cho môn Giao tiếp thị giác?
+       - Bạn có thể mô tả cách đánh giá được áp dụng cho môn Giao tiếp bằng hình ảnh được không?
+      
+  - intent: ask_education_program_multimedia_communications_visual_communication_duties_of_the_learner_vie
+    examples: |
+       - Nhiệm vụ của người học Giao tiếp bằng hình ảnh là gì?
+       - Sinh viên học Giao tiếp bằng hình ảnh có nghĩa vụ, trách nhiệm gì?
+       - Thầy có thể nêu những nhiệm vụ, nhiệm vụ mong đợi của người học trong môn Giao tiếp bằng hình ảnh được không?
+       - Sinh viên có trách nhiệm gì khi học Giao tiếp bằng hình ảnh?
+      
+  - intent: ask_education_program_multimedia_communications_visual_communication_additional_reading_materials_vie
+    examples: |
+       - Tài liệu đọc thêm cho môn Giao tiếp bằng hình ảnh là gì?
+       - Bạn có thể cung cấp các tài liệu đọc khác được đề xuất cho Giao tiếp bằng hình ảnh không?
+       - Những nguồn tài liệu hoặc tài liệu đọc bổ sung nào được đề xuất cho Giao tiếp bằng hình ảnh?
+       - Có tài liệu đọc bổ sung nào được khuyến nghị cho phần Giao tiếp bằng hình ảnh đặc biệt không?

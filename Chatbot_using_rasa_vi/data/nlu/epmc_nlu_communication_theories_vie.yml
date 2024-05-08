@@ -1,0 +1,94 @@
+version: "3.1"
+
+nlu:
+
+  - intent: ask_education_program_multimedia_communications_communication_theories_course_code_vie
+    examples: |
+      - Mã khóa học Lý thuyết Truyền thông là gì?
+      - Mã khóa học cụ thể của Lý thuyết Truyền thông là gì?
+      - Bạn có thể cung cấp mã nhận dạng khóa học Lý thuyết truyền thông được không?
+      - Mã chữ và số nào đại diện cho khóa học Lý thuyết Giao tiếp?
+      
+  - intent: ask_education_program_multimedia_communications_communication_theories_is_prerequisite_courses_vie
+    examples: |
+      - Môn Lý thuyết Truyền thông có phải là môn tiên quyết không?
+      - Lý Thuyết Giao Tiếp có phải là điều kiện tiên quyết cho các khóa học khác không?
+      - Dịch vụ Lý thuyết Truyền thông có phải là tiền đề cần thiết cho các khóa học tiếp theo không?
+      - Việc hoàn thành Lý thuyết Giao tiếp có trước khi đăng ký các khóa học khác không?
+  
+  - intent: ask_education_program_multimedia_communications_communication_theories_name_of_unit_in_charge_of_teaching_vie
+    examples: |
+      - Đơn vị phụ trách giảng dạy Lý thuyết truyền thông tên gì?
+      - Bộ môn nào giám sát việc giảng dạy Lý thuyết Truyền thông?
+      - Đơn vị, bộ phận nào chịu trách nhiệm giảng dạy Lý thuyết Truyền thông?
+      - Ai quản lý trách nhiệm giảng dạy môn Lý thuyết truyền thông?
+
+  - intent: ask_education_program_multimedia_communications_communication_theories_number_of_cresits_vie
+    examples: |
+      - Số tín chỉ cho Lý thuyết Truyền thông là bao nhiêu?
+      - Khóa học Lý thuyết Truyền thông được tính bao nhiêu tín chỉ?
+      - Số tín chỉ của khóa học Lý thuyết Giao tiếp là bao nhiêu?
+      - Bạn có thể cung cấp thông tin về số giờ tín chỉ được phân bổ cho Lý thuyết Truyền thông không?
+      
+  - intent: ask_education_program_multimedia_communications_communication_theories_number_of_credit_hours_vie 
+    examples: |
+      - Số giờ tín chỉ của môn Lý thuyết Truyền thông là bao nhiêu?
+      - Môn Lý thuyết Truyền thông đòi hỏi bao nhiêu giờ tín chỉ?
+      - Tổng số giờ tín chỉ được phân bổ cho môn Lý thuyết Truyền thông là bao nhiêu?
+      - Bạn có thể cung cấp số giờ tín chỉ liên quan đến môn Lý thuyết Giao tiếp không?
+      
+  - intent: ask_education_program_multimedia_communications_communication_theories_course_type_vie
+    examples: |
+      - Thuật ngữ loại của Lý thuyết Truyền thông là gì?
+      - Loại thuật ngữ nào đặc trưng cho Lý thuyết Truyền thông?
+      - Bạn có thể chỉ rõ cách phân loại thuật ngữ của Lý thuyết truyền thông được không?
+      - Thuật ngữ Lý thuyết Truyền thông thuộc loại hoặc phân loại nào?
+      
+  - intent: ask_education_program_multimedia_communications_communication_theories_course_instructor_info_vie
+    examples: |
+      - Bạn có thể cho biết cụ thể về các giáo viên giảng dạy Lý thuyết Giao tiếp được không?
+      - Ai là nhà giáo dục hoặc người hướng dẫn lý thuyết giao tiếp đặc biệt?
+      - Thông tin chi tiết về các giảng viên tham gia giảng dạy Lý thuyết giao tiếp.
+      - Bạn có thể chia sẻ thông tin về các giảng viên giảng dạy Lý thuyết giao tiếp được không?
+      
+  - intent: ask_education_program_multimedia_communications_communication_theories_objective_of_course_vie
+    examples: |
+      - Mục tiêu của khóa học Lý thuyết Truyền thông là gì?
+      - Mục tiêu của khóa học Lý thuyết Truyền thông là gì?
+      - Bạn có thể giải thích mục tiêu khóa học Lý thuyết truyền thông được không?
+      - Kết quả hoặc mục đích dự định của Lý thuyết Truyền thông là gì?
+      
+  - intent: ask_education_program_multimedia_communications_communication_theories_course_structure_vie
+    examples: |
+      - Cấu trúc môn học Lý thuyết Truyền thông bao gồm những gì?
+      - Những yếu tố nào tạo thành một phần của cấu trúc khóa học Lý thuyết Truyền thông?
+      - Thầy có thể tóm tắt các nội dung trong cấu trúc môn học Lý thuyết truyền thông được không?
+      - Điều gì tạo nên khuôn khổ hoặc các thành phần của cấu trúc khóa học Lý thuyết Truyền thông?
+      
+  - intent: ask_education_program_multimedia_communications_communication_theories_teaching_and_learning_methods_and_activities_vie
+    examples: |
+      - Phương pháp và hoạt động dạy và học của Lý thuyết giao tiếp bao gồm những gì?
+      - Những phương pháp và hoạt động nào được áp dụng trong việc dạy và học trong Lý thuyết Truyền thông?
+      - Bạn có thể mô tả các kỹ thuật giảng dạy và hoạt động học tập được sử dụng trong Lý thuyết Giao tiếp không?
+      - Những chiến lược giảng dạy và hoạt động học tập nào được lồng ghép vào Lý thuyết Giao tiếp?
+      
+  - intent: ask_education_program_multimedia_communications_communication_theories_subject_assessment_methods_vie
+    examples: |
+      - Phương pháp đánh giá chủ đề của Lý thuyết truyền thông là gì?
+      - Môn Lý thuyết giao tiếp được đánh giá như thế nào?
+      - Phương pháp đánh giá nào được áp dụng cho môn Lý thuyết Truyền thông?
+      - Bạn có thể mô tả phương pháp đánh giá được áp dụng cho môn Lý thuyết Truyền thông không?
+      
+  - intent: ask_education_program_multimedia_communications_communication_theories_duties_of_the_learner_vie
+    examples: |
+      - Nhiệm vụ của người học Lý thuyết Giao tiếp là gì?
+      - Nghĩa vụ, trách nhiệm của sinh viên học Lý thuyết giao tiếp là gì?
+      - Bạn có thể nêu những nhiệm vụ, nhiệm vụ mong đợi của học viên trong môn Lý thuyết giao tiếp được không?
+      - Sinh viên có trách nhiệm gì khi học Lý thuyết giao tiếp?
+      
+  - intent: ask_education_program_multimedia_communications_communication_theories_additional_reading_materials_vie
+    examples: |
+      - Tài liệu đọc thêm cho môn Lý thuyết Truyền thông là gì?
+      - Bạn có thể cung cấp các tài liệu đọc khác được đề xuất cho Lý thuyết Truyền thông không?
+      - Những nguồn tài liệu bổ sung hoặc tài liệu đọc bổ sung nào được đề xuất cho Lý thuyết Truyền thông?
+      - Có tài liệu đọc thêm nào được khuyến nghị cho Lý thuyết Giao tiếp Đặc biệt không?

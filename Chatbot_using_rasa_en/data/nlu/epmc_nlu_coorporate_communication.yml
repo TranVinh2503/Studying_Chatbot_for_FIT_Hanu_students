@@ -1,0 +1,93 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_coorporate_communication_course_code
+    examples: |
+      - What is the course code of Coorporate communication?
+      - What is the specific course code assigned to Coorporate communication?
+      - Could you provide the course identification code for Coorporate communication?
+      - What alphanumeric code represents the Coorporate communication course?
+      
+  - intent: ask_education_program_multimedia_communications_coorporate_communication_is_prerequisite_courses
+    examples: |
+      - Is the Coorporate communication prerequisite courses?
+      - Does Coorporate communication serve as a prerequisite for other courses?
+      - Is Coorporate communication Services a required precursor for subsequent courses?
+      - Does completing Coorporate communication precede other course enrollments?
+  
+  - intent: ask_education_program_multimedia_communications_coorporate_communication_name_of_unit_in_charge_of_teaching
+    examples: |
+      - What is name of unit in charge of teaching of Coorporate communication? 
+      - Which department oversees the instruction of Coorporate communication?
+      - What is the unit or department responsible for teaching Coorporate communication?
+      - Who manages the teaching responsibilities for Coorporate communication?
+
+  - intent: ask_education_program_multimedia_communications_coorporate_communication_number_of_cresits
+    examples: |
+      - What is the number of credits for the Coorporate communication?
+      - How many credits are assigned to the Coorporate communication course?
+      - What is the credit count for the Coorporate communication course?
+      - Could you provide information about the credit hours allocated to Coorporate communication?
+      
+  - intent: ask_education_program_multimedia_communications_coorporate_communication_number_of_credit_hours 
+    examples: |
+      - What is the number of credit hours for the Coorporate communication subject?
+      - How many credit hours does the Coorporate communication subject entail?
+      - What is the total count of credit hours allocated to the Coorporate communication subject?
+      - Could you provide the number of credit hours associated with the Coorporate communication subject?
+      
+  - intent: ask_education_program_multimedia_communications_coorporate_communication_course_type
+    examples: |
+      - What is the type term of the Coorporate communication?
+      - What category of term characterizes the Coorporate communication?
+      - Could you specify the classification of the term for Coorporate communication?
+      - What type or classification does the term for Coorporate communication fall under?
+      
+  - intent: ask_education_program_multimedia_communications_coorporate_communication_course_instructor_info
+    examples: |
+      - Can you provide specifics about the teachers instructing Coorporate communication?
+      - Who are the educators or instructors leading the Special Coorporate communication?
+      - Details about the faculty members involved in teaching Coorporate communication.
+      - Could you share information about the instructors handling Coorporate communication?
+      
+  - intent: ask_education_program_multimedia_communications_coorporate_communication_objective_of_course
+    examples: |
+      - What is the Objective of the course of Coorporate communication?
+      - What are the goals or aims of the Psychology of Coorporate communication?
+      - Could you explain the course objectives for Coorporate communication?
+      - What is the intended outcome or purpose of the Coorporate communication?
+      
+  - intent: ask_education_program_multimedia_communications_coorporate_communication_course_structure
+    examples: |
+      - What does the course structure of the Coorporate communication include?
+      - What elements form part of the course structure in Coorporate communication?
+      - Could you outline the contents encompassed in the course structure of Coorporate communication?
+      - What constitutes the framework or components of the Coorporate communication course structure?
+      
+  - intent: ask_education_program_multimedia_communications_coorporate_communication_teaching_and_learning_methods_and_activities
+    examples: |
+      - What does the teaching and learning methods and activities of the Coorporate communication include?
+      - What methods and activities are involved in teaching and learning within Coorporate communication?
+      - Could you describe the instructional techniques and learning activities utilized in Coorporate communication?
+      - What teaching strategies and learning activities are incorporated into Coorporate communication?
+      
+  - intent: ask_education_program_multimedia_communications_coorporate_communication_subject_assessment_methods
+    examples: |
+      - What is the method of evaluating the subject of the Coorporate communication?
+      - How is the Coorporate communication subject evaluated?
+      - What assessment method is employed for the Coorporate communication subject?
+      - Could you describe the evaluation approach utilized for the Coorporate communication subject?
+      
+  - intent: ask_education_program_multimedia_communications_coorporate_communication_duties_of_the_learner
+    examples: |
+      - What is the duties of the learner of the Coorporate communication?
+      - What are the obligations or responsibilities of the student studying Coorporate communication?
+      - Could you outline the tasks or duties expected from learners in the Coorporate communication course?
+      - What responsibilities do students have while studying Coorporate communication?
+      
+  - intent: ask_education_program_multimedia_communications_coorporate_communication_additional_reading_materials
+    examples: |
+      - What are the additional reading materials for the Coorporate communication subject?
+      - Could you provide other recommended reading materials for Coorporate communication?
+      - What additional resources or supplementary reading materials are suggested for Coorporate communication?
+      - Are there any extra reading materials recommended for the Special Coorporate communication?

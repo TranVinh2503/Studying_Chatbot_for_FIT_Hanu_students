@@ -1,0 +1,442 @@
+version: "3.1"
+
+intents:
+  - ask_education_program_multimedia_communications_principles_of_computers_course_code_vie
+  - ask_education_program_multimedia_communications_principles_of_computers_is_prerequisite_courses_vie
+  - ask_education_program_multimedia_communications_principles_of_computers_name_of_unit_in_charge_of_teaching_vie
+  - ask_education_program_multimedia_communications_principles_of_computers_number_of_cresits_vie
+  - ask_education_program_multimedia_communications_principles_of_computers_number_of_credit_hours_vie
+  - ask_education_program_multimedia_communications_principles_of_computers_course_type_vie
+  - ask_education_program_multimedia_communications_principles_of_computers_course_instructor_info_vie
+  - ask_education_program_multimedia_communications_principles_of_computers_objective_of_course_vie
+  - ask_education_program_multimedia_communications_principles_of_computers_course_structure_vie
+  - ask_education_program_multimedia_communications_principles_of_computers_teaching_and_learning_methods_and_activities_vie
+  - ask_education_program_multimedia_communications_principles_of_computers_subject_assessment_methods_vie
+  - ask_education_program_multimedia_communications_principles_of_computers_duties_of_the_learner_vie
+  - ask_education_program_multimedia_communications_principles_of_computers_additional_reading_materials_vie
+  - ask_education_program_multimedia_communications_computer_graphics_1_course_code_vie
+  - ask_education_program_multimedia_communications_computer_graphics_1_is_prerequisite_courses_vie
+  - ask_education_program_multimedia_communications_computer_graphics_1_name_of_unit_in_charge_of_teaching_vie
+  - ask_education_program_multimedia_communications_computer_graphics_1_number_of_cresits_vie
+  - ask_education_program_multimedia_communications_computer_graphics_1_number_of_credit_hours_vie
+  - ask_education_program_multimedia_communications_computer_graphics_1_course_type_vie
+  - ask_education_program_multimedia_communications_computer_graphics_1_course_instructor_info_vie
+  - ask_education_program_multimedia_communications_computer_graphics_1_objective_of_course_vie
+  - ask_education_program_multimedia_communications_computer_graphics_1_course_structure_vie
+  - ask_education_program_multimedia_communications_computer_graphics_1_teaching_and_learning_methods_and_activities_vie
+  - ask_education_program_multimedia_communications_computer_graphics_1_subject_assessment_methods_vie
+  - ask_education_program_multimedia_communications_computer_graphics_1_duties_of_the_learner_vie
+  - ask_education_program_multimedia_communications_computer_graphics_1_additional_reading_materials_vie
+  - ask_education_program_multimedia_communications_programming_2_course_code_vie
+  - ask_education_program_multimedia_communications_programming_2_is_prerequisite_courses_vie
+  - ask_education_program_multimedia_communications_programming_2_name_of_unit_in_charge_of_teaching_vie
+  - ask_education_program_multimedia_communications_programming_2_number_of_cresits_vie
+  - ask_education_program_multimedia_communications_programming_2_number_of_credit_hours_vie
+  - ask_education_program_multimedia_communications_programming_2_course_type_vie
+  - ask_education_program_multimedia_communications_programming_2_course_instructor_info_vie
+  - ask_education_program_multimedia_communications_programming_2_objective_of_course_vie
+  - ask_education_program_multimedia_communications_programming_2_course_structure_vie
+  - ask_education_program_multimedia_communications_programming_2_teaching_and_learning_methods_and_activities_vie
+  - ask_education_program_multimedia_communications_programming_2_subject_assessment_methods_vie
+  - ask_education_program_multimedia_communications_programming_2_duties_of_the_learner_vie
+  - ask_education_program_multimedia_communications_programming_2_additional_reading_materials_vie
+  - ask_education_program_multimedia_communications_system_analysis_and_design_course_code_vie
+  - ask_education_program_multimedia_communications_system_analysis_and_design_is_prerequisite_courses_vie
+  - ask_education_program_multimedia_communications_system_analysis_and_design_name_of_unit_in_charge_of_teaching_vie
+  - ask_education_program_multimedia_communications_system_analysis_and_design_number_of_cresits_vie
+  - ask_education_program_multimedia_communications_system_analysis_and_design_number_of_credit_hours_vie
+  - ask_education_program_multimedia_communications_system_analysis_and_design_course_type_vie
+  - ask_education_program_multimedia_communications_system_analysis_and_design_course_instructor_info_vie
+  - ask_education_program_multimedia_communications_system_analysis_and_design_objective_of_course_vie
+  - ask_education_program_multimedia_communications_system_analysis_and_design_course_structure_vie
+  - ask_education_program_multimedia_communications_system_analysis_and_design_teaching_and_learning_methods_and_activities_vie
+  - ask_education_program_multimedia_communications_system_analysis_and_design_subject_assessment_methods_vie
+  - ask_education_program_multimedia_communications_system_analysis_and_design_duties_of_the_learner_vie
+  - ask_education_program_multimedia_communications_system_analysis_and_design_additional_reading_materials_vie
+  - ask_education_program_multimedia_communications_database_system_course_code_vie
+  - ask_education_program_multimedia_communications_database_system_is_prerequisite_courses_vie
+  - ask_education_program_multimedia_communications_database_system_name_of_unit_in_charge_of_teaching_vie
+  - ask_education_program_multimedia_communications_database_system_number_of_cresits_vie
+  - ask_education_program_multimedia_communications_database_system_number_of_credit_hours_vie
+  - ask_education_program_multimedia_communications_database_system_course_type_vie
+  - ask_education_program_multimedia_communications_database_system_course_instructor_info_vie
+  - ask_education_program_multimedia_communications_database_system_objective_of_course_vie
+  - ask_education_program_multimedia_communications_database_system_course_structure_vie
+  - ask_education_program_multimedia_communications_database_system_teaching_and_learning_methods_and_activities_vie
+  - ask_education_program_multimedia_communications_database_system_subject_assessment_methods_vie
+  - ask_education_program_multimedia_communications_database_system_duties_of_the_learner_vie
+  - ask_education_program_multimedia_communications_database_system_additional_reading_materials_vie
+  - ask_education_program_multimedia_communications_special_subject_in_multimedia_1_course_code_vie
+  - ask_education_program_multimedia_communications_special_subject_in_multimedia_1_is_prerequisite_courses_vie
+  - ask_education_program_multimedia_communications_special_subject_in_multimedia_1_name_of_unit_in_charge_of_teaching_vie
+  - ask_education_program_multimedia_communications_special_subject_in_multimedia_1_number_of_cresits_vie
+  - ask_education_program_multimedia_communications_special_subject_in_multimedia_1_number_of_credit_hours_vie
+  - ask_education_program_multimedia_communications_special_subject_in_multimedia_1_course_type_vie
+  - ask_education_program_multimedia_communications_special_subject_in_multimedia_1_course_instructor_info_vie
+  - ask_education_program_multimedia_communications_special_subject_in_multimedia_1_objective_of_course_vie
+  - ask_education_program_multimedia_communications_special_subject_in_multimedia_1_course_structure_vie
+  - ask_education_program_multimedia_communications_special_subject_in_multimedia_1_teaching_and_learning_methods_and_activities_vie
+  - ask_education_program_multimedia_communications_special_subject_in_multimedia_1_subject_assessment_methods_vie
+  - ask_education_program_multimedia_communications_special_subject_in_multimedia_1_duties_of_the_learner_vie
+  - ask_education_program_multimedia_communications_special_subject_in_multimedia_1_additional_reading_materials_vie
+  - ask_education_program_multimedia_communications_special_subject_in_multimedia_2_course_code_vie
+  - ask_education_program_multimedia_communications_special_subject_in_multimedia_2_is_prerequisite_courses_vie
+  - ask_education_program_multimedia_communications_special_subject_in_multimedia_2_name_of_unit_in_charge_of_teaching_vie
+  - ask_education_program_multimedia_communications_special_subject_in_multimedia_2_number_of_cresits_vie
+  - ask_education_program_multimedia_communications_special_subject_in_multimedia_2_number_of_credit_hours_vie
+  - ask_education_program_multimedia_communications_special_subject_in_multimedia_2_course_type_vie
+  - ask_education_program_multimedia_communications_special_subject_in_multimedia_2_course_instructor_info_vie
+  - ask_education_program_multimedia_communications_special_subject_in_multimedia_2_objective_of_course_vie
+  - ask_education_program_multimedia_communications_special_subject_in_multimedia_2_course_structure_vie
+  - ask_education_program_multimedia_communications_special_subject_in_multimedia_2_teaching_and_learning_methods_and_activities_vie
+  - ask_education_program_multimedia_communications_special_subject_in_multimedia_2_subject_assessment_methods_vie
+  - ask_education_program_multimedia_communications_special_subject_in_multimedia_2_duties_of_the_learner_vie
+  - ask_education_program_multimedia_communications_special_subject_in_multimedia_2_additional_reading_materials_vie
+  - ask_education_program_multimedia_communications_computer_graphics_2_course_code_vie
+  - ask_education_program_multimedia_communications_computer_graphics_2_is_prerequisite_courses_vie
+  - ask_education_program_multimedia_communications_computer_graphics_2_name_of_unit_in_charge_of_teaching_vie
+  - ask_education_program_multimedia_communications_computer_graphics_2_number_of_cresits_vie
+  - ask_education_program_multimedia_communications_computer_graphics_2_number_of_credit_hours_vie
+  - ask_education_program_multimedia_communications_computer_graphics_2_course_type_vie
+  - ask_education_program_multimedia_communications_computer_graphics_2_course_instructor_info_vie
+  - ask_education_program_multimedia_communications_computer_graphics_2_objective_of_course_vie
+  - ask_education_program_multimedia_communications_computer_graphics_2_course_structure_vie
+  - ask_education_program_multimedia_communications_computer_graphics_2_teaching_and_learning_methods_and_activities_vie
+  - ask_education_program_multimedia_communications_computer_graphics_2_subject_assessment_methods_vie
+  - ask_education_program_multimedia_communications_computer_graphics_2_duties_of_the_learner_vie
+  - ask_education_program_multimedia_communications_computer_graphics_2_additional_reading_materials_vie
+  - ask_education_program_multimedia_communications_web_design_course_code_vie
+  - ask_education_program_multimedia_communications_web_design_is_prerequisite_courses_vie
+  - ask_education_program_multimedia_communications_web_design_name_of_unit_in_charge_of_teaching_vie
+  - ask_education_program_multimedia_communications_web_design_number_of_cresits_vie
+  - ask_education_program_multimedia_communications_web_design_number_of_credit_hours_vie
+  - ask_education_program_multimedia_communications_web_design_course_type_vie
+  - ask_education_program_multimedia_communications_web_design_course_instructor_info_vie
+  - ask_education_program_multimedia_communications_web_design_objective_of_course_vie
+  - ask_education_program_multimedia_communications_web_design_course_structure_vie
+  - ask_education_program_multimedia_communications_web_design_teaching_and_learning_methods_and_activities_vie
+  - ask_education_program_multimedia_communications_web_design_subject_assessment_methods_vie
+  - ask_education_program_multimedia_communications_web_design_duties_of_the_learner_vie
+  - ask_education_program_multimedia_communications_web_design_additional_reading_materials_vie
+  - ask_education_program_multimedia_communications_internet_and_web_services_course_code_vie
+  - ask_education_program_multimedia_communications_internet_and_web_services_is_prerequisite_courses_vie
+  - ask_education_program_multimedia_communications_internet_and_web_services_name_of_unit_in_charge_of_teaching_vie
+  - ask_education_program_multimedia_communications_internet_and_web_services_number_of_cresits_vie
+  - ask_education_program_multimedia_communications_internet_and_web_services_number_of_credit_hours_vie
+  - ask_education_program_multimedia_communications_internet_and_web_services_course_type_vie
+  - ask_education_program_multimedia_communications_internet_and_web_services_course_instructor_info_vie
+  - ask_education_program_multimedia_communications_internet_and_web_services_objective_of_course_vie
+  - ask_education_program_multimedia_communications_internet_and_web_services_course_structure_vie
+  - ask_education_program_multimedia_communications_internet_and_web_services_teaching_and_learning_methods_and_activities_vie
+  - ask_education_program_multimedia_communications_internet_and_web_services_subject_assessment_methods_vie
+  - ask_education_program_multimedia_communications_internet_and_web_services_duties_of_the_learner_vie
+  - ask_education_program_multimedia_communications_internet_and_web_services_additional_reading_materials_vie
+  - ask_education_program_multimedia_communications_user_experience_design_course_code_vie
+  - ask_education_program_multimedia_communications_user_experience_design_is_prerequisite_courses_vie
+  - ask_education_program_multimedia_communications_user_experience_design_name_of_unit_in_charge_of_teaching_vie
+  - ask_education_program_multimedia_communications_user_experience_design_number_of_cresits_vie
+  - ask_education_program_multimedia_communications_user_experience_design_number_of_credit_hours_vie
+  - ask_education_program_multimedia_communications_user_experience_design_course_type_vie
+  - ask_education_program_multimedia_communications_user_experience_design_course_instructor_info_vie
+  - ask_education_program_multimedia_communications_user_experience_design_objective_of_course_vie
+  - ask_education_program_multimedia_communications_user_experience_design_course_structure_vie
+  - ask_education_program_multimedia_communications_user_experience_design_teaching_and_learning_methods_and_activities_vie
+  - ask_education_program_multimedia_communications_user_experience_design_subject_assessment_methods_vie
+  - ask_education_program_multimedia_communications_user_experience_design_duties_of_the_learner_vie
+  - ask_education_program_multimedia_communications_user_experience_design_additional_reading_materials_vie
+  - ask_education_program_multimedia_communications_e_business_course_code_vie
+  - ask_education_program_multimedia_communications_e_business_is_prerequisite_courses_vie
+  - ask_education_program_multimedia_communications_e_business_name_of_unit_in_charge_of_teaching_vie
+  - ask_education_program_multimedia_communications_e_business_number_of_cresits_vie
+  - ask_education_program_multimedia_communications_e_business_number_of_credit_hours_vie
+  - ask_education_program_multimedia_communications_e_business_course_type_vie
+  - ask_education_program_multimedia_communications_e_business_course_instructor_info_vie
+  - ask_education_program_multimedia_communications_e_business_objective_of_course_vie
+  - ask_education_program_multimedia_communications_e_business_course_structure_vie
+  - ask_education_program_multimedia_communications_e_business_teaching_and_learning_methods_and_activities_vie
+  - ask_education_program_multimedia_communications_e_business_subject_assessment_methods_vie
+  - ask_education_program_multimedia_communications_e_business_duties_of_the_learner_vie
+responses:
+  utter_ask_education_program_multimedia_communications_principles_of_computers_course_code_vie:
+  - text: "61MME2PCO"
+
+  utter_ask_education_program_multimedia_communications_principles_of_computers_is_prerequisite_courses_vie:
+  - text: "KHÔNG"
+
+  utter_ask_education_program_multimedia_communications_principles_of_computers_name_of_unit_in_charge_of_teaching_vie:
+  - text: "Chuyên ngành Công nghệ thông tin"
+
+  utter_ask_education_program_multimedia_communications_principles_of_computers_number_of_cresits_vie:
+  - text: "3 tín chỉ"
+
+  utter_ask_education_program_multimedia_communications_principles_of_computers_number_of_credit_hours_vie:
+  - text: "150 giờ - 30 giờ lý thuyết, 30 giờ thực hành, 90 giờ tự học"
+
+  utter_ask_education_program_multimedia_communications_principles_of_computers_course_type_vie:
+  - text: "Bắt buộc"
+
+  utter_ask_education_program_multimedia_communications_principles_of_computers_course_instructor_info_vie:
+  - text: "
+       1. Giảng viên 1:
+         - Họ và tên: Đỗ Thị Phương Thảo
+         - Học hàm, bằng cấp: Thạc sĩ
+         - Email: thaodttp_fit@hanu.edu.vn
+         - Chuyên ngành: Công nghệ thông tin
+       2. Giảng viên 2:
+         - Họ và tên: Trần Nguyên Khánh
+         - Học hàm, bằng cấp: Thạc sĩ
+         - Email: khanhtn@hanu.edu.vn
+         - Chuyên ngành: Công nghệ thông tin
+    "
+  utter_ask_education_program_multimedia_communications_principles_of_computers_objective_of_course_vie:
+  - text: "Mục tiêu của khóa học là trang bị cho người học những kiến thức cơ bản về máy tính, hệ thống máy tính và các ứng dụng của chúng trong ngành công nghệ thông tin. Từ đó giúp người học có được những kiến thức, kỹ năng liên quan đến vận hành, triển khai và ứng dụng các dịch vụ công nghệ thông tin trong cuộc sống."
+  
+  utter_ask_education_program_multimedia_communications_principles_of_computers_course_structure_vie:
+  - text: "
+     1. Định hướng khóa học
+     2. Giới thiệu về máy tính và phần cứng: Khái niệm máy tính, Linh kiện máy tính, Ứng dụng máy tính, Mạng máy tính và Internet, Phần mềm, Phân loại máy tính
+     3. Phần mềm: Phân loại phần mềm, Chức năng phần mềm, Hệ điều hành và phần mềm ứng dụng, Giao diện, Ứng dụng thương mại, Ứng dụng đồ họa đa phương tiện, Ứng dụng cá nhân, Ứng dụng web
+     4. Lưu trữ: Phân loại thiết bị lưu trữ, lưu trữ, Ổ đĩa, Thẻ nhớ Flash, Dịch vụ đám mây
+     5. Biểu diễn dữ liệu: Biểu diễn dữ liệu trên máy tính, Hệ thống số, Chuyển đổi định dạng dữ liệu, Thao tác trên hệ nhị phân
+     6. Xuất nhập khẩu: Khái niệm, Thiết bị nhập thông tin, Thiết bị xuất thông tin
+     7. Hệ điều hành và phần mềm ứng dụng: Phân loại phần mềm, Khái niệm hệ điều hành, Nguyên lý hoạt động, Hệ điều hành máy chủ và máy tính cá nhân, Một số phần mềm ứng dụng
+     8. Hệ thống thông tin và ngôn ngữ lập trình: Giới thiệu hệ thống thông tin máy tính, Ngôn ngữ lập trình, Các bước phát triển phần mềm
+     10. Kiểm tra giữa kỳ
+     11. Mạng máy tính và truyền thông: Khái niệm và ứng dụng mạng máy tính, Phân loại mạng máy tính, Kiến trúc và giao thức của mạng máy tính
+     12. Internet và ngôn ngữ HTML: Khái niệm và lịch sử phát triển của Internet, Các dịch vụ trên Internet, Giới thiệu về ngôn ngữ HTML
+     13. Cơ sở dữ liệu: Các khái niệm, Hệ quản trị cơ sở dữ liệu, Ứng dụng cơ sở dữ liệu và hệ quản trị cơ sở dữ liệu, Giới thiệu ngôn ngữ truy vấn SQL
+     14. Bảo mật máy tính: Rủi ro và mất an toàn máy tính, Các phương pháp tấn công máy tính và mạng máy tính, Các biện pháp phòng ngừa, Đạo đức nghề nghiệp máy tính
+     15. Hệ thống thông tin doanh nghiệp: Khái niệm, Kiến trúc phần cứng và phần mềm, Các vấn đề liên quan
+     16. Xem xét
+     17. Kỳ thi cuối kỳ
+    "
+  
+  utter_ask_education_program_multimedia_communications_principles_of_computers_teaching_and_learning_methods_and_activities_vie:
+  - text: "
+    1. Phương pháp giảng dạy:
+       - Bài học:
+         + Hoạt động giảng dạy của giảng viên:
+           * Trình bày nội dung kiến thức;
+           * Phân tích, đánh giá kiến thức;
+           * Kết nối, hệ thống tri thức;
+           * Trả lời các câu hỏi của người học;
+           * Đánh giá tổng thể
+         + Hoạt động học tập của người học:
+           * Nghe giảng và trả lời các câu hỏi của giảng viên;
+           * Hồ sơ;
+           * Làm bài tập thực hành.
+       - Thực hành tại phòng Lab:
+         + Hoạt động giảng dạy của giảng viên:
+           * Giao bài tập thực hành;
+           * Chữa bài tập thực hành;
+           * Bản tóm tắt.
+         + Hoạt động học tập của người học:
+           * Làm bài tập theo yêu cầu của người hướng dẫn;
+           * Hiển thị kết quả.
+       - Hoạt động nhóm:
+         + Hoạt động giảng dạy của giảng viên:
+           * Chia thành các nhóm;
+           * Gợi ý hướng dẫn lựa chọn chủ đề;
+           * Giao;
+           * Giám sát hoạt động của từng nhóm;
+           * Đánh giá; Bản tóm tắt.
+         + Hoạt động học tập của người học:
+           * Hoạt động theo nhóm được phân công;
+           * Lựa chọn và tiếp cận chủ đề;
+           * Trao đổi ý kiến và đưa ra ý kiến chung của cả nhóm;
+           * Trình bày kết quả thảo luận; Tiếp nhận ý kiến đóng góp từ thầy cô và bạn bè.
+    "
+
+  utter_ask_education_program_multimedia_communications_principles_of_computers_subject_assessment_methods_vie:
+  - text: "
+     1. Đánh giá chuyên cần: 10%
+       - Quy định_chính thức:
+         * Sự tham dự
+         * Kiểm tra kết quả thực hiện nhiệm vụ học tập được giao
+       - Tiêu chí đánh giá:
+         * Số lớp tham dự
+         * Hoàn thành các yêu cầu của giảng viên trong quá trình học
+     2. Đánh giá thường xuyên (Kiểm tra giữa kỳ): 30%
+       - Quy định_chính thức:
+         * Làm bài tập thực hành hàng tuần
+         * Thi giữa kỳ: trắc nghiệm (30 phút) hoặc bài tập nhóm lớn
+       - Tiêu chí đánh giá:
+         * Theo thang điểm của khoa_môn
+     3. Đánh giá cuối khóa học (bài kiểm tra cuối khóa): 60%
+       - Quy định_chính thức:
+         * Bài thi trắc nghiệm hoặc bài luận (120 phút)
+       - Tiêu chí đánh giá:
+         * Theo thang điểm của khoa_môn
+    "
+
+  utter_ask_education_program_multimedia_communications_principles_of_computers_duties_of_the_learner_vie:
+  - text: "
+    Để học học phần này một cách hiệu quả, người học cần thực hiện các nhiệm vụ sau:
+       - Có tinh thần học hỏi, nghiên cứu; Đọc tài liệu và chuẩn bị kỹ càng cho mỗi buổi học trước khi đến lớp.
+       - Căn cứ vào mục tiêu, chuẩn đầu ra và nội dung giảng dạy của học phần, xây dựng thời gian biểu_kế hoạch học tập cá nhân hợp lý: trước, trong và sau giờ học; Phân bổ thời gian học hợp lý và có đủ thời gian tự học.
+       - Tham gia các hoạt động trên lớp và nhiệm vụ học tập được giao: Tập trung theo dõi bài giảng, ghi chép (áp dụng nhiều phương pháp như viết, ghi chú, lập sơ đồ tư duy, tạo bảng,…), đọc tài liệu (ghi chú những điểm nổi bật). , đánh dấu các lĩnh vực chính của vấn đề). Hoàn thành mọi nhiệm vụ học tập được giao. Tích cực tương tác để nâng cao hiệu quả học tập. Tích cực tổ chức giờ tự học. Sử dụng các thiết bị, phần mềm, ứng dụng hỗ trợ học tập theo hướng dẫn của giảng viên. Áp dụng bài học vào thực tế cuộc sống.
+       - Tóm tắt kiến thức cốt lõi: tóm tắt_tổng hợp nội dung bài giảng sau mỗi buổi học, hệ thống hóa nội dung kiến thức đã học. Tự kiểm tra, đánh giá kết quả hoạt động học tập: phân tích, so sánh, đối chiếu kiến thức, kỹ năng đã học với mục tiêu tự học đã đặt ra để kịp thời điều chỉnh hoạt động học tập đạt hiệu quả học tập. tốt hơn.
+       - Thực hiện công việc nhóm hiệu quả. Tham gia các hoạt động tập thể, đoàn thể để tạo tâm trạng, hứng thú học tập. Tích cực và tích cực tham gia các hội thảo khoa học; Tham gia các hoạt động xã hội và phát triển cá nhân, phù hợp với điều kiện cụ thể của bản thân, gia đình và nhà trường.
+       - Tích cực trao đổi, so sánh những hiểu biết, kinh nghiệm của mình với kinh nghiệm của người khác như thầy cô, bạn bè để không ngừng học hỏi và không chủ quan trong việc đánh giá các vấn đề thuộc lĩnh vực chuyên môn của mình. của mô-đun.
+    "
+  
+  utter_ask_education_program_multimedia_communications_principles_of_computers_additional_reading_materials_vie: 
+  - text: "
+     1. Tài liệu chính:
+       - Giới thiệu về Máy tính của Peter KHÔNGrton (Ấn bản thứ 6)
+       - Gary B. Shelly (2012), Khám phá máy tính: Hướng dẫn tương tác của bạn với thế giới kỹ thuật số, Học tập Cengage
+     2. Tài liệu bổ sung:
+       - Michael J. Quinn (2015), Đạo đức cho thời đại thông tin, Pearson
+    "
+
+  utter_ask_education_program_multimedia_communications_computer_graphics_1_course_code_vie:
+  - text: "61MME2CG1"
+
+  utter_ask_education_program_multimedia_communications_computer_graphics_1_is_prerequisite_courses_vie:
+  - text: "KHÔNG"
+
+  utter_ask_education_program_multimedia_communications_computer_graphics_1_name_of_unit_in_charge_of_teaching_vie:
+  - text: "Chuyên ngành Công nghệ thông tin"
+
+  utter_ask_education_program_multimedia_communications_computer_graphics_1_number_of_cresits_vie:
+  - text: "3 tín chỉ"
+
+  utter_ask_education_program_multimedia_communications_computer_graphics_1_number_of_credit_hours_vie:
+  - text: "150 giờ - 30 giờ lý thuyết, 30 giờ thực hành, 90 giờ tự học"
+
+  utter_ask_education_program_multimedia_communications_computer_graphics_1_course_type_vie:
+  - text: "Bắt buộc"
+
+  utter_ask_education_program_multimedia_communications_computer_graphics_1_course_instructor_info_vie:
+  - text: "
+       1. Giảng viên 1:
+         - Họ và tên: Nguyễn Huy Anh
+         - Học hàm, bằng cấp: Thạc sĩ
+         - Email: anhnh@hanu.edu.vn
+         - Chuyên ngành: Công nghệ thông tin
+       2. Giảng viên 2:
+         - Họ và tên: Đinh Thị Minh Nguyệt
+         - Học hàm, bằng cấp: Thạc sĩ
+         - Email: nguyetdtm@ncvietnam.vn
+         - Chuyên ngành: Công nghệ thông tin
+    "
+  utter_ask_education_program_multimedia_communications_computer_graphics_1_objective_of_course_vie:
+  - text: "Môn học cung cấp cho người học những kiến thức cơ bản về đồ họa: các khái niệm và ứng dụng của đồ họa máy tính, phần cứng, phần mềm đồ họa, hệ màu, các thuật toán vẽ đường thẳng, đường tròn và các phép biến đổi. những thay đổi cơ bản, những quan sát trong hai và ba chiều. Nội dung thực hành nhằm phân tích kiến thức và xây dựng các thuật toán vẽ, tô màu, biến đổi hình dạng trong không gian hai và ba chiều."
+  
+  utter_ask_education_program_multimedia_communications_computer_graphics_1_course_structure_vie:
+  - text: "
+     1. Tổng quan về đồ họa máy tính: Giới thiệu chung, Ứng dụng của đồ họa máy tính, Tổng quan về hệ thống đồ họa
+     2. Các thuật toán vẽ đường thẳng: Khái niệm đường thẳng, Thuật toán DDA, Thuật toán Bresenham, Thuật toán trung điểm
+     3. Thuật toán vẽ đường tròn: Khái niệm đường tròn, Thuật toán Bresenham, Thuật toán trung điểm
+     4. Thuật toán vẽ Ellipse: Khái niệm Ellipse, thuật toán Bresenham, thuật toán Midpoint
+     5. Các phép biến đổi trong không gian 2D: Các phép biến đổi cơ bản, các phép biến đổi tổ hợp, Chuyển đổi từ tọa độ thực sang tọa độ màn hình
+     6. Kiểm tra giữa kỳ
+     7. Quan sát trong không gian 2 chiều: Cửa sổ và vùng quan sát, Chuyển đổi cửa sổ - vùng quan sát
+     8. Cắt ngắn 2 chiều: thuật toán Cohen-Suntherland, thuật toán Liang-Basky, thuật toán phân chia điểm giữa
+     9. Các phép biến đổi trong không gian 3 chiều: Hệ tọa độ tổng quát 3 chiều, Hệ tọa độ tay phải, Hệ tọa độ tay trái, Biểu diễn điểm, Các phép biến đổi tổng quát, Các phép biến đổi hình học, Các phép biến đổi trục, Chuyển đổi quan sát
+     10. Kỳ thi cuối kỳ
+    "
+  
+  utter_ask_education_program_multimedia_communications_computer_graphics_1_teaching_and_learning_methods_and_activities_vie:
+  - text: "
+    1. Phương pháp giảng dạy:
+       - Bài học:
+         + Hoạt động giảng dạy của giảng viên:
+           * Trình bày nội dung kiến thức;
+           * Phân tích, đánh giá kiến thức;
+           * Kết nối, hệ thống tri thức;
+           * Trả lời các câu hỏi của người học;
+           * Đánh giá tổng thể
+         + Hoạt động học tập của người học:
+           * Nghe giảng và trả lời các câu hỏi của giảng viên;
+           * Hồ sơ;
+           * Làm bài tập thực hành.
+       - Thực hành tại phòng Lab:
+         + Hoạt động giảng dạy của giảng viên:
+           * Giao bài tập thực hành;
+           * Chữa bài tập thực hành;
+           * Bản tóm tắt.
+         + Hoạt động học tập của người học:
+           * Làm bài tập theo yêu cầu của người hướng dẫn;
+           * Hiển thị kết quả.
+       - Trình bày:
+         + Hoạt động giảng dạy của giảng viên:
+           * Đề xuất, tư vấn lựa chọn đề tài;
+           * Gợi ý cấu trúc, độ dài, hình thức trình bày;
+           * Cung cấp tài liệu và hướng dẫn tìm tài liệu tham khảo;
+           * Hướng dẫn học sinh thảo luận;
+           * Nhận xét, tóm tắt vấn đề, thảo luận.
+         + Hoạt động học tập của người học:
+           * Chọn một chủ đề;
+           * Tìm kiếm và tự học tài liệu;
+           * Chuẩn bị bài thuyết trình;
+           * Trình bày và trả lời câu hỏi;
+           * Tham gia thảo luận.
+       - Mô phỏng:
+         + Hoạt động giảng dạy của giảng viên:
+           * Người hướng dẫn xây dựng mô hình mô phỏng (phần cứng, phần mềm), giải thích các quy tắc và tình huống, đồng thời theo dõi quá trình mô phỏng khi thực hiện.
+         + Hoạt động học tập của người học:
+           * Người học được giao thực hiện mô phỏng và rút ra kinh nghiệm của mình thông qua các báo cáo hoặc bài tập
+    "
+
+  utter_ask_education_program_multimedia_communications_computer_graphics_1_subject_assessment_methods_vie:
+  - text: "
+    1. Đánh giá chuyên cần: 10%
+       - Quy định_chính thức:
+         * Sự tham dự
+         * Kiểm tra kết quả thực hiện nhiệm vụ học tập được giao
+       - Tiêu chí đánh giá:
+         * Số lớp tham dự
+         * Hoàn thành các yêu cầu của giảng viên trong quá trình học
+     2. Đánh giá thường xuyên (Kiểm tra giữa kỳ): 30%
+       - Quy định_chính thức:
+         * Làm bài tập thực hành hàng tuần
+         * Thi giữa kỳ: trắc nghiệm (30 phút) hoặc bài tập nhóm lớn
+       - Tiêu chí đánh giá:
+         * Theo thang điểm của khoa_môn
+     3. Đánh giá cuối khóa học (bài kiểm tra cuối khóa): 60%
+       - Quy định_chính thức:
+         * Kiểm tra thực hành
+       - Tiêu chí đánh giá:
+         * Theo thang điểm của khoa_môn
+    "
+
+  utter_ask_education_program_multimedia_communications_computer_graphics_1_duties_of_the_learner_vie:
+  - text: "
+    Để học học phần này một cách hiệu quả, người học cần thực hiện các nhiệm vụ sau:
+       - Có tinh thần học hỏi, nghiên cứu; Đọc tài liệu và chuẩn bị kỹ càng cho mỗi buổi học trước khi đến lớp.
+       - Căn cứ vào mục tiêu, chuẩn đầu ra và nội dung giảng dạy của học phần, xây dựng thời gian biểu_kế hoạch học tập cá nhân hợp lý: trước, trong và sau giờ học; Phân bổ thời gian học hợp lý và có đủ thời gian tự học.
+       - Tham gia các hoạt động trên lớp và nhiệm vụ học tập được giao: Tập trung theo dõi bài giảng, ghi chép (áp dụng nhiều phương pháp như viết, ghi chú, lập sơ đồ tư duy, tạo bảng,…), đọc tài liệu (ghi chú những điểm nổi bật). , đánh dấu các lĩnh vực chính của vấn đề). Hoàn thành mọi nhiệm vụ học tập được giao. Tích cực tương tác để nâng cao hiệu quả học tập. Tích cực tổ chức giờ tự học. Sử dụng các thiết bị, phần mềm, ứng dụng hỗ trợ học tập theo hướng dẫn của giảng viên. Áp dụng bài học vào thực tế cuộc sống.
+       - Tóm tắt kiến thức cốt lõi: tóm tắt_tổng hợp nội dung bài giảng sau mỗi buổi học, hệ thống hóa nội dung kiến thức đã học. Tự kiểm tra, đánh giá kết quả hoạt động học tập: phân tích, so sánh, đối chiếu kiến thức, kỹ năng đã học với mục tiêu tự học đã đặt ra để kịp thời điều chỉnh hoạt động học tập đạt hiệu quả học tập. tốt hơn.
+       - Thực hiện công việc nhóm hiệu quả. Tham gia các hoạt động tập thể, đoàn thể để tạo tâm trạng, hứng thú học tập. Tích cực và tích cực tham gia các hội thảo khoa học; Tham gia các hoạt động xã hội và phát triển cá nhân, phù hợp với điều kiện cụ thể của bản thân, gia đình và nhà trường.
+       - Tích cực trao đổi, so sánh những hiểu biết, kinh nghiệm của mình với kinh nghiệm của người khác như thầy cô, bạn bè để không ngừng học hỏi và không chủ quan trong việc đánh giá các vấn đề thuộc lĩnh vực chuyên môn của mình. của mô-đun.
+    "
+  
+  utter_ask_education_program_multimedia_communications_computer_graphics_1_additional_reading_materials_vie: 
+  - text: "
+    1. Tài liệu chính:
+       - Donald Hearn, M. Pauline Baker (2009), Đồ họa máy tính, tái bản lần 2, Prentice Hall.
+     2. Tài liệu bổ sung:
+       - Edward Angel (2005), Đồ họa máy tính tương tác: Cách tiếp cận từ trên xuống với OpenGL, Phiên bản thứ 4, Addison-Wesley.
+    "
+
+  utter_ask_education_program_multimedia_communications_programming_2_course_code_vie:
+  - text: "61MME2PR2"
+
+  utter_ask_education_program_multimedia_communications_programming_2_is_prerequisite_courses_vie:
+  - text: "KHÔNG"
+
+  utter_ask_education_program_multimedia_communications_programming_2_name_of_unit_in_charge_of_teaching_vie:
+  - text: "Chuyên ngành Công nghệ thông tin"
+
+  utter_ask_education_program_multimedia_communications_programming_2_number_of_cresits_vie:
+  - text: "3 tín chỉ"
+
+  utter_ask_education_program_multimedia_communications_programming_2_number_of_credit_hours_vie:
+  - text: "150 giờ - 30 giờ lý thuyết, 30 giờ thực hành, 90 giờ tự học"
+
+  utter_ask_education_program_multimedia_communications_programming_2_course_type_vie:
+  - text: "Bắt buộc"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

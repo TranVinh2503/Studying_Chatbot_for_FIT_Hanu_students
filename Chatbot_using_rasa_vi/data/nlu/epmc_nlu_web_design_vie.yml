@@ -1,0 +1,147 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_web_design_course_code_vie
+    examples: |
+       - Mã khóa học Thiết kế Web là gì?
+       - Mã khóa học cụ thể của ngành Thiết kế Web là gì?
+       - Bạn có thể cung cấp mã nhận dạng khóa học Thiết kế Web được không?
+       - Mã chữ số nào đại diện cho khóa học Thiết kế Web?
+       - Bạn có thể chia sẻ mã số hoặc mã khóa học Thiết kế Web được không?
+       - Mã định danh duy nhất về mặt mã cho khóa học Thiết kế Web là gì?
+       - Bạn có thể cho biết mã khóa học dành cho ngành Thiết kế Web được không?
+       - Mã nào được dùng để tham khảo khóa học Thiết kế Web trong chương trình giảng dạy?
+
+  - intent: ask_education_program_multimedia_communications_web_design_is_prerequisite_courses_vie
+    examples: |
+       - Thiết kế Web có phải là khóa học tiên quyết?
+       - Thiết kế Web có phải là điều kiện tiên quyết cho các khóa học khác không?
+       - Thiết kế Web có phải là bước khởi đầu cần thiết cho các khóa học tiếp theo không?
+       - Việc hoàn thành Thiết kế Web có trước khi đăng ký khóa học khác không?
+       - Có yêu cầu sinh viên phải học Thiết kế Web trước các khóa học khác không?
+       - Thiết kế Web có phải là khóa học sơ bộ cần thiết để học tiếp không?
+       - Việc hoàn thành Thiết kế Web có trước khi đăng ký các khóa học khác không?
+       - Thiết kế Web có phải là điều kiện tiên quyết để tiến tới các khóa học bổ sung không?
+  
+  - intent: ask_education_program_multimedia_communications_web_design_name_of_unit_in_charge_of_teaching_vie
+    examples: |
+       - Đơn vị phụ trách giảng dạy Thiết kế Web tên gì?
+       - Bộ phận nào giám sát việc giảng dạy Thiết kế Web?
+       - Đơn vị, bộ phận nào chịu trách nhiệm giảng dạy Thiết kế Web?
+       - Ai quản lý trách nhiệm giảng dạy môn Thiết kế Web?
+       - Tên khoa, đơn vị phụ trách giảng dạy Thiết kế Web là gì?
+       - Đơn vị nào đảm nhận nhiệm vụ giảng dạy môn Thiết kế Web?
+       - Bạn có thể cho biết tên khoa chịu trách nhiệm giảng dạy Thiết kế Web được không?
+       - Ai chịu trách nhiệm giảng dạy Thiết kế Web trong cơ sở?
+
+  - intent: ask_education_program_multimedia_communications_web_design_number_of_cresits_vie
+    examples: |
+       - Số tín chỉ của môn Thiết kế Web là bao nhiêu?
+       - Khóa học Thiết kế Web được tính bao nhiêu tín chỉ?
+       - Số tín chỉ của khóa học Thiết kế Web là bao nhiêu?
+       - Bạn có thể cung cấp thông tin về số giờ tín chỉ được phân bổ cho Thiết kế Web không?
+       - Tổng giá trị tín chỉ của khóa học Thiết kế Web là bao nhiêu?
+       - Khóa học Thiết kế Web có bao nhiêu tín chỉ?
+       - Khối lượng tín chỉ được quy cho khóa học Thiết kế Web là bao nhiêu?
+       - Bạn có thể nêu rõ số tín chỉ được quy cho việc hoàn thành Thiết kế Web không?
+  
+  - intent: ask_education_program_multimedia_communications_web_design_number_of_credit_hours_vie
+    examples: |
+       - Số giờ tín chỉ của môn Thiết kế Web là bao nhiêu?
+       - Môn Thiết kế Web đòi hỏi bao nhiêu giờ tín chỉ?
+       - Tổng số giờ tín chỉ được phân bổ cho môn Thiết kế Web là bao nhiêu?
+       - Bạn có thể cho biết số giờ tín chỉ liên quan đến môn Thiết kế Web được không?
+       - Yêu cầu về số giờ tín chỉ của môn Thiết kế Web là bao nhiêu?
+       - Môn học Thiết kế Web được tính bao nhiêu giờ tín chỉ?
+       - Số giờ tín chỉ được chỉ định cho môn Thiết kế Web là bao nhiêu?
+       - Bạn có thể nêu rõ số giờ tín chỉ cần thiết cho môn Thiết kế Web được không?
+
+  - intent: ask_education_program_multimedia_communications_web_design_course_type_vie
+    examples: |
+       - Thuật ngữ loại hình Thiết kế Web là gì?
+       - Loại thuật ngữ nào đặc trưng cho Thiết kế Web?
+       - Bạn có thể nêu rõ cách phân loại thuật ngữ Thiết kế Web được không?
+       - Thuật ngữ Thiết kế Web thuộc loại hoặc phân loại nào?
+       - Loại thuật ngữ cụ thể được gán cho Thiết kế Web là gì?
+       - Bạn phân loại thời hạn của Thiết kế Web như thế nào?
+       - Phân loại hay phân loại các thuật ngữ liên quan đến Thiết kế Web là gì?
+       - Bạn có thể giải thích rõ hơn thuật ngữ phân loại dành riêng cho Thiết kế Web được không?
+
+  - intent: ask_education_program_multimedia_communications_web_design_course_instructor_info_vie
+    examples: |
+       - Bạn có thể cung cấp thông tin cụ thể về giáo viên hướng dẫn Thiết kế Web được không?
+       - Những nhà giáo dục hoặc giảng viên dẫn dắt Thiết kế Web Đặc biệt là ai?
+       - Thông tin chi tiết về các giảng viên tham gia giảng dạy Thiết kế Web.
+       - Bạn có thể chia sẻ thông tin về các giảng viên phụ trách Thiết kế Web được không?
+       - Bạn có thể cung cấp thông tin chi tiết về các cá nhân đang giảng dạy Thiết kế Web không?
+       - Thông tin chi tiết về các nhà giáo dục Thiết kế Web
+       - Thông tin liên quan đến giảng viên chịu trách nhiệm giảng dạy Thiết kế Web
+       - Thông tin về giảng viên Thiết kế Web
+
+  - intent: ask_education_program_multimedia_communications_web_design_objective_of_course_vie
+    examples: |
+       - Mục tiêu của khóa học Thiết kế Web là gì?
+       - Mục đích và mục đích của khóa học Thiết kế Web là gì?
+       - Bạn có thể giải thích mục tiêu khóa học Thiết kế Web được không?
+       - Kết quả hoặc mục đích dự định của khóa học Thiết kế Web là gì?
+       - Bạn có thể mô tả mục tiêu chính của khóa học Thiết kế Web không?
+       - Mục đích hay sứ mệnh cốt lõi của khóa học Thiết kế Web là gì?
+       - Mục tiêu học tập của khóa học Thiết kế Web là gì?
+       - Bạn có thể phác thảo mục tiêu hoặc ý định của khóa học Thiết kế Web được không?
+
+  - intent: ask_education_program_multimedia_communications_web_design_course_structure_vie
+    examples: |
+       - Cấu trúc khóa học Thiết kế Web bao gồm những gì?
+       - Những yếu tố nào tạo thành một phần của cấu trúc khóa học Thiết kế Web?
+       - Bạn có thể tóm tắt các nội dung trong cấu trúc môn học Thiết kế Web được không?
+       - Cấu trúc của khóa học Thiết kế Web gồm những gì?
+       - Bạn có thể trình bày chi tiết cấu trúc khóa học Thiết kế Web gồm những gì không?
+       - Những yếu tố hoặc phần nào được kết hợp trong cấu trúc khóa học Thiết kế Web?
+       - Bạn có thể mô tả các thành phần trong cấu trúc môn học Thiết kế Web được không?
+       - Bố cục hoặc nội dung cấu trúc khóa học Thiết kế Web có cấu tạo như thế nào?
+  
+  - intent: ask_education_program_multimedia_communications_web_design_teaching_and_learning_methods_and_activities_vie
+    examples: |
+       - Phương pháp và hoạt động dạy học của Thiết kế Web bao gồm những gì?
+       - Những phương pháp và hoạt động nào được áp dụng trong việc dạy và học Thiết kế Web?
+       - Bạn có thể mô tả các kỹ thuật giảng dạy và hoạt động học tập được sử dụng trong Thiết kế Web không?
+       - Những chiến lược giảng dạy và hoạt động học tập nào được đưa vào Thiết kế Web?
+       - Bạn có thể nêu các phương pháp, hoạt động dạy và học môn Thiết kế Web được không?
+       - Những phương pháp giảng dạy và hoạt động học tập nào là một phần của Thiết kế Web?
+       - Bạn có thể giải thích về phương pháp giảng dạy và hoạt động học tập trong lĩnh vực Thiết kế Web được không?
+       - Khóa học Thiết kế Web có những phương pháp giảng dạy và hoạt động học tập nào?
+
+  - intent: ask_education_program_multimedia_communications_web_design_subject_assessment_methods_vie
+    examples: |
+       - Phương pháp đánh giá đề tài Thiết kế Web là gì?
+       - Môn Thiết kế Web được đánh giá như thế nào?
+       - Môn học Thiết kế Web áp dụng phương pháp đánh giá nào?
+       - Bạn có thể mô tả cách đánh giá được áp dụng cho môn Thiết kế Web được không?
+       - Phương pháp nào được sử dụng để đánh giá kết quả học tập của sinh viên môn Thiết kế Web?
+       - Học sinh được đánh giá thế nào về môn Thiết kế Web?
+       - Bạn có thể nêu cách đánh giá môn Thiết kế Web được không?
+       - Quy trình đánh giá sinh viên môn Thiết kế Web như thế nào?
+
+  - intent: ask_education_program_multimedia_communications_web_design_duties_of_the_learner_vie
+    examples: |
+       - Nhiệm vụ của người học Thiết kế Web là gì?
+       - Nghĩa vụ, trách nhiệm của sinh viên học Thiết kế Web là gì?
+       - Thầy có thể nêu những nhiệm vụ, nhiệm vụ mong đợi của học viên trong khóa học Thiết kế Web được không?
+       - Sinh viên có trách nhiệm gì khi học Thiết kế Web?
+       - Bạn có thể mô tả những vai trò, nhiệm vụ mà người học phải đảm nhận trong lĩnh vực Thiết kế Web được không?
+       - Nhiệm vụ hoặc vai trò dự kiến của sinh viên theo học ngành Thiết kế Web là gì?
+       - Bạn có thể giải thích những nghĩa vụ, nhiệm vụ mà người học phải thực hiện trong Thiết kế Web được không?
+       - Trách nhiệm cụ thể của sinh viên học Thiết kế Web là gì?
+  
+  - intent: ask_education_program_multimedia_communications_web_design_additional_reading_materials_vie
+    examples: |
+       - Tài liệu đọc thêm môn Thiết kế Web là gì?
+       - Bạn có thể cung cấp các tài liệu đọc khác được đề xuất cho Thiết kế Web không?
+       - Những nguồn tài liệu bổ sung hoặc tài liệu đọc bổ sung nào được đề xuất cho Thiết kế Web?
+       - Có tài liệu đọc thêm nào được đề xuất cho phần Thiết kế Web Đặc biệt không?
+       - Bạn có thể liệt kê những cuốn sách hoặc tài liệu đọc bổ sung về Thiết kế Web được không?
+       - Những tài liệu đọc nào khác bổ sung cho môn Thiết kế Web?
+       - Có văn bản, tài liệu bổ sung nào đi kèm Thiết kế Web không?
+       - Bạn có thể gợi ý thêm tài liệu đọc bổ sung cho khóa học Thiết kế Web được không?
+
+  

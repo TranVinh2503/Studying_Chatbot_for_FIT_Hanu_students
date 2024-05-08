@@ -1,0 +1,93 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_brand_creation_and_management_course_code
+    examples: |
+      - What is the course code of Brand Creation and Management?
+      - What is the specific course code assigned to Brand Creation and Management?
+      - Could you provide the course identification code for Brand Creation and Management?
+      - What alphanumeric code represents the Brand Creation and Management course?
+      
+  - intent: ask_education_program_multimedia_communications_brand_creation_and_management_is_prerequisite_courses
+    examples: |
+      - Is the Brand Creation and Management prerequisite courses?
+      - Does Brand Creation and Management serve as a prerequisite for other courses?
+      - Is Brand Creation and Management Services a required precursor for subsequent courses?
+      - Does completing Brand Creation and Management precede other course enrollments?
+  
+  - intent: ask_education_program_multimedia_communications_brand_creation_and_management_name_of_unit_in_charge_of_teaching
+    examples: |
+      - What is name of unit in charge of teaching of Brand Creation and Management? 
+      - Which department oversees the instruction of Brand Creation and Management?
+      - What is the unit or department responsible for teaching Brand Creation and Management?
+      - Who manages the teaching responsibilities for Brand Creation and Management?
+
+  - intent: ask_education_program_multimedia_communications_brand_creation_and_management_number_of_cresits
+    examples: |
+      - What is the number of credits for the Brand Creation and Management?
+      - How many credits are assigned to the Brand Creation and Management course?
+      - What is the credit count for the Brand Creation and Management course?
+      - Could you provide information about the credit hours allocated to Brand Creation and Management?
+      
+  - intent: ask_education_program_multimedia_communications_brand_creation_and_management_number_of_credit_hours 
+    examples: |
+      - What is the number of credit hours for the Brand Creation and Management subject?
+      - How many credit hours does the Brand Creation and Management subject entail?
+      - What is the total count of credit hours allocated to the Brand Creation and Management subject?
+      - Could you provide the number of credit hours associated with the Brand Creation and Management subject?
+      
+  - intent: ask_education_program_multimedia_communications_brand_creation_and_management_course_type
+    examples: |
+      - What is the type term of the Brand Creation and Management?
+      - What category of term characterizes the Brand Creation and Management?
+      - Could you specify the classification of the term for Brand Creation and Management?
+      - What type or classification does the term for Brand Creation and Management fall under?
+      
+  - intent: ask_education_program_multimedia_communications_brand_creation_and_management_course_instructor_info
+    examples: |
+      - Can you provide specifics about the teachers instructing Brand Creation and Management?
+      - Who are the educators or instructors leading the Special Brand Creation and Management?
+      - Details about the faculty members involved in teaching Brand Creation and Management.
+      - Could you share information about the instructors handling Brand Creation and Management?
+      
+  - intent: ask_education_program_multimedia_communications_brand_creation_and_management_objective_of_course
+    examples: |
+      - What is the Objective of the course of Brand Creation and Management?
+      - What are the goals or aims of the Psychology of Brand Creation and Management?
+      - Could you explain the course objectives for Brand Creation and Management?
+      - What is the intended outcome or purpose of the Brand Creation and Management?
+      
+  - intent: ask_education_program_multimedia_communications_brand_creation_and_management_course_structure
+    examples: |
+      - What does the course structure of the Brand Creation and Management include?
+      - What elements form part of the course structure in Brand Creation and Management?
+      - Could you outline the contents encompassed in the course structure of Brand Creation and Management?
+      - What constitutes the framework or components of the Brand Creation and Management course structure?
+      
+  - intent: ask_education_program_multimedia_communications_brand_creation_and_management_teaching_and_learning_methods_and_activities
+    examples: |
+      - What does the teaching and learning methods and activities of the Brand Creation and Management include?
+      - What methods and activities are involved in teaching and learning within Brand Creation and Management?
+      - Could you describe the instructional techniques and learning activities utilized in Brand Creation and Management?
+      - What teaching strategies and learning activities are incorporated into Brand Creation and Management?
+      
+  - intent: ask_education_program_multimedia_communications_brand_creation_and_management_subject_assessment_methods
+    examples: |
+      - What is the method of evaluating the subject of the Brand Creation and Management?
+      - How is the Brand Creation and Management subject evaluated?
+      - What assessment method is employed for the Brand Creation and Management subject?
+      - Could you describe the evaluation approach utilized for the Brand Creation and Management subject?
+      
+  - intent: ask_education_program_multimedia_communications_brand_creation_and_management_duties_of_the_learner
+    examples: |
+      - What is the duties of the learner of the Brand Creation and Management?
+      - What are the obligations or responsibilities of the student studying Brand Creation and Management?
+      - Could you outline the tasks or duties expected from learners in the Brand Creation and Management course?
+      - What responsibilities do students have while studying Brand Creation and Management?
+      
+  - intent: ask_education_program_multimedia_communications_brand_creation_and_management_additional_reading_materials
+    examples: |
+      - What are the additional reading materials for the Brand Creation and Management subject?
+      - Could you provide other recommended reading materials for Brand Creation and Management?
+      - What additional resources or supplementary reading materials are suggested for Brand Creation and Management?
+      - Are there any extra reading materials recommended for the Special Brand Creation and Management?

@@ -1,0 +1,145 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_2_course_code
+    examples: |
+      - What is the course code of Special Subject in Multimedia 2?
+      - What is the specific course code assigned to Special Subject in Multimedia 2?
+      - Could you provide the course identification code for Special Subject in Multimedia 2?
+      - What alphanumeric code represents the Special Subject in Multimedia 2 course?
+      - Could you share the course number or code for Special Subject in Multimedia 2?
+      - What is the unique identifier, in terms of code, for the Special Subject in Multimedia 2 course?
+      - Could you specify the course code designated for Special Subject in Multimedia 2?
+      - What code is used to refer to the Special Subject in Multimedia 2 course within the curriculum?
+
+  - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_2_is_prerequisite_courses
+    examples: |
+      - Is the Special Subject in Multimedia 2 prerequisite courses?
+      - Does Special Subject in Multimedia 2 serve as a prerequisite for other courses?
+      - Is Special Subject in Multimedia 2 a required precursor for subsequent courses?
+      - Does completing Special Subject in Multimedia 2 precede other course enrollments?
+      - Is there a requirement for students to take Special Subject in Multimedia 2 before other courses?
+      - Is Special Subject in Multimedia 2 a necessary preliminary course for further studies?
+      - Does the completion of Special Subject in Multimedia 2 precede the enrollment in other courses?
+      - Is Special Subject in Multimedia 2 a prerequisite for advancing to additional coursework?
+  
+  - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_2_name_of_unit_in_charge_of_teaching
+    examples: |
+      - What is name of unit in charge of teaching of Special Subject in Multimedia 2? 
+      - Which department oversees the instruction of Special Subject in Multimedia 2?
+      - What is the unit or department responsible for teaching Special Subject in Multimedia 2?
+      - Who manages the teaching responsibilities for Special Subject in Multimedia 2?
+      - What is the name of the department or unit in charge of instructing Special Subject in Multimedia 2?
+      - Which specific unit handles the teaching duties for Special Subject in Multimedia 2?
+      - Could you provide the departmental name responsible for teaching Special Subject in Multimedia 2?
+      - Who is responsible for the instruction of Special Subject in Multimedia 2 within the institution?
+
+  - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_2_number_of_cresits
+    examples: |
+      - What is the number of credits for the Special Subject in Multimedia 2?
+      - How many credits are assigned to the Special Subject in Multimedia 2 course?
+      - What is the credit count for the Special Subject in Multimedia 2 course?
+      - Could you provide information about the credit hours allocated to Special Subject in Multimedia 2?
+      - What is the total credit value for the Special Subject in Multimedia 2 course?
+      - How many credit units does the Special Subject in Multimedia 2 course carry?
+      - What is the credit load attributed to the Special Subject in Multimedia 2 course?
+      - Could you specify the number of credits attributed to completing Special Subject in Multimedia 2?
+  
+  - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_2_number_of_credit_hours 
+    examples: |
+      - What is the number of credit hours for the Special Subject in Multimedia 2 subject?
+      - How many credit hours does the Special Subject in Multimedia 2 subject entail?
+      - What is the total count of credit hours allocated to the Special Subject in Multimedia 2 subject?
+      - Could you provide the number of credit hours associated with the Special Subject in Multimedia 2 subject?
+      - What is the credit hour requirement for the Special Subject in Multimedia 2 subject?
+      - How many credit hours are attributed to the Special Subject in Multimedia 2 subject?
+      - What is the designated credit hour count for the Special Subject in Multimedia 2 subject?
+      - Could you specify the credit hours required for the Special Subject in Multimedia 2 subject?
+
+  - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_2_course_type
+    examples: |
+      - What is the type term of the Special Subject in Multimedia 2?
+      - What category of term characterizes the Special Subject in Multimedia 2?
+      - Could you specify the classification of the term for Special Subject in Multimedia 2?
+      - What type or classification does the term for Special Subject in Multimedia 2 fall under?
+      - What is the specific term type attributed to Special Subject in Multimedia 2?
+      - How would you classify the term duration for Special Subject in Multimedia 2?
+      - What is the classification or categorization of the term relating to Special Subject in Multimedia 2?
+      - Could you elaborate on the term classification specific to Special Subject in Multimedia 2?
+
+  - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_2_course_instructor_info
+    examples: |
+      - Can you provide specifics about the teachers instructing Special Subject in Multimedia 2?
+      - Who are the educators or instructors leading the Special Subject in Multimedia 2 course?
+      - Details about the faculty members involved in teaching Special Subject in Multimedia 2.
+      - Could you share information about the instructors handling Special Subject in Multimedia 2?
+      - Can you provide insight into the individuals teaching Special Subject in Multimedia 2?
+      - Details regarding the educators for Special Subject in Multimedia 2
+      - Information concerning the instructors responsible for teaching Special Subject in Multimedia 2
+      - Information about instructors of the Special Subject in Multimedia 2
+
+  - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_2_objective_of_course
+    examples: |
+      - What is the Objective of the course of Special Subject in Multimedia 2?
+      - What are the goals or aims of the Special Subject in Multimedia 2 course?
+      - Could you explain the course objectives for Special Subject in Multimedia 2?
+      - What is the intended outcome or purpose of the Special Subject in Multimedia 2 course?
+      - Could you describe the primary aims or objectives of the Special Subject in Multimedia 2 course?
+      - What is the core purpose or mission of the Special Subject in Multimedia 2 course?
+      - What are the learning objectives associated with the Special Subject in Multimedia 2 course?
+      - Could you outline the goals or intentions behind the Special Subject in Multimedia 2 course?
+
+  - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_2_course_structure
+    examples: |
+      - What does the course structure of the Special Subject in Multimedia 2 include?
+      - What elements form part of the course structure in Special Subject in Multimedia 2?
+      - Could you outline the contents encompassed in the course structure of Special Subject in Multimedia 2?
+      - What constitutes the framework or components of the Special Subject in Multimedia 2 course structure?
+      - Could you detail what's included in the course structure of Special Subject in Multimedia 2?
+      - What elements or sections are incorporated within the course structure of Special Subject in Multimedia 2?
+      - Could you describe the components comprising the course structure of Special Subject in Multimedia 2?
+      - What makes up the layout or content of the course structure in Special Subject in Multimedia 2?
+  
+  - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_2_teaching_and_learning_methods_and_activities
+    examples: |
+      - What does the teaching and learning methods and activities of the Special Subject in Multimedia 2 include?
+      - What methods and activities are involved in teaching and learning within Special Subject in Multimedia 2?
+      - Could you describe the instructional techniques and learning activities utilized in Special Subject in Multimedia 2?
+      - What teaching strategies and learning activities are incorporated into Special Subject in Multimedia 2?
+      - Could you outline the methods and activities used for teaching and learning in Special Subject in Multimedia 2?
+      - What instructional approaches and learning activities form part of Special Subject in Multimedia 2?
+      - Could you explain the teaching methodologies and learning activities involved in Special Subject in Multimedia 2?
+      - What teaching methods and learning activities are part of the Special Subject in Multimedia 2 course?
+
+  - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_2_subject_assessment_methods
+    examples: |
+      - What is the method of evaluating the subject of the Special Subject in Multimedia 2?
+      - How is the Special Subject in Multimedia 2 subject evaluated?
+      - What assessment method is employed for the Special Subject in Multimedia 2 subject?
+      - Could you describe the evaluation approach utilized for the Special Subject in Multimedia 2 subject?
+      - What method is used to assess student performance in the Special Subject in Multimedia 2 subject?
+      - How are students evaluated in the Special Subject in Multimedia 2 subject?
+      - Could you outline the method of assessing the Special Subject in Multimedia 2 subject?
+      - What is the procedure for evaluating students in the Special Subject in Multimedia 2 subject?
+
+  - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_2_duties_of_the_learner
+    examples: |
+      - What is the duties of the learner of the Special Subject in Multimedia 2?
+      - What are the obligations or responsibilities of the student studying Special Subject in Multimedia 2?
+      - Could you outline the tasks or duties expected from learners in the Special Subject in Multimedia 2 course?
+      - What responsibilities do students have while studying Special Subject in Multimedia 2?
+      - Could you describe the roles or tasks that learners are required to undertake in Special Subject in Multimedia 2?
+      - What are the expected duties or roles of students enrolled in Special Subject in Multimedia 2?
+      - Could you explain the obligations or tasks that learners are supposed to fulfill in Special Subject in Multimedia 2?
+      - What specific responsibilities are expected from students learning Special Subject in Multimedia 2?
+  
+  - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_2_additional_reading_materials
+    examples: |
+      - What are the additional reading materials for the Special Subject in Multimedia 2 subject?
+      - Could you provide other recommended reading materials for Special Subject in Multimedia 2?
+      - What additional resources or supplementary reading materials are suggested for Special Subject in Multimedia 2?
+      - Are there any extra reading materials recommended for the Special Subject in Multimedia 2 subject?
+      - Could you list any supplementary books or reading materials for Special Subject in Multimedia 2?
+      - What other reading resources complement the Special Subject in Multimedia 2 subject?
+      - Are there any supplementary texts or materials that accompany Special Subject in Multimedia 2?
+      - Could you suggest additional reading materials that supplement the Special Subject in Multimedia 2 course?

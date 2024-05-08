@@ -1,0 +1,81 @@
+---
+version: "3.1"
+stories:
+  - story: mandatory events
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_mandatory_events
+      - action: utter_ask_mandatory_events
+  - story: enroll courses
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_administrative_procedures_enroll_course
+      - action: utter_ask_administrative_procedures_enroll_course
+  - story: change major
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_administrative_procedures_change_major
+      - action: utter_ask_administrative_procedures_change_major
+  - story: apply for financial aid
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_administrative_procedures_apply_for_financial_aid
+      - action: utter_ask_administrative_procedures_apply_for_financial_aid
+  - story: id card
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_administrative_procedures_id_card
+      - action: utter_ask_administrative_procedures_id_card
+  - story: heath insurance regolations
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_health_insurance_regulations
+      - action: utter_ask_health_insurance_regulations
+  - story: advanced courses
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_academic_regulations_advanced_courses
+      - action: utter_ask_academic_regulations_advanced_courses
+  - story: grade
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_academic_regulations_grade
+      - action: utter_ask_academic_regulations_grade
+  - story: exam conditions
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_exam_conditions
+      - action: utter_ask_exam_conditions
+  - story: tuition fees
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_tuition_fee_regulations
+      - action: utter_ask_tuition_fee_regulations
+  - story: IT major
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_education_program_information_technology_major_overall
+      - action: utter_ask_education_program_information_technology_major_overall
+  - story: major outcomes
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_education_program_information_technology_major_goal
+      - action: utter_ask_education_program_information_technology_major_goal
+  - story: job possition
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_education_program_information_technology_job_posstion
+      - action: utter_ask_education_program_information_technology_job_posstion

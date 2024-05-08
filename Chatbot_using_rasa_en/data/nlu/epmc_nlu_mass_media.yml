@@ -1,0 +1,93 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_mass_media_course_code
+    examples: |
+      - What is the course code of Mass Media?
+      - What is the specific course code assigned to Mass Media?
+      - Could you provide the course identification code for Mass Media?
+      - What alphanumeric code represents the Mass Media course?
+      
+  - intent: ask_education_program_multimedia_communications_mass_media_is_prerequisite_courses
+    examples: |
+      - Is the Mass Media prerequisite courses?
+      - Does Mass Media serve as a prerequisite for other courses?
+      - Is Mass Media Services a required precursor for subsequent courses?
+      - Does completing Mass Media precede other course enrollments?
+  
+  - intent: ask_education_program_multimedia_communications_mass_media_name_of_unit_in_charge_of_teaching
+    examples: |
+      - What is name of unit in charge of teaching of Mass Media? 
+      - Which department oversees the instruction of Mass Media?
+      - What is the unit or department responsible for teaching Mass Media?
+      - Who manages the teaching responsibilities for Mass Media?
+
+  - intent: ask_education_program_multimedia_communications_mass_media_number_of_cresits
+    examples: |
+      - What is the number of credits for the Mass Media?
+      - How many credits are assigned to the Mass Media course?
+      - What is the credit count for the Mass Media course?
+      - Could you provide information about the credit hours allocated to Mass Media?
+      
+  - intent: ask_education_program_multimedia_communications_mass_media_number_of_credit_hours 
+    examples: |
+      - What is the number of credit hours for the Mass Media subject?
+      - How many credit hours does the Mass Media subject entail?
+      - What is the total count of credit hours allocated to the Mass Media subject?
+      - Could you provide the number of credit hours associated with the Mass Media subject?
+      
+  - intent: ask_education_program_multimedia_communications_mass_media_course_type
+    examples: |
+      - What is the type term of the Mass Media?
+      - What category of term characterizes the Mass Media?
+      - Could you specify the classification of the term for Mass Media?
+      - What type or classification does the term for Mass Media fall under?
+      
+  - intent: ask_education_program_multimedia_communications_mass_media_course_instructor_info
+    examples: |
+      - Can you provide specifics about the teachers instructing Mass Media?
+      - Who are the educators or instructors leading the Special Mass Media?
+      - Details about the faculty members involved in teaching Mass Media.
+      - Could you share information about the instructors handling Mass Media?
+      
+  - intent: ask_education_program_multimedia_communications_mass_media_objective_of_course
+    examples: |
+      - What is the Objective of the course of Mass Media?
+      - What are the goals or aims of the Psychology of Mass Media?
+      - Could you explain the course objectives for Mass Media?
+      - What is the intended outcome or purpose of the Mass Media?
+      
+  - intent: ask_education_program_multimedia_communications_mass_media_course_structure
+    examples: |
+      - What does the course structure of the Mass Media include?
+      - What elements form part of the course structure in Mass Media?
+      - Could you outline the contents encompassed in the course structure of Mass Media?
+      - What constitutes the framework or components of the Mass Media course structure?
+      
+  - intent: ask_education_program_multimedia_communications_mass_media_teaching_and_learning_methods_and_activities
+    examples: |
+      - What does the teaching and learning methods and activities of the Mass Media include?
+      - What methods and activities are involved in teaching and learning within Mass Media?
+      - Could you describe the instructional techniques and learning activities utilized in Mass Media?
+      - What teaching strategies and learning activities are incorporated into Mass Media?
+      
+  - intent: ask_education_program_multimedia_communications_mass_media_subject_assessment_methods
+    examples: |
+      - What is the method of evaluating the subject of the Mass Media?
+      - How is the Mass Media subject evaluated?
+      - What assessment method is employed for the Mass Media subject?
+      - Could you describe the evaluation approach utilized for the Mass Media subject?
+      
+  - intent: ask_education_program_multimedia_communications_mass_media_duties_of_the_learner
+    examples: |
+      - What is the duties of the learner of the Mass Media?
+      - What are the obligations or responsibilities of the student studying Mass Media?
+      - Could you outline the tasks or duties expected from learners in the Mass Media course?
+      - What responsibilities do students have while studying Mass Media?
+      
+  - intent: ask_education_program_multimedia_communications_mass_media_additional_reading_materials
+    examples: |
+      - What are the additional reading materials for the Mass Media subject?
+      - Could you provide other recommended reading materials for Mass Media?
+      - What additional resources or supplementary reading materials are suggested for Mass Media?
+      - Are there any extra reading materials recommended for the Special Mass Media?

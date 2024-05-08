@@ -1,0 +1,67 @@
+version: "3.1"
+
+rules:
+  - rule: Respond to course code of advertising and advertising creation
+    steps:
+      - intent: ask_education_program_multimedia_communications_advertising_and_advertising_creation_course_code_vie
+      - action: utter_ask_education_program_multimedia_communications_advertising_and_advertising_creation_course_code_vie
+  
+  - rule: Respond to advertising and advertising creation is prerequisite courses
+    steps:
+      - intent: ask_education_program_multimedia_communications_advertising_and_advertising_creation_is_prerequisite_courses_vie
+      - action: utter_ask_education_program_multimedia_communications_advertising_and_advertising_creation_is_prerequisite_courses_vie
+
+  - rule: Respond to name of unit in charge of teaching of advertising and advertising creation 
+    steps:
+      - intent: ask_education_program_multimedia_communications_advertising_and_advertising_creation_name_of_unit_in_charge_of_teaching_vie
+      - action: utter_ask_education_program_multimedia_communications_advertising_and_advertising_creation_name_of_unit_in_charge_of_teaching_vie
+
+  - rule: Respond to the number of credits of advertising and advertising creation
+    steps:
+      - intent: ask_education_program_multimedia_communications_advertising_and_advertising_creation_number_of_cresits_vie
+      - action: utter_ask_education_program_multimedia_communications_advertising_and_advertising_creation_number_of_cresits_vie
+  
+  - rule: Respond to the number of credit hours of advertising and advertising creation
+    steps: 
+     - intent: ask_education_program_multimedia_communications_advertising_and_advertising_creation_number_of_credit_hours_vie
+     - action: utter_ask_education_program_multimedia_communications_advertising_and_advertising_creation_number_of_credit_hours_vie
+  
+  - rule: Respond to course type of advertising and advertising creation 
+    steps:
+      - intent: ask_education_program_multimedia_communications_advertising_and_advertising_creation_course_type_vie
+      - action: utter_ask_education_program_multimedia_communications_advertising_and_advertising_creation_course_type_vie
+
+  - rule: Respond to course instructor information of advertising and advertising creation
+    steps:
+      - intent: ask_education_program_multimedia_communications_advertising_and_advertising_creation_course_instructor_info_vie
+      - action: utter_ask_education_program_multimedia_communications_advertising_and_advertising_creation_course_instructor_info_vie
+  
+  - rule: Respond to objective of course of advertising and advertising creation
+    steps:
+      - intent: ask_education_program_multimedia_communications_advertising_and_advertising_creation_objective_of_course_vie
+      - action: utter_ask_education_program_multimedia_communications_advertising_and_advertising_creation_objective_of_course_vie
+
+  - rule: Respond to objective of course's course structure advertising and advertising creation
+    steps: 
+      - intent: ask_education_program_multimedia_communications_advertising_and_advertising_creation_course_structure_vie
+      - action: utter_ask_education_program_multimedia_communications_advertising_and_advertising_creation_course_structure_vie
+
+  - rule: Respond to teaching and learning methods and activities of advertising and advertising creation
+    steps:
+      - intent: ask_education_program_multimedia_communications_advertising_and_advertising_creation_teaching_and_learning_methods_and_activities_vie
+      - action: utter_ask_education_program_multimedia_communications_advertising_and_advertising_creation_teaching_and_learning_methods_and_activities_vie
+  
+  - rule: Respond to subject assessment methods of advertising and advertising creation
+    steps:
+      - intent: ask_education_program_multimedia_communications_advertising_and_advertising_creation_subject_assessment_methods_vie
+      - action: utter_ask_education_program_multimedia_communications_advertising_and_advertising_creation_subject_assessment_methods_vie
+  
+  - rule: Respond to duties of the learner of advertising and advertising creation
+    steps:
+      - intent: ask_education_program_multimedia_communications_advertising_and_advertising_creation_duties_of_the_learner_vie
+      - action: utter_ask_education_program_multimedia_communications_advertising_and_advertising_creation_duties_of_the_learner_vie
+
+  - rule: Respond to additional reading materials of advertising and advertising creation
+    steps:
+      - intent: ask_education_program_multimedia_communications_advertising_and_advertising_creation_additional_reading_materials_vie
+      - action: utter_ask_education_program_multimedia_communications_advertising_and_advertising_creation_additional_reading_materials_vie

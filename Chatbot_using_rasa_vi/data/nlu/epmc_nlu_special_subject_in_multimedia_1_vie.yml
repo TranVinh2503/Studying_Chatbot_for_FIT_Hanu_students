@@ -1,0 +1,145 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_1_course_code_vie
+    examples: |
+       - Mã môn học Chuyên đề Đa phương tiện 1 là gì?
+       - Mã khóa học cụ thể được gán cho Chuyên đề Đa phương tiện 1 là gì?
+       - Bạn có thể cung cấp mã nhận dạng khóa học cho Môn học Đặc biệt Đa phương tiện 1 được không?
+       - Mã chữ và số nào đại diện cho môn Đặc biệt Đa phương tiện 1?
+       - Bạn có thể chia sẻ mã số hoặc mã môn học Chuyên đề Đa phương tiện 1 được không?
+       - Mã định danh duy nhất về mặt mã cho Khóa học Chủ đề Đặc biệt Đa phương tiện 1 là gì?
+       - Bạn có thể cho biết mã khóa học dành cho Chủ đề Đặc biệt Đa phương tiện 1 được không?
+       - Mã nào được dùng để chỉ môn học Chuyên đề Đa phương tiện 1 trong chương trình giảng dạy?
+
+  - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_1_is_prerequisite_courses_vie
+    examples: |
+       - Môn chuyên ngành Đa phương tiện có phải là môn học tiên quyết không?
+       - Môn chuyên ngành Đa phương tiện 1 có phải là điều kiện tiên quyết cho các môn học khác không?
+       - Môn chuyên ngành Đa phương tiện 1 có phải là tiền đề cần thiết cho các khóa học tiếp theo không?
+       - Việc hoàn thành Chủ đề Đặc biệt về Đa phương tiện 1 có trước khi đăng ký các khóa học khác không?
+       - Có yêu cầu học viên phải học Chuyên đề Đa phương tiện 1 trước các khóa học khác không?
+       - Môn học đặc biệt Đa phương tiện 1 có phải là khóa học sơ bộ cần thiết để học tiếp không?
+       - Việc hoàn thành Chuyên đề Đa phương tiện 1 có trước khi đăng ký các khóa học khác không?
+       - Môn học đặc biệt Đa phương tiện 1 có phải là điều kiện tiên quyết để học các môn học bổ sung không?
+  
+  - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_1_name_of_unit_in_charge_of_teaching_vie
+    examples: |
+       - Đơn vị phụ trách giảng dạy môn Chuyên đa phương tiện 1 tên gì?
+       - Bộ phận nào giám sát việc giảng dạy Chuyên đề Đa phương tiện 1?
+       - Đơn vị, bộ phận nào chịu trách nhiệm giảng dạy Chuyên đề Đa phương tiện 1?
+       - Ai quản lý trách nhiệm giảng dạy môn Chuyên ngành Đa phương tiện 1?
+       - Tên khoa, đơn vị phụ trách giảng dạy Chuyên đề Đa phương tiện 1 là gì?
+       - Đơn vị nào đảm nhận nhiệm vụ giảng dạy môn Chuyên ngành Đa phương tiện 1?
+       - Bạn có thể cho biết tên khoa chịu trách nhiệm giảng dạy Chuyên đề Đa phương tiện 1 được không?
+       - Ai chịu trách nhiệm giảng dạy môn Đặc biệt Đa phương tiện 1 trong cơ sở giáo dục?
+
+  - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_1_number_of_cresits_vie
+    examples: |
+       - Số tín chỉ của Chủ đề Đặc biệt Đa phương tiện 1 là bao nhiêu?
+       - Khóa học Chuyên đề Đa phương tiện 1 có bao nhiêu tín chỉ?
+       - Số tín chỉ của khóa học Chủ đề Đặc biệt Đa phương tiện 1 là bao nhiêu?
+       - Bạn có thể cung cấp thông tin về số giờ tín chỉ được phân bổ cho Chủ đề Đặc biệt trong Đa phương tiện 1 không?
+       - Tổng giá trị tín chỉ của môn Chuyên ngành Đa phương tiện 1 là bao nhiêu?
+       - Môn Chuyên ngành Đa phương tiện 1 có bao nhiêu đơn vị tín chỉ?
+       - Khối lượng tín chỉ được quy cho khóa học Chủ đề Đặc biệt Đa phương tiện 1 là bao nhiêu?
+       - Bạn có thể chỉ định số tín chỉ được quy cho việc hoàn thành Chủ đề Đặc biệt trong Đa phương tiện 1 không?
+  
+  - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_1_number_of_credit_hours_vie
+    examples: |
+       - Số giờ tín chỉ của môn Đặc biệt Đa phương tiện 1 là bao nhiêu?
+       - Môn học Đặc biệt Đa phương tiện 1 đòi hỏi bao nhiêu giờ tín chỉ?
+       - Tổng số giờ tín chỉ được phân bổ cho Môn học Đặc biệt trong môn Đa phương tiện 1 là bao nhiêu?
+       - Bạn có thể cung cấp số giờ tín chỉ liên quan đến Môn học Đặc biệt trong môn Đa phương tiện 1 không?
+       - Yêu cầu về số giờ tín chỉ của môn Đặc biệt Đa phương tiện 1 là bao nhiêu?
+       - Bao nhiêu giờ tín chỉ được tính cho Môn học Đặc biệt Đa phương tiện 1?
+       - Số giờ tín chỉ được chỉ định cho Chủ đề Đặc biệt trong môn Đa phương tiện 1 là bao nhiêu?
+       - Bạn có thể nêu rõ số giờ tín chỉ cần thiết cho môn Đặc biệt môn Đa phương tiện 1 được không?
+
+  - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_1_course_type_vie
+    examples: |
+       - Thuật ngữ loại của Chủ đề đặc biệt trong Đa phương tiện 1 là gì?
+       - Loại thuật ngữ nào đặc trưng cho Chủ đề đặc biệt trong Đa phương tiện 1?
+       - Bạn có thể nêu rõ cách phân loại thuật ngữ Chuyên đề trong Đa phương tiện 1 được không?
+       - Thuật ngữ Chủ đề Đặc biệt trong Đa phương tiện 1 thuộc loại hoặc phân loại nào?
+       - Loại thuật ngữ cụ thể được gán cho Chủ đề Đặc biệt trong Đa phương tiện 1 là gì?
+       - Bạn phân loại thời lượng học kỳ của Chủ đề Đặc biệt trong Đa phương tiện 1 như thế nào?
+       - Phân loại hay phân loại thuật ngữ liên quan đến Chuyên đề trong Đa phương tiện 1 là gì?
+       - Bạn có thể giải thích rõ hơn về thuật ngữ phân loại cụ thể cho Chủ đề đặc biệt trong Đa phương tiện 1 được không?
+
+  - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_1_course_instructor_info_vie
+    examples: |
+       - Bạn có thể cung cấp thông tin cụ thể về giáo viên giảng dạy Chuyên đề Đa phương tiện 1 được không?
+       - Ai là giảng viên, giảng viên chủ trì môn Đặc biệt Đa phương tiện 1?
+       - Thông tin chi tiết về các giảng viên tham gia giảng dạy Chuyên đề Đa phương tiện 1.
+       - Ông có thể chia sẻ thông tin về các giảng viên giảng dạy Chuyên đề Đa phương tiện 1 được không?
+       - Bạn có thể cung cấp thông tin chi tiết về các cá nhân giảng dạy Chủ đề Đặc biệt trong Đa phương tiện 1 không?
+       - Thông tin chi tiết về giáo viên dạy môn Đặc biệt Đa phương tiện 1
+       - Thông tin liên quan đến giáo viên giảng dạy Chuyên đề Đa phương tiện 1
+       - Thông tin về giảng viên của Chuyên đề Đa phương tiện 1
+
+  - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_1_objective_of_course_vie
+    examples: |
+       - Mục tiêu của môn học Chuyên đề Đa phương tiện 1 là gì?
+       - Mục tiêu và mục đích của môn học Chuyên đề Đa phương tiện 1 là gì?
+       - Bạn có thể giải thích mục tiêu của môn học Chuyên đề Đa phương tiện 1 được không?
+       - Kết quả hoặc mục đích dự định của môn học Chuyên đề Đa phương tiện 1 là gì?
+       - Bạn có thể mô tả mục đích và mục đích chính của môn học Chuyên đề Đa phương tiện 1 được không?
+       - Mục đích hoặc sứ mệnh cốt lõi của môn Chuyên ngành Đa phương tiện 1 là gì?
+       - Mục tiêu học tập của môn Chuyên ngành Đa phương tiện 1 là gì?
+       - Bạn có thể nêu mục tiêu hoặc ý định của môn học Chuyên đề Đa phương tiện 1 được không?
+
+  - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_1_course_structure_vie
+    examples: |
+       - Cấu trúc môn học Chuyên đề Đa phương tiện 1 gồm những gì?
+       - Những yếu tố nào tạo thành một phần của cấu trúc khóa học trong Chủ đề Đặc biệt Đa phương tiện 1?
+       - Thầy có thể tóm tắt các nội dung trong cấu trúc môn học Chuyên đề Đa phương tiện 1 được không?
+       - Cấu trúc của môn học Chuyên đề Đa phương tiện 1 gồm những gì?
+       - Thầy có thể trình bày chi tiết cấu trúc môn học Chuyên đề Đa phương tiện 1 có những gì không?
+       - Những yếu tố hoặc phần nào được kết hợp trong cấu trúc môn học của Chuyên đề Đa phương tiện 1?
+       - Bạn có thể mô tả các thành phần cấu thành cấu trúc môn học Chuyên đề Đa phương tiện 1 được không?
+       - Cấu trúc hoặc nội dung cấu trúc của môn học Chuyên đề Đa phương tiện 1 có cấu tạo như thế nào?
+  
+  - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_1_teaching_and_learning_methods_and_activities_vie
+    examples: |
+       - Phương pháp và hoạt động dạy và học của Môn chuyên ngành Đa phương tiện 1 bao gồm những gì?
+       - Việc dạy và học môn Chuyên ngành Đa phương tiện 1 có những phương pháp và hoạt động nào?
+       - Bạn có thể mô tả các kỹ thuật giảng dạy và hoạt động học tập được sử dụng trong Chuyên đề Đa phương tiện 1 được không?
+       - Những chiến lược giảng dạy và hoạt động học tập nào được lồng ghép vào Chuyên đề Đa phương tiện 1?
+       - Bạn có thể nêu các phương pháp, hoạt động dạy và học môn Chuyên ngành Đa phương tiện 1 được không?
+       - Những phương pháp giảng dạy và hoạt động học tập nào là một phần của Chủ đề Đặc biệt trong Đa phương tiện 1?
+       - Bạn có thể giải thích về phương pháp giảng dạy và hoạt động học tập của Chuyên đề Đa phương tiện 1 được không?
+       - Phương pháp giảng dạy và hoạt động học tập nào là một phần của Môn học Đặc biệt Đa phương tiện 1?
+
+  - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_1_subject_assessment_methods_vie
+    examples: |
+       - Phương pháp đánh giá chủ đề của Chuyên đề Đa phương tiện 1 là gì?
+       - Môn Chuyên ngành Đa phương tiện 1 được đánh giá như thế nào?
+       - Phương pháp đánh giá nào được áp dụng cho môn Đặc biệt Đa phương tiện 1?
+       - Bạn có thể mô tả cách đánh giá được áp dụng cho môn Chuyên đề Đa phương tiện 1 được không?
+       - Phương pháp nào được sử dụng để đánh giá kết quả học tập của học sinh môn Chuyên ngành Đa phương tiện 1?
+       - Học sinh được đánh giá thế nào ở môn Đặc biệt Đa phương tiện 1 môn?
+       - Thầy có thể nêu cách đánh giá môn Chuyên ngành Đa phương tiện 1 môn được không?
+       - Quy trình đánh giá học sinh môn Đặc biệt môn Đa phương tiện 1 được thực hiện như thế nào?
+
+  - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_1_duties_of_the_learner_vie
+    examples: |
+       - Nhiệm vụ của người học chuyên đề Đa phương tiện 1 là gì?
+       - Sinh viên học chuyên ngành Đa phương tiện 1 có nghĩa vụ, trách nhiệm gì?
+       - Bạn có thể nêu những nhiệm vụ, nhiệm vụ mong đợi của người học môn Chuyên ngành Đa phương tiện 1 được không?
+       - Học sinh có trách nhiệm gì khi học Chuyên đề Đa phương tiện 1?
+       - Bạn có thể mô tả vai trò, nhiệm vụ mà người học phải đảm nhận trong Chuyên đề Đa phương tiện 1 được không?
+       - Nhiệm vụ hoặc vai trò dự kiến của học sinh đăng ký học Môn Đặc biệt Đa phương tiện 1 là gì?
+       - Bạn có thể giải thích nghĩa vụ, nhiệm vụ mà người học phải thực hiện trong Chuyên đề Đa phương tiện 1 được không?
+       - Trách nhiệm cụ thể của học sinh học Chuyên đề Đa phương tiện 1 là gì?
+  
+  - intent: ask_education_program_multimedia_communications_special_subject_in_multimedia_1_additional_reading_materials_vie
+    examples: |
+       - Tài liệu đọc thêm cho môn Chuyên đề Đa phương tiện 1 là gì?
+       - Bạn có thể cung cấp các tài liệu đọc gợi ý khác cho Chuyên đề Đa phương tiện 1 được không?
+       - Những nguồn tài liệu hoặc tài liệu đọc bổ sung nào được gợi ý cho Chủ đề Đặc biệt trong Đa phương tiện 1?
+       - Có tài liệu đọc thêm nào được khuyến khích cho môn Đặc biệt Đa phương tiện 1 không?
+       - Bạn có thể liệt kê những cuốn sách hoặc tài liệu đọc bổ sung cho Chuyên đề Đa phương tiện 1 được không?
+       - Nguồn tài liệu đọc nào khác bổ sung cho môn Chuyên đề Đa phương tiện 1?
+       - Có văn bản, tài liệu bổ sung nào đi kèm Chủ đề Đặc biệt trong Đa phương tiện 1 không?
+       - Bạn có thể gợi ý thêm tài liệu đọc bổ sung cho môn Chuyên đề Đa phương tiện 1 được không?

@@ -1,0 +1,93 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_communication_crisis_management_course_code_vie
+    examples: |
+      - Mã khóa học Quản lý khủng hoảng truyền thông là gì?
+      - Mã khóa học cụ thể của ngành Quản lý khủng hoảng truyền thông là gì?
+      - Bạn có thể cung cấp mã nhận dạng khóa học Quản lý khủng hoảng truyền thông được không?
+      - Mã chữ số nào đại diện cho khóa học Quản lý khủng hoảng truyền thông?
+      
+  - intent: ask_education_program_multimedia_communications_communication_crisis_management_is_prerequisite_courses_vie
+    examples: |
+      - Quản lý khủng hoảng truyền thông có phải là khóa học tiên quyết không?
+      - Quản lý khủng hoảng truyền thông có phải là điều kiện tiên quyết cho các khóa học khác không?
+      - Dịch vụ quản lý khủng hoảng truyền thông có phải là tiền đề cần thiết cho các khóa học tiếp theo không?
+      - Việc hoàn thành quản lý khủng hoảng truyền thông có diễn ra trước khi đăng ký các khóa học khác không?
+  
+  - intent: ask_education_program_multimedia_communications_communication_crisis_management_name_of_unit_in_charge_of_teaching_vie
+    examples: |
+      - Đơn vị phụ trách giảng dạy Quản lý khủng hoảng truyền thông tên gì?
+      - Bộ phận nào giám sát việc chỉ đạo xử lý khủng hoảng truyền thông?
+      - Đơn vị, bộ phận nào chịu trách nhiệm giảng dạy về Quản lý khủng hoảng truyền thông?
+      - Ai quản lý trách nhiệm giảng dạy về quản lý khủng hoảng truyền thông?
+
+  - intent: ask_education_program_multimedia_communications_communication_crisis_management_number_of_cresits_vie
+    examples: |
+      - Số tín chỉ cho môn Quản lý khủng hoảng Truyền thông là bao nhiêu?
+      - Khóa học quản lý khủng hoảng truyền thông có bao nhiêu tín chỉ?
+      - Số tín chỉ của khóa học Quản lý khủng hoảng truyền thông là bao nhiêu?
+      - Bạn có thể cung cấp thông tin về số giờ tín chỉ được phân bổ cho quản lý khủng hoảng Truyền thông không?
+      
+  - intent: ask_education_program_multimedia_communications_communication_crisis_management_number_of_credit_hours_vie 
+    examples: |
+      - Số giờ tín chỉ của môn Quản lý khủng hoảng truyền thông là bao nhiêu?
+      - Môn học Quản lý khủng hoảng truyền thông đòi hỏi bao nhiêu giờ tín chỉ?
+      - Tổng số giờ tín chỉ được phân bổ cho môn Quản lý khủng hoảng truyền thông là bao nhiêu?
+      - Bạn có thể cho biết số giờ tín chỉ liên quan đến môn Quản lý khủng hoảng truyền thông được không?
+      
+  - intent: ask_education_program_multimedia_communications_communication_crisis_management_course_type_vie
+    examples: |
+      - Thuật ngữ quản lý khủng hoảng truyền thông là gì?
+      - Loại thuật ngữ nào đặc trưng cho quản lý khủng hoảng truyền thông?
+      - Bạn có thể nêu rõ cách phân loại thuật ngữ quản lý khủng hoảng truyền thông được không?
+      - Thuật ngữ quản lý khủng hoảng truyền thông thuộc loại hoặc phân loại nào?
+      
+  - intent: ask_education_program_multimedia_communications_communication_crisis_management_course_instructor_info_vie
+    examples: |
+      - Bạn có thể cho biết cụ thể về các giáo viên hướng dẫn xử lý khủng hoảng truyền thông được không?
+      - Ai là nhà giáo dục hoặc người hướng dẫn quản lý khủng hoảng Truyền thông Đặc biệt?
+      - Thông tin chi tiết về các giảng viên tham gia giảng dạy Quản lý khủng hoảng truyền thông.
+      - Ông có thể chia sẻ thông tin về các giảng viên xử lý khủng hoảng truyền thông được không?
+      
+  - intent: ask_education_program_multimedia_communications_communication_crisis_management_objective_of_course_vie
+    examples: |
+      - Mục tiêu của khóa học Quản lý khủng hoảng truyền thông là gì?
+      - Mục tiêu hoặc mục đích của Tâm lý quản lý khủng hoảng truyền thông là gì?
+      - Bạn có thể giải thích mục tiêu khóa học về Quản lý khủng hoảng truyền thông được không?
+      - Kết quả hoặc mục đích dự kiến của việc quản lý khủng hoảng truyền thông là gì?
+    
+  - intent: ask_education_program_multimedia_communications_communication_crisis_management_course_structure_vie
+    examples: |
+      - Cấu trúc khóa học Quản lý khủng hoảng truyền thông bao gồm những gì?
+      - Những yếu tố nào tạo thành một phần của cấu trúc khóa học về quản lý khủng hoảng truyền thông?
+      - Bạn có thể tóm tắt các nội dung trong cấu trúc môn học Quản lý khủng hoảng truyền thông được không?
+      - Điều gì tạo nên khuôn khổ hoặc các thành phần của cấu trúc khóa học quản lý khủng hoảng truyền thông?
+      
+  - intent: ask_education_program_multimedia_communications_communication_crisis_management_teaching_and_learning_methods_and_activities_vie
+    examples: |
+      - What does the teaching and learning methods and activities of the Communication crisis management include?
+      - What methods and activities are involved in teaching and learning within Communication crisis management?
+      - Could you describe the instructional techniques and learning activities utilized in Communication crisis management?
+      - What teaching strategies and learning activities are incorporated into Communication crisis management?
+      
+  - intent: ask_education_program_multimedia_communications_communication_crisis_management_subject_assessment_methods_vie
+    examples: |
+      - Phương pháp, hoạt động dạy và học của quản lý khủng hoảng truyền thông bao gồm những gì?
+      - Những phương pháp và hoạt động nào được áp dụng trong việc dạy và học trong quản lý khủng hoảng truyền thông?
+      - Bạn có thể mô tả các kỹ thuật giảng dạy và hoạt động học tập được sử dụng trong quản lý khủng hoảng truyền thông không?
+      - Những chiến lược giảng dạy và hoạt động học tập nào được đưa vào quản lý khủng hoảng truyền thông?
+      
+  - intent: ask_education_program_multimedia_communications_communication_crisis_management_duties_of_the_learner_vie
+    examples: |
+      - Nhiệm vụ của người học quản lý khủng hoảng truyền thông là gì?
+      - Nghĩa vụ, trách nhiệm của sinh viên học Quản lý khủng hoảng truyền thông là gì?
+      - Bạn có thể nêu những nhiệm vụ, nhiệm vụ mong đợi của học viên trong khóa học Quản lý khủng hoảng truyền thông được không?
+      - Sinh viên có trách nhiệm gì khi học quản lý khủng hoảng truyền thông?
+      
+  - intent: ask_education_program_multimedia_communications_communication_crisis_management_additional_reading_materials_vie
+    examples: |
+      - Tài liệu đọc thêm cho môn Quản lý khủng hoảng truyền thông là gì?
+      - Bạn có thể cung cấp các tài liệu đọc khác được đề xuất về quản lý khủng hoảng truyền thông không?
+      - Những nguồn lực hoặc tài liệu đọc bổ sung nào được đề xuất cho việc quản lý khủng hoảng truyền thông?
+      - Có tài liệu đọc bổ sung nào được khuyến nghị cho việc quản lý khủng hoảng Truyền thông Đặc biệt không?

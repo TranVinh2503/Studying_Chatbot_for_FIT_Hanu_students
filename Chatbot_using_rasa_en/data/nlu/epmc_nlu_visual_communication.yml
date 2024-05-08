@@ -1,0 +1,93 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_visual_communication_course_code
+    examples: |
+      - What is the course code of Visual Communication?
+      - What is the specific course code assigned to Visual Communication?
+      - Could you provide the course identification code for Visual Communication?
+      - What alphanumeric code represents the Visual Communication course?
+      
+  - intent: ask_education_program_multimedia_communications_visual_communication_is_prerequisite_courses
+    examples: |
+      - Is the Visual Communication prerequisite courses?
+      - Does Visual Communication serve as a prerequisite for other courses?
+      - Is Visual Communication Services a required precursor for subsequent courses?
+      - Does completing Visual Communication precede other course enrollments?
+  
+  - intent: ask_education_program_multimedia_communications_visual_communication_name_of_unit_in_charge_of_teaching
+    examples: |
+      - What is name of unit in charge of teaching of Visual Communication? 
+      - Which department oversees the instruction of Visual Communication?
+      - What is the unit or department responsible for teaching Visual Communication?
+      - Who manages the teaching responsibilities for Visual Communication?
+
+  - intent: ask_education_program_multimedia_communications_visual_communication_number_of_cresits
+    examples: |
+      - What is the number of credits for the Visual Communication?
+      - How many credits are assigned to the Visual Communication course?
+      - What is the credit count for the Visual Communication course?
+      - Could you provide information about the credit hours allocated to Visual Communication?
+      
+  - intent: ask_education_program_multimedia_communications_visual_communication_number_of_credit_hours 
+    examples: |
+      - What is the number of credit hours for the Visual Communication subject?
+      - How many credit hours does the Visual Communication subject entail?
+      - What is the total count of credit hours allocated to the Visual Communication subject?
+      - Could you provide the number of credit hours associated with the Visual Communication subject?
+      
+  - intent: ask_education_program_multimedia_communications_visual_communication_course_type
+    examples: |
+      - What is the type term of the Visual Communication?
+      - What category of term characterizes the Visual Communication?
+      - Could you specify the classification of the term for Visual Communication?
+      - What type or classification does the term for Visual Communication fall under?
+      
+  - intent: ask_education_program_multimedia_communications_visual_communication_course_instructor_info
+    examples: |
+      - Can you provide specifics about the teachers instructing Visual Communication?
+      - Who are the educators or instructors leading the Special Visual Communication?
+      - Details about the faculty members involved in teaching Visual Communication.
+      - Could you share information about the instructors handling Visual Communication?
+      
+  - intent: ask_education_program_multimedia_communications_visual_communication_objective_of_course
+    examples: |
+      - What is the Objective of the course of Visual Communication?
+      - What are the goals or aims of the Psychology of Visual Communication?
+      - Could you explain the course objectives for Visual Communication?
+      - What is the intended outcome or purpose of the Visual Communication?
+      
+  - intent: ask_education_program_multimedia_communications_visual_communication_course_structure
+    examples: |
+      - What does the course structure of the Visual Communication include?
+      - What elements form part of the course structure in Visual Communication?
+      - Could you outline the contents encompassed in the course structure of Visual Communication?
+      - What constitutes the framework or components of the Visual Communication course structure?
+      
+  - intent: ask_education_program_multimedia_communications_visual_communication_teaching_and_learning_methods_and_activities
+    examples: |
+      - What does the teaching and learning methods and activities of the Visual Communication include?
+      - What methods and activities are involved in teaching and learning within Visual Communication?
+      - Could you describe the instructional techniques and learning activities utilized in Visual Communication?
+      - What teaching strategies and learning activities are incorporated into Visual Communication?
+      
+  - intent: ask_education_program_multimedia_communications_visual_communication_subject_assessment_methods
+    examples: |
+      - What is the method of evaluating the subject of the Visual Communication?
+      - How is the Visual Communication subject evaluated?
+      - What assessment method is employed for the Visual Communication subject?
+      - Could you describe the evaluation approach utilized for the Visual Communication subject?
+      
+  - intent: ask_education_program_multimedia_communications_visual_communication_duties_of_the_learner
+    examples: |
+      - What is the duties of the learner of the Visual Communication?
+      - What are the obligations or responsibilities of the student studying Visual Communication?
+      - Could you outline the tasks or duties expected from learners in the Visual Communication course?
+      - What responsibilities do students have while studying Visual Communication?
+      
+  - intent: ask_education_program_multimedia_communications_visual_communication_additional_reading_materials
+    examples: |
+      - What are the additional reading materials for the Visual Communication subject?
+      - Could you provide other recommended reading materials for Visual Communication?
+      - What additional resources or supplementary reading materials are suggested for Visual Communication?
+      - Are there any extra reading materials recommended for the Special Visual Communication?

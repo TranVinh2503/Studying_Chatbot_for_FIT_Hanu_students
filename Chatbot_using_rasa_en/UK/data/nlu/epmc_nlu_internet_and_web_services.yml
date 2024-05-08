@@ -1,0 +1,93 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_internet_and_web_services_course_code
+    examples: |
+      - What is the course code of Internet and Web Services?
+      - What is the specific course code assigned to Internet and Web Services?
+      - Could you provide the course identification code for Internet and Web Services?
+      - What alphanumeric code represents the Internet and Web Services course?
+      
+  - intent: ask_education_program_multimedia_communications_internet_and_web_services_is_prerequisite_courses
+    examples: |
+      - Is the Internet and Web Services prerequisite courses?
+      - Does Internet and Web Services serve as a prerequisite for other courses?
+      - Is Internet and Web Services a required precursor for subsequent courses?
+      - Does completing Internet and Web Services precede other course enrollments?
+  
+  - intent: ask_education_program_multimedia_communications_internet_and_web_services_name_of_unit_in_charge_of_teaching
+    examples: |
+      - What is name of unit in charge of teaching of Internet and Web Services? 
+      - Which department oversees the instruction of Internet and Web Services?
+      - What is the unit or department responsible for teaching Internet and Web Services?
+      - Who manages the teaching responsibilities for Internet and Web Services?
+
+  - intent: ask_education_program_multimedia_communications_internet_and_web_services_number_of_cresits
+    examples: |
+      - What is the number of credits for the Internet and Web Services?
+      - How many credits are assigned to the Internet and Web Services course?
+      - What is the credit count for the Internet and Web Services course?
+      - Could you provide information about the credit hours allocated to Internet and Web Services?
+      
+  - intent: ask_education_program_multimedia_communications_internet_and_web_services_number_of_credit_hours 
+    examples: |
+      - What is the number of credit hours for the Internet and Web Services subject?
+      - How many credit hours does the Internet and Web Services subject entail?
+      - What is the total count of credit hours allocated to the Internet and Web Services subject?
+      - Could you provide the number of credit hours associated with the Internet and Web Services subject?
+      
+  - intent: ask_education_program_multimedia_communications_internet_and_web_services_course_type
+    examples: |
+      - What is the type term of the Internet and Web Services?
+      - What category of term characterizes the Internet and Web Services?
+      - Could you specify the classification of the term for Internet and Web Services?
+      - What type or classification does the term for Internet and Web Services fall under?
+      
+  - intent: ask_education_program_multimedia_communications_internet_and_web_services_course_instructor_info
+    examples: |
+      - Can you provide specifics about the teachers instructing Internet and Web Services?
+      - Who are the educators or instructors leading the Special Internet and Web Services?
+      - Details about the faculty members involved in teaching Internet and Web Services.
+      - Could you share information about the instructors handling Internet and Web Services?
+      
+  - intent: ask_education_program_multimedia_communications_internet_and_web_services_objective_of_course
+    examples: |
+      - What is the Objective of the course of Internet and Web Services?
+      - What are the goals or aims of the Internet and Web Services course?
+      - Could you explain the course objectives for Internet and Web Services?
+      - What is the intended outcome or purpose of the Internet and Web Services course?
+      
+  - intent: ask_education_program_multimedia_communications_internet_and_web_services_course_structure
+    examples: |
+      - What does the course structure of the Internet and Web Services include?
+      - What elements form part of the course structure in Internet and Web Services?
+      - Could you outline the contents encompassed in the course structure of Internet and Web Services?
+      - What constitutes the framework or components of the Internet and Web Services course structure?
+      
+  - intent: ask_education_program_multimedia_communications_internet_and_web_services_teaching_and_learning_methods_and_activities
+    examples: |
+      - What does the teaching and learning methods and activities of the Internet and Web Services include?
+      - What methods and activities are involved in teaching and learning within Internet and Web Services?
+      - Could you describe the instructional techniques and learning activities utilized in Internet and Web Services?
+      - What teaching strategies and learning activities are incorporated into Internet and Web Services?
+      
+  - intent: ask_education_program_multimedia_communications_internet_and_web_services_subject_assessment_methods
+    examples: |
+      - What is the method of evaluating the subject of the Internet and Web Services?
+      - How is the Internet and Web Services subject evaluated?
+      - What assessment method is employed for the Internet and Web Services subject?
+      - Could you describe the evaluation approach utilized for the Internet and Web Services subject?
+      
+  - intent: ask_education_program_multimedia_communications_internet_and_web_services_duties_of_the_learner
+    examples: |
+      - What is the duties of the learner of the Internet and Web Services?
+      - What are the obligations or responsibilities of the student studying Internet and Web Services?
+      - Could you outline the tasks or duties expected from learners in the Internet and Web Services course?
+      - What responsibilities do students have while studying Internet and Web Services?
+      
+  - intent: ask_education_program_multimedia_communications_internet_and_web_services_additional_reading_materials
+    examples: |
+      - What are the additional reading materials for the Internet and Web Services subject?
+      - Could you provide other recommended reading materials for Internet and Web Services?
+      - What additional resources or supplementary reading materials are suggested for Internet and Web Services?
+      - Are there any extra reading materials recommended for the Special Internet and Web Services?

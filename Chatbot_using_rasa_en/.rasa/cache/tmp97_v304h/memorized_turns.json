@@ -1,0 +1,33 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJydjlEKAyEMRK/iAXoCr7KUEGxqbTVZYiwU8e6Vtf8L/Zs3PIbZ+ri4viu9AYMlYe/6CsBYyLsf5FSNeLqtkk4n8UTzLiqRjZONZkYKS/1v4eQF1hfQrQU8rF0lKhZIfBctqzMKD5Ys8QMFnzLfCOYxrl8KZWMf": "utter_ask_education_program_information_technology_major_goal",
+    "eJytjlEKAjEMBa/SA3iCXkUkhBprtU2WNBWk7N0tW/9XFv/ywjDMua8n1xelF2CwJOxdnwcwFvLuO3KqRjzYVkkHk3hM8y4qka07jmZGChM9ZtipwPoEuraAG7WoRMUCiW+iZf6Mwp0lS3xDwYeMGsH8W/dR+f8qLx+5GqWZ": "action_listen",
+    "eJydjlEKAyEMRK/iAXoCr1JKCDa1tposMS4U8e6Vtf8L/Zs3PIa59nFxfVPaAYMlYe/6CsBYyLsf5FSNeLqtkk4n8UTzLiqRjZONZkYKS/1v4eQF1jfQvQU8rE0lKhZI/BAtqzMKT5Ys8QMFX6IgOynmPMbtCza3ZHE=": "utter_ask_education_program_information_technology_major_overall",
+    "eJytjlEKAjEMBa/SA3iCXkUkhBprtU2WNF2Qsne3WP9X1L+8MAxz7NvB9UVpBQyWhL3r8wDGQt69R07ViAfbKulgEo9p3kUlsm3H0cxIYaLfGXYqsN6Bzi3gi1pUomKBxBfRMn9G4cqSJT6g4E0UZCXFnD9L/8H/19bTE71NqY8=": "action_listen",
+    "eJydjlEKxCAMRK/iAfYEXmVZQtC0hNooMRYW8e4V2v9C/+Yxj2G+fXxcL0oHYDDO4l2/Agju5N0NiauRTLdV0umwTDTvViWy8bDRzEjhUt8tPLzAugHGnWX2isYHQdEcKDalClhK+sOSFRYWlMCYADmO8TsBRdpiLQ==": "utter_ask_administrative_procedures_apply_for_financial_aid",
+    "eJytjtEJwzAMBVfxAJ3Aq5QihK0UEUc2shwoJrvXkPwnhPzpoeO4d99erhelFTAYZ/Gu7wcILuTdMRJXIxlsq6SDYRnTvPsqkW0njmZGCjt6z3BSgXUGjAvL+CsarwRFc6DYlCpgKekHU1aYWFACYwLkeK36nvqpws8fv2iiww==": "action_listen",
+    "eJydjkEOQiEMRK/CATwBVzGmqVgR/bSkFBNDuLso7n/ibt7kZTLHPg6uF6UnYLAk7F1fARgzefeDLVUjnm6rpNNJPNG8i0pkY2ejmZHCUv9b2HmB9QF0aQG/VlGJihkSX0Xz6ozCjWWT+IK7nKFIrZ9+jNMb0tBkHQ==": "utter_ask_education_program_information_technology_job_posstion",
+    "eJytjlEKwjAQRK+SA3iCXEVkiXGN0WY3bDaChN7d1PS/pfg3Mzwec27zybQs+AbnNTJZ00YAcgmtWcsUiyJ1thaUzkTqVa0JgqjzhqOqosBAjxk2XrjyArxV735UFg7iEkS6s6SxKfoH8cThA0++QuZSln3f8+P6fz69fAHVbaiT": "action_listen",
+    "eJydjlEKhDAMRK/SA+wJehVZQmgHKatRktSf0rtvRf8F/+bBm2Gm1j+h7YqDOHnZJIZ2BRJeEcMNSzGHDLcadDhFBnoMswLeHzaqO5Qu9d3Cwwu23yhyxloSKea68OkbcT5YEjKlrarBev/+Ab2LXR0=": "utter_ask_academic_regulations_advanced_courses",
+    "eJyljkEKhDAMRa/SA8wJepVhCKH9SFHjkKRuine3ontlZpcPL4/3btsrtK9iJU5eFomhnQcJz4jhGlMxh3S2GrQzRfr0GAYFfLtxVHconehvhpsKtrE/csZcEimGOvHBG3FeWRIypaWqwZ6VPtf9U/LZAYRKk5M=": "action_listen",
+    "eJydjsEJxDAMBFtxAanArYRDCHs5RC5ykOV8jHuPIfkH7rfDDsuufSyhH4aTOLkUjaHfgZR3xPDAT6pDp9sqbDqiEz2GrwE+XjaaO4xu9b+FlxdcN+K8i87e2OUEHVYScjNUkkyJLY/xuQBTVFuW": "utter_ask_administrative_procedures_id_card",
+    "eJydjkEKhTAMBa/SA3iCXuUjIbSPT1CjpKmb4t0t6F5xl0eGYX7tGELbDDtxclk1hnYdpLwghnvMUhza2VpgnRHt02P4G+DHg6O6w+hCvxkeKrhMxHkR7X9jlx202ZqQq6GQZEps+V3lO9XXgvEE03KO/g==": "action_listen",
+    "eJydjlsKgCAQRbcyC2gFbiVikLiJZBbj2I+49+zxL/R3DxwOdyx1oHIITraz+j0aKu/gaDcY+iD4pIjNzQnSHB8bqiEngNZOI6tC+FX/FTovbFpZs3+cBWCBy8HemGqdLtMyV5k=": "utter_ask_tuition_fee_regulations",
+    "eJydjlsKgCAQRbfiAlqBW4kYJG4imcU49iPuPXt89/qbA4czt82lUXlhrGR6cXPQKp8HBTNBqwu8i4JQ3RTB1XGhomhlGZDy0EgiYDrVf4WHFSaOJMkdzgAQwyZvdozvtt0Fvn3rNrvvgwc=": "action_listen",
+    "eJydjkEKwzAMBL/iB/QF/kopQjhLEXXkIMm5GP+9hvQe6G2HHZZ9jvlI4zCcxCWkaU7jCqS8I6cfVPGALrc7bDmiCyOntwExbzZ6BIwu9b+FmxfsH+JtF129ccgJOqwVbN3gBLVWK5XWzTHn6wuDnV5M": "utter_ask_administrative_procedures_enroll_course",
+    "eJyljkEKwzAMBL/iB/QF/koJQjhLMHXkIMm5mPy9hvSeNr1p0TDMsx+P0DfFTpw8V4mhnwcJr4jhM0o2hwy2GXQwWcb0GBYF/LhwNHconeg9w0UF24t4XrOMv7LnHbRpTZibwgiitRRKtanhu9ZfhP/VTG9yiJcg": "action_listen",
+    "eJydjkEKwzAMBL/iB+QF/kopQjhLoraWgyznYvz3GtJ7oLcddlj20ccS+mE4iZNL0Rj6FUg5I4YffKQ6dLqtwqYjOtFj2AzwcbPR3GF0qf8t3Lzg+iZes+jsjV1O0GElYW2GSmln3UCZX8XGeH4BIzpdrg==": "utter_ask_administrative_procedures_change_major",
+    "eJyljksKwzAMBa/iA/QEvkopQjiPVG0sB1nOxuTuNaT79LPTQ8Mw175fQl8NG3FyKRpDPw5SzojhPRapDh1sq7DBiI7pMcwG+H7iaO4wOtDfDCcVXJ/EUxYdf2OXDbRaSZiaoVK6s86gzI9in6V+4fur5fYCfGqVRg==": "action_listen",
+    "eJydjlEKgCAQBa/iATqBV4lYxJZYyjXcNQLx7hn2L/T3BobhzaVOppwJL3BeKbI1pQ9gF9CaDw4SRW5uFkzNIW6o1mwJUeugkVUxQVf/FQYvnOyAtwvgI6/0qlLr8gAhp1Q2": "utter_ask_exam_conditions",
+    "eJydjlEKgCAQRK+yB+gEXiViEVtCyjV0jUC8e4Z9Bkl/M/DmMWMuA+Q90IHaiPWsILeArB0peMpmoxBXNkUKlbFcqyhYApGUD0cSoYAN/Wf4eKHjinRqh8bzbG809n16G/bZpwvA23je": "action_listen",
+    "eJydjtEJgDAMRFfpAE7QVURC0CBFm0qaFqR0dwP1X/Dv3vE4bm59cu0SqoCrhsTetRGAMZJ3L5whK7G5JZOYE9hQvduFSPvHRlElgaH+W/h4gfmAiLyhJrmBqpW59+UBdvhUtQ==": "utter_ask_mandatory_events",
+    "eJydjtEJgDAMRFfJAE7QVURC0CBFGyWNBSnd3UL9FBT/cuHd4/pcOsi7ckIazW/iILcDhQI7uMPqo7FU9oislfFSozmYldnKi+MwY8WG/jO8rKC4YCCZyDY9kVN9xm+jHpsf/cMFPot6Ww==": "action_listen",
+    "eJydjkEKwzAMBL/iB/QF/koJQpglMXWVIsm5GP+9Lu7dkNsOzC77bP0R2kdxESfPp8TQZiDhN2L4Q8nmkOFWgw4ny0CPYVfA+2KjukNpqvcWFi/YXnSAix+UxaqyJJBir4V/Pet9+wKMJFmb": "utter_ask_health_insurance_regulations",
+    "eJydjlEKhDAMRK/SA3iCXkUkBBm0bM1KkvpTvLtd9L+Lfxl48zJjPYdQd8VBPHv6Sgz1Pkh4QwxPyMkc0thi0MYkadFjWBTws+Mo7lC60XeGzgq2D63g7CslsaIsM0ixlMy/nv03sGt58Xe6AJa9iQ0=": "action_listen",
+    "eJydjksKgDAMRK/SA3iCXkWkBB2kaKukqZuSuxvRfcFdJrz5jE0H107GFWiWeGTv2nuETAnefWKPRZCNrQVsTMwmxbuVAdFORhUBhxf9l9BZQWUzIy1IcQ6Mte708MU67ak63dWfWIc=": "utter_ask_academic_regulations_grade",
+    "eJydjksKgDAMRK/SA3iCXkWkBB1KUaukqZvSuxvRfdVdJrz59KV2puyMw9EoYYvWlPtwkVZY84glJEFUNiewMiGqFGs8A1IbGVkE7G70X0JjBaVZjTRhDaNj+LzQxSft1Oe7eY2Mz53DCSu2hdE=": "action_listen"
+  }
+}

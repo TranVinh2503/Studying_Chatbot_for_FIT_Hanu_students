@@ -1,0 +1,93 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_education_program_multimedia_communications_b2b_marketing_course_code
+    examples: |
+      - What is the course code of B2B Marketing?
+      - What is the specific course code assigned to B2B Marketing?
+      - Could you provide the course identification code for B2B Marketing?
+      - What alphanumeric code represents the B2B Marketing?
+      
+  - intent: ask_education_program_multimedia_communications_b2b_marketing_is_prerequisite_courses
+    examples: |
+      - Is the B2B Marketing prerequisite courses?
+      - Does B2B Marketing serve as a prerequisite for other courses?
+      - Is B2B Marketing Services a required precursor for subsequent courses?
+      - Does completing B2B Marketing precede other course enrollments?
+  
+  - intent: ask_education_program_multimedia_communications_b2b_marketing_name_of_unit_in_charge_of_teaching
+    examples: |
+      - What is name of unit in charge of teaching of B2B Marketing? 
+      - Which department oversees the instruction of B2B Marketing?
+      - What is the unit or department responsible for teaching B2B Marketing?
+      - Who manages the teaching responsibilities for B2B Marketing?
+
+  - intent: ask_education_program_multimedia_communications_b2b_marketing_number_of_cresits
+    examples: |
+      - What is the number of credits for the B2B Marketing?
+      - How many credits are assigned to the B2B Marketing course?
+      - What is the credit count for the B2B Marketing course?
+      - Could you provide information about the credit hours allocated to B2B Marketing?
+      
+  - intent: ask_education_program_multimedia_communications_b2b_marketing_number_of_credit_hours 
+    examples: |
+      - What is the number of credit hours for the B2B Marketing subject?
+      - How many credit hours does the B2B Marketing subject entail?
+      - What is the total count of credit hours allocated to the B2B Marketing subject?
+      - Could you provide the number of credit hours associated with the B2B Marketing subject?
+      
+  - intent: ask_education_program_multimedia_communications_b2b_marketing_course_type
+    examples: |
+      - What is the type term of the B2B Marketing?
+      - What category of term characterizes the B2B Marketing?
+      - Could you specify the classification of the term for B2B Marketing?
+      - What type or classification does the term for B2B Marketing fall under?
+      
+  - intent: ask_education_program_multimedia_communications_b2b_marketing_course_instructor_info
+    examples: |
+      - Can you provide specifics about the teachers instructing B2B Marketing?
+      - Who are the educators or instructors leading the Special B2B Marketing?
+      - Details about the faculty members involved in teaching B2B Marketing.
+      - Could you share information about the instructors handling B2B Marketing?
+      
+  - intent: ask_education_program_multimedia_communications_b2b_marketing_objective_of_course
+    examples: |
+      - What is the Objective of the course of B2B Marketing?
+      - What are the goals or aims of the Psychology of B2B Marketing?
+      - Could you explain the course objectives for B2B Marketing?
+      - What is the intended outcome or purpose of the B2B Marketing?
+      
+  - intent: ask_education_program_multimedia_communications_b2b_marketing_course_structure
+    examples: |
+      - What does the course structure of the B2B Marketing include?
+      - What elements form part of the course structure in B2B Marketing?
+      - Could you outline the contents encompassed in the course structure of B2B Marketing?
+      - What constitutes the framework or components of the B2B Marketing course structure?
+      
+  - intent: ask_education_program_multimedia_communications_b2b_marketing_teaching_and_learning_methods_and_activities
+    examples: |
+      - What does the teaching and learning methods and activities of the B2B Marketing include?
+      - What methods and activities are involved in teaching and learning within B2B Marketing?
+      - Could you describe the instructional techniques and learning activities utilized in B2B Marketing?
+      - What teaching strategies and learning activities are incorporated into B2B Marketing?
+      
+  - intent: ask_education_program_multimedia_communications_b2b_marketing_subject_assessment_methods
+    examples: |
+      - What is the method of evaluating the subject of the B2B Marketingg?
+      - How is the B2B Marketing subject evaluated?
+      - What assessment method is employed for the B2B Marketing subject?
+      - Could you describe the evaluation approach utilized for the B2B Marketing subject?
+      
+  - intent: ask_education_program_multimedia_communications_b2b_marketing_duties_of_the_learner
+    examples: |
+      - What is the duties of the learner of the B2B Marketing?
+      - What are the obligations or responsibilities of the student studying B2B Marketing?
+      - Could you outline the tasks or duties expected from learners in the B2B Marketing course?
+      - What responsibilities do students have while studying B2B Marketing?
+      
+  - intent: ask_education_program_multimedia_communications_b2b_marketing_additional_reading_materials
+    examples: |
+      - What are the additional reading materials for the B2B Marketing subject?
+      - Could you provide other recommended reading materials for B2B Marketing?
+      - What additional resources or supplementary reading materials are suggested for B2B Marketing?
+      - Are there any extra reading materials recommended for the Special B2B Marketing?

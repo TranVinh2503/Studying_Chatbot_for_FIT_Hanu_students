@@ -1,0 +1,67 @@
+version: "3.1"
+
+rules:
+  - rule: Respond to course code of internet and web services
+    steps:
+      - intent: ask_education_program_multimedia_communications_internet_and_web_services_course_code
+      - action: utter_ask_education_program_multimedia_communications_internet_and_web_services_course_code
+  
+  - rule: Respond to internet and web services is prerequisite courses
+    steps:
+      - intent: ask_education_program_multimedia_communications_internet_and_web_services_is_prerequisite_courses
+      - action: utter_ask_education_program_multimedia_communications_internet_and_web_services_is_prerequisite_courses
+
+  - rule: Respond to name of unit in charge of teaching of internet and web services
+    steps:
+      - intent: ask_education_program_multimedia_communications_internet_and_web_services_name_of_unit_in_charge_of_teaching
+      - action: utter_ask_education_program_multimedia_communications_internet_and_web_services_name_of_unit_in_charge_of_teaching
+
+  - rule: Respond to the number of credits of internet and web services
+    steps:
+      - intent: ask_education_program_multimedia_communications_internet_and_web_services_number_of_cresits
+      - action: utter_ask_education_program_multimedia_communications_internet_and_web_services_number_of_cresits
+  
+  - rule: Respond to the number of credit hours of internet and web services
+    steps: 
+     - intent: ask_education_program_multimedia_communications_internet_and_web_services_number_of_credit_hours
+     - action: utter_ask_education_program_multimedia_communications_internet_and_web_services_number_of_credit_hours
+  
+  - rule: Respond to course type of internet and web services
+    steps:
+      - intent: ask_education_program_multimedia_communications_internet_and_web_services_course_type
+      - action: utter_ask_education_program_multimedia_communications_internet_and_web_services_course_type
+
+  - rule: Respond to course instructor information of internet and web services
+    steps:
+      - intent: ask_education_program_multimedia_communications_internet_and_web_services_course_instructor_info
+      - action: utter_ask_education_program_multimedia_communications_internet_and_web_services_course_instructor_info
+  
+  - rule: Respond to objective of course of internet and web services
+    steps:
+      - intent: ask_education_program_multimedia_communications_internet_and_web_services_objective_of_course
+      - action: utter_ask_education_program_multimedia_communications_internet_and_web_services_objective_of_course
+
+  - rule: Respond to objective of course's course structure of internet and web services
+    steps: 
+      - intent: ask_education_program_multimedia_communications_internet_and_web_services_course_structure
+      - action: utter_ask_education_program_multimedia_communications_internet_and_web_services_course_structure
+
+  - rule: Respond to teaching and learning methods and activities of internet and web services
+    steps:
+      - intent: ask_education_program_multimedia_communications_internet_and_web_services_teaching_and_learning_methods_and_activities
+      - action: utter_ask_education_program_multimedia_communications_internet_and_web_services_teaching_and_learning_methods_and_activities
+  
+  - rule: Respond to subject assessment methods of internet and web services
+    steps:
+      - intent: ask_education_program_multimedia_communications_internet_and_web_services_subject_assessment_methods
+      - action: utter_ask_education_program_multimedia_communications_internet_and_web_services_subject_assessment_methods
+  
+  - rule: Respond to duties of the learner of internet and web services
+    steps:
+      - intent: ask_education_program_multimedia_communications_internet_and_web_services_duties_of_the_learner
+      - action: utter_ask_education_program_multimedia_communications_internet_and_web_services_duties_of_the_learner
+
+  - rule: Respond to additional reading materials of internet and web services
+    steps:
+      - intent: ask_education_program_multimedia_communications_internet_and_web_services_additional_reading_materials
+      - action: utter_ask_education_program_multimedia_communications_internet_and_web_services_additional_reading_materials
